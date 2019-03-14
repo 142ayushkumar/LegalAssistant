@@ -40,10 +40,10 @@ import os
 import json
 from os.path import join
 
-with open('case_to_subjects.json') as f:
+with open('../data/case_to_subjects.json') as f:
     data = json.load(f)
 
-for root, dirs, files in os.walk('OpenSoft-Data/All_FT/'):
+for root, dirs, files in os.walk('../data/OpenSoft-Data/All_FT/'):
     for f in files:
         fp = join(root, f)
         list_file.append(fp)
@@ -52,8 +52,8 @@ len(list_file)
 
 texts = []
 labels = []
-pickle_dir = 'pickled/'
-if len(argv)!=1:
+pickle_dir = '../data/pickled/'
+if len(sys.argv)!=1:
     num = int(sys.argv[1])*1000
     list_file = list_file[num:num+1000]
 
@@ -69,5 +69,5 @@ for file in tqdm(list_file):
 # print(documents[4])
 print(len(labels))
 print(len(texts))
-with open('num.txt','w+') as f:
+with open('../data/num.txt','w+') as f:
     f.write(sys.argv[1]+'\n')
