@@ -8,7 +8,7 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-@app.route("/", method=['POST'])
+@app.route("/", methods = ['GET', 'POST'])
 def index():
     # check if form is submitted
     if 'submit' in request.form:
@@ -22,11 +22,11 @@ def index():
         output = give_result(query=query, date=date, category=category, acts=acts, judge=judge)
         # pass the list to be displayed to index.html and render index.html
         render_template('index.html', output=output)
-    else
+    else :
         #check ui when there is output and no output, forms should be centered when there is no output
         render_template('index.html')
 
-@app.route("/cases/<string:case_id>", methods = ['GET'])
+@app.route("/cases/<string:case_id>", methods = ['GET', 'POST'])
 def cases(case_id):
-    render_template('case.html')
+    render_template('case.html', )
 
