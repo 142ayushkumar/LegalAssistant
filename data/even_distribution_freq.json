@@ -1,0 +1,20 @@
+{
+	"indirect tax" : ["vat","indirect tax","service tax"],
+	"sales tax" : ["vat","sales tax"],
+	"consumer protection" : ["mrtp","consumer protection"],
+	"trade" : ["mrtp","trade","disinvestment","securities exchange board of india"],
+	"corporate" : ["capital market","corporate","textiles","telecom"],
+	"carriers & transportation" : ["air law","carriers & transportation"],
+	"environment" : ["air law","environment, wildlife & animal"],
+	"contract & commercial" : ["accounts & audits","contract & commercial","textiles"],
+	"income tax & direct taxes" : ["accounts & audits","income tax & direct taxes"],
+	"customs" : ["anti-dumping","customs"],
+	"service" : ["competition","service"],
+	"foreign exchange" : ["fema","exchange control & fdi"],
+	"foreign" : ["international","foreigners"],
+	"criminal" : ["it & e-commerce","criminal"],
+	"education" : ["it & e-commerce","education"],
+	"banking & finance" : ["rbi","banking & finance"],
+	"agriculture & agri. products" : ["textiles","agriculture & agri. products"],
+	"mines & minerals" : ["mines & minerals","petroleum & gas"]
+}
