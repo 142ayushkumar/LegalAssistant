@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Legal Assistant</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Legal Assistant, Legal Query, Cases, Acts, Legal Help" />
+  <meta name="author" content="Open Soft" />
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- For fa fa-angle-down -->
+  <style>
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+    </style> 
+
+</head>
+
+  <body>
+    <div class="header">
+        <img style="position: fixed" src="../static/img/nav-logo.png">
+        <span class="header-text">LegalAssistant.com</span>
+        <hr class="line">
+        <div class="dropdowns">
+            <button class="buttons">Law Topics <i class="fa fa-angle-down arrow"></i></button>
+            <button class="buttons">Insight & Analysis <i class="fa fa-angle-down arrow"></i></button>
+            <button class="buttons">Surveys & Rankings <i class="fa fa-angle-down arrow"></i></button>
+            <button class="buttons">Legal Newswire <i class="fa fa-angle-down arrow"></i></button>
+            <button class="buttons">Practice Tools <i class="fa fa-angle-down arrow"></i></button>
+            <button class="buttons"
+            >All Sections <i class="fa fa-angle-down arrow"></i></button>
+        </div>
+    </div>
+    <img src="../static/img/logo.png" alt="logo" class="logo">
+    <div class="search-box">
+    <form method="post">
+        <div class="input-group inner-addon left-addon">
+            <i class="glyphicon glyphicon-search"></i>
+            <input type="text" class="form-control" placeholder=" search by keywords/ NL query / case title / act / section">
+            <span class="input-group-btn">
+                <button type="submit" id="search_button" class="btn btn-default">Search</button>
+            </span>
+            
+        </div>
+    
+        <div class="filters">
+            <img src="../static/img/filter.png" alt="filter">Filter Search <span class="date">from : <input type="date" name="from"> to: <input type="date" name="to"></span>
+        </div>
+        <div class="more-filters form-inline my-2 my-lg-0 ml-auto">
+                <input class="form-control ml-5 mr-sm-2 " type="Category" placeholder="Category" aria-label="Category" name="Category">
+                <input class="form-control mr-sm-2" type="Acts" placeholder="Acts" aria-label="Acts" name="Acts">
+                <input class="form-control mr-sm-2" type="Judge" placeholder="Judge" aria-label="Judge" name="Judge">
+        </div>
+        <p> Category  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp      Acts  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp    Judge</p>
+    </form>
+        <div>
+            <img src="../static/img/recent.png" alt="Recent"> 
+            <span>Recent</span>
+        </div>
+    </div>
+    <div class="footer">
+        <span style="margin-left: 2%">Help</span>
+        <span style="margin-left: 5%">Send Feedback</span>
+        <span style="margin-left: 5%">Privacy</span>
+        <span style="margin-left: 5%"> Terms</span>
+        <span style="float: right">&copy 2019-20 Legal Assistant Corporation | All rights reserved</span>
+    </div>
+  </body>
+  </html>
