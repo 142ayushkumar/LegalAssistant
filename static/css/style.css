@@ -1,0 +1,121 @@
+html 
+{
+    box-sizing: border-box;
+}
+*, *:before, *:after 
+{
+    box-sizing: inherit;
+}
+  
+a
+{
+    text-decoration: none;
+}
+
+*
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header
+{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12%;
+    padding: 10px;
+}
+
+.header-text
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.line
+{
+    border-color: white;
+    margin-left: 6%;
+    margin-right: 10%;
+    margin-top: -1px;
+    padding-top: 2px;
+    padding: 0;
+}
+
+.dropdowns
+{
+    margin-top: -1%;
+    margin-left: 5%;
+}
+
+.arrow
+{
+    color: white;   
+}
+
+.buttons {
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    color: white;
+    cursor:pointer;
+}
+
+.search-box
+{
+    width: 70%;
+    margin-left: 12%;
+}
+
+.buttons
+{
+    margin-left: 5%;
+}
+
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.input-group
+{
+    padding-top: 1%;
+}
+
+.filters
+{
+    font-size:  20px;
+    margin-top: 2%;
+}
+
+.date
+{
+    margin-left: 8%;
+}
+
+.more-filters
+{
+    padding-top: 2%;    
+}
+
+.form1
+{
+    margin-left: 5%;
+}
+
+.footer
+{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px; 
+}
