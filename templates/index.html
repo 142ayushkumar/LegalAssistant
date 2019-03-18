@@ -36,9 +36,9 @@
     <form method="post">
         <div class="input-group inner-addon left-addon">
             <i class="glyphicon glyphicon-search"></i>
-            <input type="text" class="form-control" placeholder=" search by keywords/ NL query / case title / act / section">
+            <input type="text" class="form-control" placeholder=" search by keywords/ NL query / case title / act / section" name="query">
             <span class="input-group-btn">
-                <button type="submit" id="search_button" class="btn btn-default">Search</button>
+                <button type="submit" id="search_button" class="btn btn-default" name="search" value="search">Search</button>
             </span>
             
         </div>
@@ -47,9 +47,9 @@
             <img src="../static/img/filter.png" alt="filter">Filter Search <span class="date">from : <input type="date" name="from"> to: <input type="date" name="to"></span>
         </div>
         <div class="more-filters form-inline my-2 my-lg-0 ml-auto">
-                <input class="form-control ml-5 mr-sm-2 " type="Category" placeholder="Category" aria-label="Category" name="Category">
-                <input class="form-control mr-sm-2" type="Acts" placeholder="Acts" aria-label="Acts" name="Acts">
-                <input class="form-control mr-sm-2" type="Judge" placeholder="Judge" aria-label="Judge" name="Judge">
+                <input class="form-control ml-5 mr-sm-2 " type="Category" placeholder="Category" aria-label="Category" name="category">
+                <input class="form-control mr-sm-2" type="Acts" placeholder="Acts" aria-label="Acts" name="acts">
+                <input class="form-control mr-sm-2" type="Judge" placeholder="Judge" aria-label="Judge" name="judge">
         </div>
         <p> Category  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp      Acts  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp    Judge</p>
     </form>
