@@ -1,9 +1,0 @@
-Download and unzip from : https://drive.google.com/file/d/1WQw2o70nYHr7B_7yQ5qzdWCG9TlVBIxU/view
-
-OpenSoft-Data    
-    |- actlist.txt  
-    |- subject_keywords.txt
-    |- Acts         
-    |- All_FT   
-        |- ... 
-    |- doc_path_ttl_id.txt
