@@ -27,14 +27,17 @@ for elem in data1:
 	cases.append(case_list1)
 
 
-act_to_case_dict = {}
+case_to_act_dict = {}
 for i in range(len(cases)):
 	for elem in cases[i]:
-		if act_to_case_dict.has_key(elem.split('.')[0]):
-			act_to_case_dict[elem.split('.')[0]].append(acts[i])
+		if case_to_act_dict.has_key(elem.split('.')[0]):
+			case_to_act_dict[elem.split('.')[0]].append(acts[i])
 		else:
-			act_to_case_dict[elem.split('.')[0]] = [acts[i]]
+			case_to_act_dict[elem.split('.')[0]] = [acts[i]]
+
+for elem in case_to_act_dict:
+	case_to_act_dict[elem] = list(set(case_to_act_dict[elem]))
 
 f1 = open('case_to_acts.json','w')
-file = json.dumps(act_to_case_dict, indent  = 3)
+file = json.dumps(case_to_act_dict, indent  = 3)
 f1.write(file)
