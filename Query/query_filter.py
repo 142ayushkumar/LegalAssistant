@@ -1,11 +1,13 @@
 import json
 import datetime
+import operator
 fd1 = open('final_dictionary.json')
 fd2 = open('query.json')
+fd3 = open('case_ranking.json')
 
 data = json.load(fd1)
 query = json.load(fd2)
-
+case_ranking = json.load(fd3)
 
 fd1.close()
 fd2.close()
@@ -40,11 +42,17 @@ for it in data:
 		temp_dict["acts"] = list2
 		temp_dict["judges"] = list3
 		temp_dict["date"] = data[it]["date"]
-		temp_dict["value"] = val1*val2*val3/max(1,val1*val2 + val2*val3 + val3*val1) + val1 + val2 + val3
-
+		t = 3*val1*val2*val3/max(1,val1*val2 + val2*val3 + val3*val1) + val1 + val2 + val3
+		u = 0
+		if(it in case_ranking):
+			u = 1e3*case_ranking[it]
+		temp_dict["value"] = 2*t*u/max(1, t + u) + t + u
 		dict_of_values[it] = temp_dict
 
-for dd in dict_of_values:
-	if dict_of_values[dd]["value"]>1.6:
-		print(dict_of_values[dd])
-jsonFile = json.dumps(dict_of_values)
+
+sorted_list = sorted(dict_of_values.items(), key=lambda k: dict_of_values[k]["value"] )
+print(dict_of_values)
+for i, key in zip(range (50), sorted_list):
+	print(key)
+
+# jsonFile = json.dumps(dict_of_values)
