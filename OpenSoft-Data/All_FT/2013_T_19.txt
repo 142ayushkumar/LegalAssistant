@@ -1,9 +1,3 @@
-Bharat Sanchar Nigam Limited v Telecom Regulatory Authority of India and others
-Supreme Court of India
-
-6 December 2013
-C.A. No. 5253 of 2010 with C.A. Nos. 951-952 of 2005, C.A. No. 3298 of 2005, C.A. No. 3299 of 2005, C.A. No. 4529 of 2005, C.A. Nos. 5834-5836 of 2005, C.A. No. 5837 of 2005, C.A. No. 6049 of 2005, C.A. No. 802 of 2006, C.A. No. 2731 of 2006, C.A. No. 2794 of 2006, C.A. No. 3504 of 2006, C.A. Nos. 4965-4966 of 2007, C.A. No. 177 of 2008, C.A. Nos. 598-599 of 2008, C.A. No. 5184 of 2010, C.A. No. 5873 of 2010, C.A. No. 6068 of 2010, C.A. No. 6255 of 2010, C.A. No. D28298 of 2010, T.C. (C) No. 39 of 2010, C.A. Nos. 271-281 of 2011
-The Judgment was delivered by : G. S. Singhvi, J.
 1. By an order dated 6.2.2007 passed in Civil Appeal No. 3298 of 2005 - Telecom Regulatory Authority of India (Authority) v. Bharat Sanchar Nigam Limited (BSNL) and connected matters, a two Judge Bench made a reference to the larger Bench for determination of the following substantial questions of law of public importance:
 1. Whether in the event of any inconsistency between the terms and conditions of the licenses issued u/s. 4 of the Indian Telegraph Act, 1885 and the provisions of the Telecom Regulatory Authority of India Act, 1997 (for short, 'the Act'), the provisions of the Act would prevail in view of the purpose and object for which the Act has been passed, i.e., for ensuring rapid development of telecommunications in the country incorporating the most modern technology and, at the same time, protecting the interests of the consumers and the service providers?
 2. Whether Authority has powers to fix the terms and conditions of inter connectivity between service providers, in respect of all the licenses, irrespective of the fact whether licenses issued before or after 24.1.2000 - especially in view of the non-obstante clause in sub- s. (1) of S. 11 and sub-cl. (ii) of Cl. (b) of sub-section (l) of S. 11 of the TRAI (Amendment) Act of 2000?

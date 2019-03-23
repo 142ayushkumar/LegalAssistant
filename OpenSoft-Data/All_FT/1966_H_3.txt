@@ -1,9 +1,3 @@
-Jagarnath Singh v H. Krishna Murthy and Another
-Supreme Court of India
-
-31 August 1966
-Cr.A. No. 178 of 1964
-The Judgment was delivered by: RAGHUBAR DAYAL, J.
 1.  The only point urged in this appeal, by certificate, is whether on the facts found, the appellant can be convicted of the offence under S.39, Indian Electricity Act, 1910 (Act IX of 1910), hereinafter called the Act, for having dishonestly abstracted electrical energy supplied by the Patna Electric Supply Co., hereinafter called the company.
 2.  The facts alleged and found to be proved by the Courts below are that on June 18, 1958, an Assistant Engineer of the company found, on inspection, that the electric meter installed at the Mill of the appellant had been tampered with. The seals on the meter cover had been tampered with, the left top sealing nut on the stud was loose and was so screwed as to leave the stud hole on the cover exposed. The cover on one of the cut-outs was found removed and there was no seal on the terminal cover of the meter.
 3.  It has been further found that the meter was installed in a dark corner and that the passage to the meter had certain obstructions. It has also been found that by inserting a wire through the stud hole, the movement of the meter which registers the consumption of electric energy could be affected in a way as to either totally prevent the rotating wheel from rotating or slow down its movement the result of which could have been consumption of electric energy without full payment for the same.

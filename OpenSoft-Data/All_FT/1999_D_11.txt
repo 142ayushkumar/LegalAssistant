@@ -1,9 +1,3 @@
-Collector of Central Excise, Pune v Dai Ichi Karkaria Limited
-Supreme Court of India
-
-11 August 1999
-C.A. No. 10176 of 1996
-The Judgment was delivered by: S.P.Bharucha, J.
 1.  It is convenient to set out, at the outset, the question involved in these appeals.
 2.  The manufacturer purchases raw material. He uses the raw material in the manufacture of an intermediate product. He then uses the intermediate product in the manufacture of a final product. The raw material and the intermediate product are liable to excise duty and they are specified goods for the purposes of the Modvat scheme. The assessable value of the intermediate product for the purposes of excise duty has it is agreed in the instant case, to be determined on the basis of its cost. In determining the assessable value of the intermediate product the cost of the raw material has to be taken into account. The question is : is part of the cost of the raw material the price paid by the manufacturer to its seller, as contended by the Revenue, or is it the price of the raw material less the excise duty thereon, which has been paid by the seller and for which the manufacturer is entitled to credit under the Modvat scheme, to be utilised against the payment of excise duty on products manufactured by him, including the intermediate product, as contended by the manufacturer.
 3.  The Central Excise and Gold Control Appellate Tribunal decided the question in favour of the respondent-manufacturers and the Revenue is in appeal. The reasoning of the Tribunal is unclear and has not been relied upon by learned counsel for the manufacturers. Broadly put, the logic of its decision is this : since the manufacturer gets credit for the amount of the excise duty that has been paid on the raw material, the amount of such excise duty cannot be said to form a part of the cost that is incurred by the manufacturer in procuring it.
