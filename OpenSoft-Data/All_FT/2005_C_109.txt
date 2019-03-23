@@ -1,0 +1,27 @@
+Eastern Electro Chemical Industries v Collector of Central Excise, Indore
+Supreme Court of India
+
+15 February 2005
+C.A. No. 5068 of 1999
+The Order of the Court was as follows:
+1.  The appellant manufactures Calcium Carbide. The question is whether the appellant was entitled to the benefit of Notification No. 217/86-C.E., dated 2-4-86 in respect of MS Casings.
+2.  The Notification provided exemption to Modvat Items if used as inputs within the factory of production in or in relation to the manufacture of final products specified in Column 3 to the table appended to the Notification from duty payable under the Central Excise Tariff Act, 1985. In terms of the Explanation which defines inputs, the following items were not to be considered as inputs for the purpose of the Notification:
+(i) machines, machinery, plant equipment, apparatus, tools or appliances used for producing or processing of any goods or for bringing about any change in any substance in or in relation to the manufacture of the final products;
+(ii) packaging materials in respect of which any exemption to the extent of the duty of excise payable on the value of the packaging materials is being availed of for packaging any final products;
+(iii) packaging materials the cost of which is not included or had not been included during the preceding financial year in the assessable value of the final products under Section 4 of the Central Excises and Salt Act, 1944 (1 of 1944); or
+(iv) cylinders for packing gases.
+3.  The appellant manufactures MS Casings for use within its factory for the purpose of production of Calcium Carbide. The concurrent findings of fact by both the Commissioner (Appeals) by the Collector (Appeals) and the Customs, Excise and Gold (Control) Appellate Tribunal (CEGAT) are that in the process of manufacture of the Calcium Carbide initially the appellant fills the carbon paste in MS Casings through which the current is passed and then the MS Casings are lowered into the furnace where the carbon paste hardens and burns out in the furnace. As far as the MS Casings are concerned they melt and get mixed up with other molten raw materials. The issue is whether the MS Casings are inputs within the meaning of Notification 217/87-C.E.
+4.  The Assistant Collector came to the conclusion that the MS Casings fell within the first clause of the Explanation to the Notification and was an 'equipment' which was used for bringing about change in the substance in the final product. The benefit of the Notification was accordingly denied.
+The Collector (Appeals) reversed this decision and held that the MS Casings were inputs, firstly because it was consumed in the process of manufacture and was not available to the appellant for further use and secondly because the final product namely, the calcium carbide could not be manufactured without the use of MS Casings.
+5. The CEGAT came to the conclusion that the Assistant Collector was correct and that the MS Casings were in fact container as admitted by the appellant and hence fell within Clause-1 of the Explanation which provided for the exceptions to the definition of the word 'inputs' for the purpose of the Notification in question.
+6.  Having regard to the admitted facts on record, we are of the view, that the CEGAT was clearly wrong in its approach. The issue has been settled by this Court in Collector of Central Excise v. Ballarpur Industries Ltd. - 1989 Indlaw SC 768 where the construction of a similar Notification was in question.
+7. This Court held that
+"there were four kinds of inputs which could be said to be ingredients
+(i) those which retain their dominant individual identity and character throughout the process and also in the end-product,
+(ii) those which, as a result of interaction with other chemicals or ingredients, might themselves undergo chemical or qualitative changes and in such altered form find themselves in the end product,
+(iii) those which like catalytic agents, while influencing and accelerating the chemical reactions themselves remain uninfluenced and unaltered and remain independent of and outside the end-products; and
+(iv) those which might be burnt up or consumed in the chemical reactions.
+The process of manufacture in which metal casings are involved clearly fell within the 4th category."
+8.  In the circumstances, we are of opinion that the Collector (Appeals) was correct and the Tribunal was wrong in deciding to the contrary.
+9.  The appeal is accordingly allowed and the decision of the Tribunal is set aside. There will be no order as to costs
+Appeal allowed.

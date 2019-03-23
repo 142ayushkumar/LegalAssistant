@@ -1,0 +1,26 @@
+Rajeev Chaudhary v State (Nct) of Delhi
+Supreme Court of India
+
+4  May  2001
+Appeal (Cr.) 606 of 2001
+The Judgment was delivered by : M. B. Shah, J.
+1. Leave granted.
+2. Short question involved in this appeal is with regard to the interpretation and construction of the expression offence punishable with imprisonment for a term of not less than ten years occurring in proviso (a) to S. 167(2) of the Criminal Procedure Code in context of the expression imprisonment which may extend to ten years occurring in S. 386 of the .IPC
+3. Appellant was arrested in connection with an offence punishable under Sections 386, 506 and 120-B of the I.P.C. He was produced before the Metropolitan Magistrate, Delhi on 31.10.1998 and was released on bail by order dated 2.1.1999 by the Metropolitan Magistrate on the ground that charge-sheet was not submitted within 60 days as provided under S. 167(2) of the Criminal Procedure Code, 1973. That order was challenged before the Sessions Judge, New Delhi by filing Criminal Revision No.22 of 1999. By judgment and order dated 18.8.1999, the Additional Sessions Judge, New Delhi allowed the said revision application. The learned Additional Sessions Judge held that for an offence under S. 386 IPC, period of sentence could be up to 10 years RI. Hence, cl. (i) of the proviso (a) to S. 167 (2) would be applicable. He, therefore, set aside the order passed by the Metropolitan Magistrate releasing the accused on bail. That order was challenged before the High Court by the accused.
+The High Court referred to its earlier decisions and held that expression an offence punishable with imprisonment for a term of not less than 10 years in cl. (i) of the proviso to S. 167 would mean an offence punishable with imprisonment for a specified period which period would not be less than 10 years or in other words would be at least ten years. The words not less than qualify the period. These words put emphasis on the period of ten years and mean period must be clear ten years. It was further held that on a plain reading of cl. (i) of proviso (a) to sub-s. (2) of S. 167 Cr. P.C., there seemed to be no doubt that offences punishable with death, imprisonment for life or imprisonment for a term of ten years or more would fall under cl. (i) and offences which are punishable with imprisonment for less than ten years would fall u/cl. (ii). Hence, the High Court set aside the order passed by the Additional Sessions Judge. That order is challenged in this appeal.
+4. S. 167 is a provision which authorises the Magistrate permitting detention of an accused in custody and prescribing the maximum period for which such detention could be ordered pending investigation. We are concerned with the interpretation of proviso (a) of S. 167(2) which reads thus:-
+"167. Procedure when investigation cannot be completed in twenty-four hours. (2)..
+Provided that
+(a) the Magistrate may authorise the detention of the accused person otherwise than in the custody of the police, beyond the period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but no Magistrate shall authorise the detention of the accused person in custody under this paragraph for a total period exceeding,
+(i) ninety days, where the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of not less than ten years;
+(ii)
+Further, S. 386 of I.P.C. provides as under:
+386. Extortion by putting a person in fear of death or grievous hurt. Whoever commits extortion by putting any person in fear of death or of grievous hurt to that person or to any other, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine."(Emphasis added)
+5. From the relevant part of the aforesaid sections, it is apparent that pending investigation relating to an offence punishable with imprisonment for a term not less than 10 years, the Magistrate is empowered to authorise the detention of the accused in custody for not more than 90 days. For rest of the offences, period prescribed is 60 days. Hence in cases, where offence is punishable with imprisonment for 10 years or more, accused could be detained up to a period of 90 days. In this context, the expression not less than would mean imprisonment should be 10 years or more and would cover only those offences for which punishment could be imprisonment for a clear period of 10 years or more. Under S. 386 punishment provided is imprisonment of either description for a term which may extend to 10 years and also fine. That means, imprisonment can be for a clear period of 10 years or less.
+Hence, it could not be said that minimum sentence would be 10 years or more. Further, in context also if we consider cl. (i) of proviso (a) to S. 167(2), it would be applicable in case where investigation relates to an offence punishable
+(1) with death;
+(2) imprisonment for life; and
+(3) imprisonment for a term of not less than ten years.
+It would not cover the offence for which punishment could be imprisonment for less than 10 years. Under S. 386 of the IPC, imprisonment can vary from minimum to maximum of 10 years and it cannot be said that imprisonment prescribed is not less than 10 years.
+6. In the result, the appeal is dismissed.
+Appeal dismissed.

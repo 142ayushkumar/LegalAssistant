@@ -1,0 +1,29 @@
+Shamshad Begum v B. Mohammed
+Supreme Court of India
+
+3 November 2008
+Criminal Appeal No. 1715 of 2008 (Arising out of S.L.P. (Cr.) No. 73 of 2006)
+The Judgment was delivered by: Dr. Arijit Pasayat, J.
+1.  Leave granted.
+2.  Challenge in this appeal is to the judgment of a learned Single Judge of the Karnataka High Court dismissing the petition filed u/s. 482 of the Code of Criminal Procedure, 1973 (in short the Code). Prayer in the petition was to quash all proceedings in CC No. 1042 of 2004 on the file of learned Vth JMF Court Mangalore. Appellant is the accused in the aforesaid case in relation to an offence punishable u/s. 138 of the Negotiable Instruments Act, 1881(in short ' the Act '). The petition was filed before the High Court on the ground that the Mangalore Court has no jurisdiction to try the case. It was stated that the agreement between the parties was entered into Bangalore and the parties live in Mangalore and the cheque were returned from the banks at Bangalore and therefore the Bangalore Court has jurisdiction to try the case.
+3.  In response, the respondent had submitted that before issuing notice to the appellant he had shifted his residence to Mangalore and therefore he had issued the notice from Mangalore which was received by the appellant and the reply was sent by her to the complainant to the Mangalore address. Therefore, as one of the components of the said offence i.e. notice in writing to the drawer of the cheque demanding payment of cheque amount was sent from Mangalore, Court at Mangalore had jurisdiction to try the case. The High Court noted that one of the components of the offence was giving notice in writing to the drawer of the cheque demanding payment of the cheque amount. The said action took place within Mangalore jurisdiction and, therefore, the petition was without merit. It was however stated that if the presence of the appellant was not very necessary for continuation of the proceeding, on appropriate application being filed, the court can grant exemption from appearance.
+In support of the appeal learned counsel for the appellant submitted that the Court at Mangalore had no jurisdiction.
+4.  Learned counsel for the respondent on the other hand supported the judgment of the High Court.
+5.  In K. Bhaskaran v. Sankaran Vaidhyan Balan & Anr. [1999(7) SCC 510], 1999 Indlaw SC 755 it was inter alia observed as follows:
+"It is not necessary that all the above five acts should have been perpetrated at the same locality. It is possible that each of those five acts could be done at five different localities. But a concatenation of all the above five is a sine qua non for the completion of the offence u/s. 138 of the Code. In this context a reference to S. 178(d) of the Code is useful. It is extracted below:
+178. (a)-(c) * * *
+(d) where the offence consists of several acts done in different local areas, it may be enquired into or tried by a court having jurisdiction over any of such local areas."
+6.  Thus it is clear, if the five different acts were done in five different localities any one of the courts exercising jurisdiction in one of the five local areas can become the place of trial for the offence u/s. 138 of the Act. In other words, the complainant can choose any one of those courts having jurisdiction over any one of the local areas within the territorial limits of which any one of those five acts was done. As the amplitude stands so widened and so expansive it is an idle exercise to raise jurisdictional question regarding the offence u/s. 138 of the Act.
+7.  The more important point to be decided in this case is whether the cause of action has arisen at all as the notice sent by the complainant to the accused was returned as "unclaimed". The conditions pertaining to the notice to be given to the drawer, have been formulated and incorporated in cls. (b) to (c) of the proviso to S. 138 of the Act. The said clauses are extracted below:
+"(b) the payee or the holder in due course of the cheque, as the case may be, makes a demand for the payment of the said amount of money by giving a notice in writing, to the drawer of the cheque, within fifteen days of the receipt of information by him from the bank regarding the return of the cheque as unpaid; and
+(c) the drawer of such cheque fails to make the payment of the said amount of money to the payee or as the case may be, to the holder in due course of the cheque within fifteen days of the receipt of the said notice."
+8.  As was noted in K. Bhaskar's case 1999 Indlaw SC 755 (supra) the offence u/s. 138 of the Act can be completed only with the concatenation of a number of acts. the Acts which are components are as follows:
+(1) Drawing of the cheque;
+(2) Presentation of the cheque to the bank;
+(3) Returning the cheque unpaid by the drawee bank;
+(4) Giving notice in writing to the drawer of the cheque demanding payment of the cheque amount;
+(5) failure of the drawer to make payment within 15 days of the receipt of the notice.
+9.  It is not necessary that the above five acts should have been perpetrated at the same locality. It is possible that each of those five acts could be done at five different localities. But concatenation of all the above five is sine qua non for the completion of the offence u/s. 138 of the Act.
+10.  In view of the aforesaid, the judgment of the High Court does not suffer from any infirmity to warrant interference.
+The appeal is dismissed.
+Appeal dismissed.

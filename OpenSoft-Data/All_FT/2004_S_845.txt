@@ -1,0 +1,27 @@
+Commissioner of Central Excise, Bolpur v Steel Authority of India Limited
+Supreme Court of India
+
+28 January 2004
+C.A. Nos. 3169-3173 of 1998 With C.A. Nos. 1140-1143 of 1999
+The Order of the Court was as follows:
+1.  These Appeals can be disposed by this common judgment as they are against the Judgments of the Tribunal dealing with the question whether the product of the Respondents, namely, "Pitch Creosote Mixture" is to be classified as "Tar" or as "Pitch".
+2.  It must be mentioned that earlier to 1st March, 1986 Tariff Item 11(5)read as follows:-
+"11. Coal (excluding lignite) and coke all sorts, including calcined petroleum coke, asphalt, bitumen and tar -
+(5) Tar distilled from coal or lignite and other mineral tars, including partially distilled tars and blends of pitch with creosote oils or with other coal tar distillation products, "
+3.  It is thus to be seen that the tariff item included not only "tar" but also "blended pitch" . That the Respondents product is covered by this item has been decided by this Court in the case of M.P. State Board Transport Corporation v. Collector of Central Excise, Indore reported in 1997 Indlaw SC 2396. Thus for the period from 1-9-1985 to 28-2-1986 the product would be covered as above and as per the Judgment of this Court, it would have the benefit of Notification Nos. 121/62, dated 13th June 1962 and 75/84-C.E., dated 1st March, 1984.
+4.  However, with effect from 1st March 1986 the Central Excise Tariff Act was amended and the relevant amended tariff item reads as follows:
+5.  Thus, now there are separate tariff items for "Tar" and "Pitch". The Respondents sought to classify their product under Tariff Item 27.06 on the ground that it was "partially distilled tar". This contention was not accepted by the Assistant Collector who held that their product fall under Tariff Item 2708.11. The Commissioner (Appeals) dismissed the Appeal of the Respondents.
+6.  However, the Customs, Excise and Gold (Control) Appellate Tribunal (CEGAT) has allowed the Appeal of the Respondents and held that their product fall under Tariff Item No. 27.06. The reasoning given by the Tribunal is as follows:-
+"6. We are unable to accept this plea of the learned J.D.R. on the ground that the Tariff Heading speaks of pitch obtained by blending with Creosote Oil or other coal-tar distillates. The expression, blending envisages that the pitch must come into existence first and there should be another product, Creosote Oil or other coal-tar distillates and both should be blended together to fall under the Tariff Heading: 2708.00. It is not disputed that the present product i.e. P.C.M. is a result of partial distillation of tar and therefore, it is a partially distilled tar as admitted by the adjudicating authority referred to above. Therefore, in our view, the product falls under 2706.00..." .
+It could not be denied that "Tar" contains the following:-
+"Pitch - 63% to 65%
+Light Oil-0.9 to 1.2%
+Naphthalene Oil - 6 to 7%
+Creosote Oil - 8 to 10%
+Other residual Oil - 20 to 22%"
+"Pitch" is derived by distillation of "Tar" wherein the oils - Light oil, Naphthalene Oil, Creosote Oil and other residual oils - are removed. Depending on the extent of oil removed "Pitch" may be "soft pitch" or "medium soft pitch" or "medium hard pitch" or "hard pitch". Once "pitch" is obtained, it is a completely different product from "Tar". Thus the change in the tariff items.
+7.  Once a product is "Pitch", it is no longer "Tar". Pitch can, under no circumstances, fall under the Tariff Item 27.06.
+8.  In this case, there is a categoric finding by the Assistant Collector as well as the Commissioner (Appeals) that the product was a "Pitch". The Tribunal unfortunately does not seem to have noticed this. The Tribunal has proceeded on an erroneous footing that the product remained "Tar". That the product is "Pitch" is also clear from the fact that the Appellants themselves called it as "Pitch". Once it is "Pitch" there was no question of holding that it would fall under Tariff Item 27.06. Partially distilled tar would be Tar which has not yet become "Pitch". Once the product becomes "Pitch", it is no longer "partially distilled tar". In our view, the product was correctly classified by the Assistant Collector under Tariff Item 2708.11.
+9.  We accordingly set aside the impugned Judgment and restore the orders of the lower authorities.
+10.  The Appeals are accordingly allowed. There will be no order as to costs.
+Appeals allowed.

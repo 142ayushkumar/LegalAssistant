@@ -39,9 +39,7 @@ for i in range(0, 5000):
 	filename = links['filename'][i]
 	message = "'" + url + "'"
 	browser.execute_script(f"document.getElementsByClassName('ql-editor')[1].innerHTML = {message}")
-
 	browser.execute_script("TS.view.submit()")
-
 	time.sleep(5)
 	bot = browser.find_elements_by_xpath("//a[@data-qa='message_attachment_title_link']")
 	# Ignore SSL certificate errors
@@ -56,8 +54,8 @@ for i in range(0, 5000):
 	#print(soup.prettify())
 	sys.stdout = open("summary\\" + filename, 'w+')
 	summary = soup.find_all("p")
-	for x in summary:
-	    print(x.prettify().encode("utf-8"))
+	print(summary.prettify())
+
 
 	sys.stdout = open("keywords\\" + filename, 'w+')
 	keywords = soup.find_all('span', { 'class' : 'keyword_item'})

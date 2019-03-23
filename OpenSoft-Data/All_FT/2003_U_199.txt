@@ -1,0 +1,30 @@
+Jameskutty Jacob v United India Insurance Co. Ltd. & Ors.
+Supreme Court of India
+
+5 August 2003
+Appeal (civil) 38 of 1999
+The Judgment was delivered by : S. N. Variava, J.
+1. This Appeal is against the Judgment dated 17th October, 1997. Briefly stated the facts are as follows:
+2. On 5th February, 1986 an accident took place in which a young boy was seriously injured. A claim was filed against the Appellant, who was shown as the owner of the vehicle, and the Insurance Company.
+3. The Motor Accident Claims Tribunal awarded a sum of Rs. 2,00,000/- with interest thereon. In so awarding it did not accept the contention of the Appellant that the Appellant was not owner of the vehicle inasmuch as he had sold the vehicle in 1983. The Motor Accident Claims Tribunal also did not accept the contention that the liability of the Insurance Company was limited to Rs. 50,000/-. It held both the Appellant and the Insurance Company jointly and severally liable. The Insurance Company filed an Appeal. It claimed that the Policy was an 'Act only' policy on which no extra premium had been paid for making the liability unlimited. It was submitted that as the policy was an 'Act only' policy the liability of the Insurance Company was limited to Rs. 50,000/- only u/s. 95 (2)(b)(i) of the Motor Vehicles Act, 1939. The High Court accepted this contention and limited the liability of the Insurance Company to a sum of Rs. 50,000/-.
+4. After this Appeal was filed this Court directed the Insurance Company to produce the complete policy as also any other document to show that the vehicle insured was a taxi and not a private car. The Insurance Company had produced the policy. We, however, do not find, from the Policy or from any other document produced on record, that the vehicle was a taxi.
+5. Undoubtedly the policy is an 'Act only' policy, however, even in respect of an 'Act only' policy the Insurance Company would be liable for the statutory amount as payable u/s. 95 of the Motor Vehicles Act, 1939. The relevant portion of S. 95 reads as follows:
+"95. Requirements of policies and limits of liability.-
+(1)xxxxxxxxx
+xxxxxxxxx
+(2)Subject to the proviso to sub-section (1), a policy of insurance shall cover any liability incurred in respect of any one accident up to the following limits, namely -
+(a)where the vehicle is a goods vehicle, a limit of one lakh and fifty thousand rupees in all, including the liabilities, if any, arising under the Workmen's Compensation Act, 1923 (8 of 1923), in respect of the death of, or bodily injury to, employees (other than the driver), not exceeding six in number, being carried in the vehicle;
+(b)Where the vehicle is a vehicle in which passengers are carried for hire or reward or by reason of or in pursuance of a contract of employment,-
+(i) In respect of persons other than passengers carried for hire or reward, a limit of fifty thousand rupees in all;
+(ii) In respect of passengers, a limit of fifteen thousand rupees for each individual passenger;
+(c)save as provided in clause (d), where the vehicle is a vehicle of any other class, the amount of liability incurred;
+(d) irrespective of the class of the vehicle, a limit of rupees six thousand in all in respect of damage to any property of a third party.
+(3)xxxxxxxxx
+(4)xxxxxxxxx
+(4-A)xxxxxxxxx
+(5)xxxxxxxxx"
+Accordingly, it is to be seen that if the vehicle was a vehicle in which passengers are carried for hire or reward then the liability would be limited to Rs. 50,000/- u/s. 95(2)(b)(i). However, if the vehicle does not carry passengers for hire or reward, then u/s. 95(2)(c) the liability of the Insurance Company would be the amount of liability incurred.
+6. In this case, nobody has appeared on behalf of the Insurance Company in spite of the fact that they were served. We are informed by counsel for the Appellant that there is no evidence on record to show that the vehicle was a taxi.
+We, therefore, fail to understand on what basis the High Court has restricted the liability of the Insurance Company to Rs. 50,000/-.In view of the fact that it has not been shown to us that the vehicle was a taxi, the case would be covered by S. 95 (2)(c) and the liability of the Insurance Company would be the amount of liability incurred, even though it is an 'Act only' Policy. Under the circumstances, the impugned Judgment of the High Court is set aside and that of the Motor Accident Claims Tribunal is reinstated.
+7. The Appeal stands disposed of accordingly. There will be no order as to costs.
+Appeal disposed of

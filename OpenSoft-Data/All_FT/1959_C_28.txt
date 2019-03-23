@@ -1,0 +1,65 @@
+Emerald and Company v Commissioner of Income Tax, Bombay
+Supreme Court of India
+
+26 March 1959
+The Judgment was delivered by: HIDAYATULLAH, J.
+1. Messrs.Emerald and Co. Ltd., Bombay (hereinafter referred to as the assessee company) have filed this appeal with special leave of this court against the judgment of the High Court of Judicature at Bombay dated September 27, 1955, in Income-tax Reference No. 23 of 1955.
+In that reference, the following question was considered by the High Court: "Whether the computation of the loss by the assessee company at Rs.35,801 is in accordance with law or whether the loss computed by the Income-tax Officer/Tribunal is in accordance with law ?"
+The High Court (Chagla, C.J., and Tendolkar, J.), decided that the loss by the assessee company computed by the Income-tax Officer was according to law:
+2. The facts leading to this appeal are as follows : The assessee company deals in shares, and values the closing stock of shares at cost price. It dealt in 1950-1951 in the shares of the Bombay Dyeing and Manufacturing Co. Ltd. On November 11, 1950, it purchased 50 shares of the said company for Rs.49,101. On January 9, 1951, the said company issued one bonus share of the face value of Rs.250 in respect of one share held by its shareholders. The assessee company, therefore, received 50 bonus shares of the face value of Rs.250 in respect of the shares held by it. The assessee company then sold the 50 shares purchased by it on January 12, 1951, for Rs.26,125. On March 5, 1951, the assessee company purchased 100 shares of the said company for Rs.48,359. In the books of account, the assessee company debited the face value of the bonus shares (Rs.12,500) to the share account.
+For the assessment year 1951-1952, the Income-tax Officer, following the decision of the Bombay High Court in Manecklal Chunilal & Sons Ltd. (Income-tax Reference No. 16 of 1948), computed the profit of the company at Rs.1,760. The assessee company had declared for the same year a loss of Rs.1,365. It appears that in dealing with the question, the Department valued at nil the bonus shares. The assessee company did not appealIn the accounting year 1951-1952, the assessee company held 150 shares of the said company including 100 shares purchased on March 5, 1951. The assessee company thereafter purchased 200 shares of the said company in two lots for Rs.99,939. The assessee company then sold, also in two lots, the 300 shares for a total sum of Rs.1,20,550.
+At the end of the accounting year, the bonus shares remained with the assessee company, and applying the same calculation as previously, including the cost of the bonus shares at the face value of Rs. 12,500, it declared a loss of Rs.35,801 for the assessment year 1952-1953.
+3.The Income-tax Officer, following the course which was adopted in the previous year, computed the loss at Rs.27,766. The appeal of the assessee company against the second assessment was taken finally to the Appellate Tribunal at Bombay, which computed the loss. at Rs.27,748, but in view of the slight difference, did not interfere with the order of the Income-tax Officer who had placed the loss at Rs.27,766.
+4. The Tribunal, however, came to the conclusion on application by the assessee company, that the question of law stated above arose from the facts of the case, and referred it accordingly.
+5. The Bombay High Court following the decision given earlier by the same court in Manecklal & Sons Ltd. (Income-tax Reference No. 16 of 1948) dated March 23, 1949, held that the computation of the loss incurred by the company was made correctly by the Department. In other words, the High Court did not accept the calculation of the loss as made by the assessee company or the Income-tax Appellate Tribunal.
+6. It was contended before us that the High Court was in error in accepting the calculation made by the Income-tax Officer. For the assessee company, it was contended that the calculation made by the assessee company was according to law, while on behalf of the Department the Solicitor-General claimed that the calculation made by the Tribunal was perfectly correct, regard being had to the transactions and the method of accounting of the assessee companyThe assessee company, relying on the authorities in In re Eddystone Marine Insurance Company, Bouch v. Sproule, Swan Brewery Company Limited v. Rex, and Inland Revenue Commissioners v. Greenwood, contended that it must be deemed to have paid for the bonus shares, inasmuch as it lost a right to an equal extent in the reserves, whether of profits or capital, of the said company.
+According to Mr. Sachin Chowdhary, who argued the case with great force and ability, the issuance of fully paid bonus shares was nothing but the purchase of such shares by the shareholder, inasmuch as consideration therefor was to be found in the pro tanto diminution of the shareholder's interest in the reserves out of which the bonus shares were issued. The learned Solicitor-General in an equally able reply, relied upon a passage in Eisner v. Macomber, and contended that the issuance of the bonus shares added nothing to the interests of the shareholders, nor took away anything from the property of the said company. The property of the said company was not diminished, nor was the interest of the shareholders increased, the proportional interest of each shareholder remaining the same.
+7. According to him, the only change was in the evidence which represented the interest, the new bonus shares together with the original shares representing the same proportional interest which the original shares had, before the issue of the bonus shares. He submitted that, in view of the fact that the bonus shares were still retained by the assessee company, the profit and loss could be calculated on the basis of the cost of the other shares and their sale price, and the valuation of the bonus shares, whether at face value or at market value, or at nil or even at a notional value, did not enter into the question of the calculation of the loss in the transactions which were gone through with respect to shares actually bought and sold.
+He accordingly pressed us to leave the question, --whether the issuance of the fully paid bonus shares involved an expenditure on behalf of the assessee company, --open for consideration till the bonus shares were actually sold. Till that time, he stated, the valuation in the account books of the company would be adjusted on debit and stock sides by equal entries, whatever they might be Mr.Sachin Chowdhary, however, pressed us very earnestly to answer this question, which had been considered by the High Court and answered against the assessee company. While the question is an important one and may have to be decided in future, we are of opinion that for the purpose of assessing the loss for the assessment year in question, it is not necessary to deal with this question at all, and that the matter can be adequately disposed of, in the manner in which the Tribunal handled it.
+8. To explain our meaning, we set out below the three different calculations which were made respectively by the assessee company, the Income-tax Officer and the Tribunal to compute the loss to the company. We may point out here that though we have set down below the figures for both the assessment years, we agree with the learned Solicitor-General that the assessment for the first year cannot be reopened, and the valuation of the stock as determined by the Income-tax Officer at the close of the first accounting year must be taken to be final. We have, however, given the figures of all the deals in the shares of the Bombay Dyeing Company to bring out the three methods of calculation, which have been applied in this case, by the assessee company, the Income-tax Officer and the Tribunal respectively
+Account year 1950-51
+Assessment year 1951-52
+Per assessee company
+Purchases : Sale
+50 ordy. shares Rs. 49, 101 50 ordy. shares Rs. 26, 125
+100 ordy. shares Rs. 48, 359 Closing stock
+----------------------------- (150 shares) Rs. 82, 470
+50 bonus shares Rs. 12, 500 1, 09, 060 x 150
+200
+Total Rs. 1, 09, 960 Total Rs. 1, 08, 595
+Loss Rs. 1, 365
+Account year 1951-52
+Assessment year 1952-53
+Opening Stock
+100 ordy. plus
+50 bonus shares Rs. 82, 471 Sale 300 ordy. Shares Rs. 120, 550urchase 200 ordy. Closing stock (50 shares) Rs. 82, 470
+Shares Rs. 99, 939 1, 82, 410 x 50
+350
+Total Rs. 1, 82, 410 Total Rs. 1, 46, 609 -------------------------------- -------------------------
+Loss Rs. 35, 801
+Per Income-tax Officer
+Purchase 50 ordy. shares Rs. 49, 101 Sale 50 ordy. shares Rs. 26, 125
+Purchase 200 ordy. shares Rs. 48, 359 Closing stock Rs. 73, 095
+(150 shares)
+97, 460 x 150
+50 bonus shares Rs. nil 200
+Total Rs. 97, 460 Total Rs. 99, 220 -------------------------------- -------------------------
+Profit Rs. 1, 760
+Opening stock
+100 ordy. plus Rs. 73, 096 Sale 300 ordy
+50 bonus shares shares Rs. 1, 20, 550
+Purchase 200 ordy. Rs. 99, 939 Closing stock
+shares 50 bonus shares Rs. 24, 719
+1, 73, 035 x 50
+Total Rs. 1, 73, 035 350 Total Rs. 1, 45, 269
+Loss Rs. 27, 766
+Per Income-tax Appellate Tribunal
+Purchase 100 ordy. shares ............... Rs. 48, 359
+" 200 ordy. shares ............... Rs. 99, 939
+Total Rs. 1, 48, 298
+Sale of 300 ordy. shares Rs. 1, 20, 550
+Total loss Rs. 27, 748
+Balance 50 bonus shares
+9. In our opinion, the Tribunal's calculation is according to law and correct. What the bonus shares cost is not the question at the present moment. They may have cost Rs.12,500 as the assessee company claims, or nothing as stated by the Income-tax Officer or even something else according to some other principle. The bonus shares are still there, and have not been sold. When they are sold, the question will arise as to what they cost. The books of the assessee company, as stated in the statement of the case, include the closing stock at cost price. In calculating profit and loss in the manner done by the Tribunal, there is no departure from this system. All the ordinary shares which were bought were sold. Their purchase price is known, as also their sale price.
+The first assessment is closed, so far as the assessee company is concerned. The trading loss in the second assessment year is calculated on the purchase price of the 300 shares bought and sold, and it is Rs.27,748. The loss, therefore, was calculated according to law, leaving out of consideration the price of 50 bonus shares, what it is and if any. These questions are left open. We accordingly answer the question that the loss as calculated by the Tribunal is correct and according to law. In the circumstances of the case, there shall be no order about costs.
+Order accordingly.

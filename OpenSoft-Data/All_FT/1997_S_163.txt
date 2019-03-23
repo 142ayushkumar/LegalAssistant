@@ -1,0 +1,22 @@
+Commissioner of Income Tax v Shri Digvijay Cement Company Limited
+Supreme Court of India
+
+16 December 1997
+C.A. No. 2830 of 1992
+The Order of the Court is as follows:
+1.  The following question of law was referred by the Tribunal to the High Court in its opinion under section 256(1) of the Income-tax Act, 1961 ('the Act') the question is:
+"Whether, on the facts and in the circumstances of the case, the pontoons and tugs are covered by the expression 'ship' and, therefore, are entitled to development rebates at a higher rate of 40 per cent instead of 25 per cent on the basis of plant ?"
+2.  Section 32 of the Act deals with the depreciation of buildings, machinery, plant or furniture, owned by an assessee. Section 33 of the Income Tax Act, 1961 deals with development rebate. The rebate has to be allowed in respect of a new ship or new machinery or plant which has been owned by the assessee and is wholly used for the purpose of the business carried on by him subject to various conditions laid down in that section. In the case of a ship, the amount of rebate allowable is 40 per cent of the actual cost thereof of the assessee.
+3.  The only question is whether 'pontoons' and 'tugs' will come within the word 'ship' has not been defined in the Act. However, in the table of rates at which depreciation is admissible, the meaning of ship has been given in Class IV of Appendix-I of the Income-tax Rules, 1962 where 'ship' was defined to include:
+"1. Ocean-going ships
+(i) Fishing vessels with wooden hull
+(ii) Dredgers, tugs, barges, survey launches and other similar ships used mainly for dredging purposes
+(iii) Other ships
+2. Vessels ordinarily operating on inland waters -
+(i) Speedboats
+(ii) Other vessels."
+4. This definition makes it clear that ships would include tugs. There cannot be any dispute as to that
+5.  However, 'pontoons' have not been specifically included within the meaning of 'ship'. However, having regard to the types of vessels that are entitled to depreciation like dredgers, tugs, barges, survey launches, fishing vessels with wooden hull and also vessels ordinarily operating on inland water, we agree with the view of the High Court that an expanded meaning has to be given to 'ships' and pontoons will come within that expanded meaning.
+6.  According to the Concisc Oxford Dictionary, 1976 Edition, 'pontoon' is a flat-bottomed boat used as ferry boat or to carry lifting-gear, etc.
+7.  Having regard to the width of the meaning given to the word 'ship' in the depreciation table, it is clear that a flat-bottomed boat used as ferry boat will clearly come within the description 'vessels ordinarily operating on inland waters'. There is no reason why a restricted meaning will have to be given to 'ship' for the purpose of section 33.
+8.  We are of the view that the High Court has come to a right decision. The appeal is dismissed. There will be no order as to costs.

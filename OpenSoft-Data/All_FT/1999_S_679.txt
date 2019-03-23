@@ -1,0 +1,30 @@
+State of Maharashtra and Others v Sundaram Finance and Others
+Supreme Court of India
+
+5 August 1999
+C.A. No. 3910 of 1994, Dt. 5 August 1999.
+The Judgment was delivered by :
+1.  This is an appeal by the State of Maharashtra against the judgment and order of a Division Bench of the High Court at Bombay.
+2.  The first respondent is a financier and supplies vehicles on hire-purchase basis. In 1984 it entered into four hire-purchase agreements with the third respondent. Thereunder, the third respondent obtained on hire-purchase from the first respondent four passenger vehicles. The vehicles were registered in the name of the third respondent alone under the Motor Vehicles Act, 1939. But the registration certificates bore the endorsement that the third respondent held the vehicles as registered owner under hire-purchase agreements with the first respondent. The four vehicles were operated by the third respondent as public carriers under permits issued by the Regional Transport Authority, Bombay under the provisions of the Motor Vehicles Act. The name of the first respondent was not entered on these permits. The third respondent committed defaults in payment of instalments under the hire-purchase agreements. Consequently, the four vehicles were resumed by the first respondent.
+3. The first respondent then filed applications before the Regional Transport Officer for fresh registration certificates in respect of the said vehicles in its name under the provisions of Section 31-A(5) of the Act. There was correspondence between the Regional Transport Officer and the first respondent which indicated that the third respondent had not paid arrears of passenger tax in respect of the said vehicles. The first respondent was called upon to clear the arrears and a penalty had been levied. The first respondent denied its liability. Thereupon, the Regional Transport Officer declined to issue fresh registration certificates to it.
+4.  In consequence, the first respondent filed a writ petition before the High Court at Bombay. The learned Single Judge who heard the writ petition declined relief in respect of the tax which the first respondent was required to pay. Insofar as the penalty was concerned, he directed that the first respondent should first be given the opportunity of hearing.
+5. In appeal, the learned Single Judge's judgment was reversed. The Division Bench, on a construction of the relevant provisions, found that the first respondent was not liable to pay the arrears of passenger tax and, therefore, the penalty.
+6.  The issue is very narrow and concerns the interpretation of the word "operator" in the Bombay Motor Vehicles (Taxation of Passengers) Act, 1958 ("the Act"). Section 2(4), as it originally read, defined "operator" thus :
+"2. (4)'operator' means any person whose name is entered in the permit as the holder thereof;"
+The definition was amended in 1962, so that it now reads thus :
+" 2. (4)'operator' means any person whose name is entered in the permit as the holder thereof and where a stage carriage is used or caused or allowed to be used without a permit, includes the person in whose name the stage carriage is registered under the Motor Vehicles Act, 1939, or the person having possession or control of such stage carriage;"
+7.  Learned counsel for the appellant State submitted that the first respondent was an "operator" within the meaning of the amended definition by reason of the fact that it had possession or control of the said vehicles. In his submission, the amended definition had to read thus :
+"Operator means
+(a) any person whose name is entered in the permit as the holder thereof and where a stage carriage is used or caused or allowed to be used without a permit, includes a person in whose name the stage carriage is registered under the Motor Vehicles Act, 1939, or(b) the person having possession or control of such stage carriage."
+8.  In our view, this interpretation is erroneous. As we read it, the amended definition of "operator" has to be read thus :
+(a) any person whose name is entered in the permit as the holder thereof, and
+(b) where a stage carriage is used or caused or allowed to be used without a permit, includes
+(i) a person in whose name the stage carriage is registered under the Motor Vehicles Act, or
+(ii) the person having possession or control of such stage carriage."
+9.  That this is the correct interpretation is indicated by the following : the original definition was expanded to cover cases where the stage carriage was used or caused or allowed to be used without a permit and for that purpose the word "operator" was said to be
+(i) the person in whose name the stage carriage was registered, or
+(ii) the person having possession or control of such stage carriage. Upon this interpretation, the Division Bench was right in the view that it took that the first respondent could not be made liable for the arrears of passenger tax as the operator of the vehicles.
+10.  Learned counsel for the State then sought to base an argument upon Section 29-A(5) of the Motor Vehicles Act, 1939. It was an argument that was raised before the learned Single Judge but the learned Single Judge did not uphold it. Though the learned Single Judge decided for the most part in the State&'s favour on the writ petition, when an appeal was preferred even by the State it was certainly open to the State to take the point and support the learned Single Judge's decision basing itself on the said Section 29-A(5). This was not done. Even in the grounds in the special leave petition, the point is not taken.
+11. We, therefore, decline to consider the argument based on Section 29-A(5) and shall not be deemed to have expressed any view thereon.
+The civil appeal is dismissed. No order as to costs.
+Appeal dismissed.
