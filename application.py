@@ -57,9 +57,26 @@ def index():
     return render_template('search.html', output=output)
         
 
-@app.route("/cases/<string:case_id>", methods = ['GET'])
-def cases(case_id):
-    return render_template('case.html', case_id=case_id)
+@app.route("/cases/<string:filename>", methods = ['GET'])
+def cases(filename):
+    '''
+    date = store[case_id]['date']
+    judge = store[case_id]['judge']
+    verdict = store[case_id]['verdict']
+    case_id = store[case_id]['case_id']
+    casename = store[case_id]['casename']
+    '''
+    date = "1"
+    judge = "1"
+    verdict = "1"
+    case_id = "1"
+    casename = "1"
+    try:
+        file = open("OpenSoft-Data/All_FT/" + filename, 'r')
+        content = file.readlines()
+    except:
+        return render_template('error.html')
+    return render_template('case.html', case_id=case_id, judge=judge, content=content, casename=casename, verdict=verdict)
 
 @app.route("/search", methods=['GET'])
 def search():
