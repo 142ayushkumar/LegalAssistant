@@ -168,6 +168,8 @@ a
 }
 .footer div {
     margin: 10px;
+    text-align: right;
+    padding-right: 7%;
 }
 .recents {
 
@@ -229,6 +231,9 @@ a
         margin-top: 200px;
     }
     .footer {
+        text-align: center;
+    }
+    .footer div {
         text-align: center;
     }
     .footer ul {
