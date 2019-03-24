@@ -1,25 +1,26 @@
 {
-   "cases": {
-      "2017_S_191": 0.0019900818520823984, 
-      "2013_U_96": 0.0019900818520823984, 
-      "2013_S_358": 0.0028182904777597573, 
-      "2008_L_35": 0.0020895757928906717, 
-      "2007_S_538": 0.0019900818520823984, 
-      "2012_A_68": 0.0019900818520823984, 
-      "2017_S_436": 0.0019900818520823984, 
-      "2012_G_19": 0.0019900818520823984, 
-      "2008_C_238": 0.0023978857085745807
-   }, 
-   "acts": [
-      "Goa Value Added Tax (First Amendment) Act, 2005", 
-      "Goa Value Added Tax (Second Amendment) Act, 2006", 
-      "Goa Value Added Tax (Third Amendment) Act, 2008", 
-      "Goa Value Added Tax Act, 2005", 
-      "Puducherry Value Added Tax (Amendment) Act, 2009", 
-      "Value Added Tax Act, 2002", 
-      "Karnataka Value Added Tax (Amendment) Act, 2011", 
-      "Karnataka Value Added Tax (Amendment) Act, 2006", 
-      "Karnataka Value Added Tax (Amendment) Act, 2012", 
-      "Karnataka Value Added Tax (Amendment) Act, 2015"
-   ]
+ "cases": {
+  "1996_S_445": 0.001998074148677107,
+  "2017_S_144": 0.001998074148677107,
+  "1980_U_4": 0,
+  "1961_U_4": 0.014301998536845455,
+  "1968_S_39": 0.009362467029552402,
+  "2003_U_66": 0.0025186950543041988,
+  "2006_A_45": 0.0024124132809434356,
+  "1965_L_2": 0.003704862372216903,
+  "1974_C_16": 0.030343961506065966,
+  "1978_B_4": 0.004761025760643521
+ },
+ "acts": [
+  "Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016",
+  "Aadhaar (Enrolment and Update) (Fifth Amendment) Regulations, 2018",
+  "Maharashtra Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016",
+  "Acquisition of Certain Area At Ayodhya Act, 1993",
+  "Assam Autonomous Districts Administration of Justice (Miscellaneous Provisions) Act, 1957",
+  "Assam Autonomous Districts Administration of Justice Act, 1960",
+  "Ajmer Development Authority Act, 2013",
+  "Dekkhan Agriculturist's Relief Act, 1879",
+  "Delhi Ancient and Historical Monuments and Archaeological Sites and Remains Act, 2004",
+  "Madras Ancient and Historical Monument and Archaeological Sites and Remains Act, 1966"
+ ]
 }
