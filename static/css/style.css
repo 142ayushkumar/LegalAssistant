@@ -166,7 +166,9 @@ a
 .footer li {
     display: inline-block;
 }
-
+.footer div {
+    margin: 10px;
+}
 .recents {
 
     max-width: 960px;
