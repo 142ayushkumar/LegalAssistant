@@ -12,10 +12,20 @@
     <link rel="stylesheet" href="../static/css/search_results_style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="../static/img/logo.png" rel="shortcut icon" type="image/png"/>
     <title>Search Results</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
+    <script>
+        $(function () {
+            if ($('[type="date"]').prop('type') != 'date') {
+                $('[type="date"]').datepicker();
+            }
+        });
+    </script>
 
 </head>    
 <body>
@@ -23,9 +33,12 @@
 
 <div class="head-wrap">
     <div class="header">
-        <div class="logo">
-            <img src="../static/img/nav-logo.png">
-        </div>
+        <a href="/" style="text-decoration: none; color: white">
+            <div class="logo">
+                <img src="../static/img/nav-logo.png">
+            </div>
+        </a>
+
         <div class="search">
             <div class="clearfix">
                 <div class="search-box-wrap">
@@ -60,7 +73,9 @@
     </div>
 </div>
 
+    <div class="sidebar">
 
+    </div>
     
     <div class="main">
         
