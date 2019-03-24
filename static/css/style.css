@@ -1,4 +1,6 @@
-html 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html
 {
     box-sizing: border-box;
 }
@@ -187,6 +189,10 @@ a
 }
 .recents ul li:nth-of-type(2n) {
     background-color: lightgray;
+}
+
+.recent-selected {
+    background-color: lightcyan;
 }
 @media only screen and (max-width: 1500px) {
     .filters .filter-icon {
