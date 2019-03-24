@@ -6,8 +6,7 @@ from nltk import word_tokenize
 from nltk.tokenize import RegexpTokenizer
 from bing_spell_check_api import *
 
-basic_file_path = '/'
-abb_path = '/'
+
 
 
 def cal(x):
@@ -19,9 +18,9 @@ def cal(x):
 
 def get_related_acts(search_query):
 
-	file = open(basic_file_path	+ 'actlist.txt' , 'r')
+	file = open('actlist.txt' , 'r')
 
-	abb_file = open(abb_path + 'abbreviation_mapping.json', 'r')
+	abb_file = open('abbreviation_mapping.json', 'r')
 	abb_dict = json.load(abb_file)
 	acts = []
 	
@@ -66,7 +65,7 @@ def get_related_acts(search_query):
 def get_related_cases(rel_acts):
 	
 
-	f = open(basic_file_path + 'act_to_cases.json','r')
+	f = open('act_to_cases.json','r')
 
 	act_to_case_dict = json.load(f)
 	cases = []
@@ -103,7 +102,7 @@ if __name__ == '__main__':
 	cases = list(cases)
 	cases = cases[:min(10,len(cases))]
 	# print(cases)
-	f = open(basic_file_path +'case_ranking.json','r')
+	f = open('case_ranking.json','r')
 	rankings = json.load(f)
 	# print(rankings[:10])
 	copy_rankings = {}
