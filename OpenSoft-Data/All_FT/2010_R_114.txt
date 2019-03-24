@@ -1,9 +1,3 @@
-B.S.N.L. v Reliance Communication Ltd.
-Supreme Court of India
-
-29 November 2010
-CIVIL APPEAL NO. 6706 OF 2010
-The Judgment was delivered by: S.H.Kapadia, J.
 1. Whether cl. 6.4.6 of the Interconnect Agreement between Bharat Sanchar Nigam Limited (BSNL) and M/s. Reliance Infocomm Limited is penal or a pre-estimate of damages is the question which arises for determination in this civil appeal?
 Facts
 2. On 18th March, 1997, Reliance had entered into BSO Interconnect Agreement with Department of Telecommunications (DoT) for interconnection of their networks within their respective circles. In October, 2000, with its establishment, the BSNL took over from DoT the aforementioned BSO Agreement. In November, 2003, the BSO regime was replaced by Unified Access Services regime which granted the licence to service providers for both basic and mobile telephony services as part of a single unified licence. Reliance was allowed to operate as a Unified Access Service provider from November 14, 2003 though it was formally granted the Unified Access Service Licence on 21st September, 2004 with effect from 14th November, 2003. By an addenda dated 28th February, 2006, the agreement was formally amended with retrospective effect from 14th November, 2003. The Agreement deals with local calls, national long distance calls (NLDC) and international long distance calls (ILD). Calls of each trunk group are connected through dedicated ports and are chargeable at rates different from other trunk groups. Hence, depending on the number of calls handled by a particular port, charges are levied by BSNL on Reliance, at the rate of the existing call charges payable for that particular trunk group.

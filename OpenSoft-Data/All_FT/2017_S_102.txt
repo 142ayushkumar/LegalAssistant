@@ -1,9 +1,3 @@
-Securities and Exchange Board of India and others v Kanaiyalal Baldevbhai Patel and others
-Supreme Court of India
-
-20 September 2017
-Civil Appeal No. 2595 of 2013, Civil Appeal No. 2596 of 2013, Civil Appeal No. 2666 of 2013, Civil Appeal No. 5829 of 2014, Civil Appeal No. 11195-11196 of 2014
-The Judgment was delivered by : N.V. Ramana, J.
 1. The important question of law, arising in these batch of cases, being similar and the facts involved being largely comparable, all the appeals were heard together and are being decided by this common judgment.
 2. This case revolves round the legality of 'non-intermediary front- running' in security market under the SECURITIES AND EXCHANGE BOARD OF INDIA (PROHIBITION OF FRAUDULENT AND UNFAIR TRADE PRACTICES RELATING TO SECURITIES MARKET) REGULATIONS, 2003 [hereinafter 'FUTP 2003' for brevity]. As SEBI Appellate Tribunal [hereinafter 'SAT' for brevity] has taken two different views in different cases appealed herein, Securities and Exchange Board of India [herein after 'SEBI' for brevity] as well as private individuals, who are alleged to have been involved in front running, are in appeal before us.
 3. A brief factual background would be necessary before we deal with the question of law that has arisen in this case instant. Broadly to understand the issue at hand, the facts in CIVIL APPEAL NO. 2595 OF 2013 AND 2596 OF 2013 (related cases) may be stated in brief. SEBI investigated into the activities of Shri Kanaiyalal Baldevbhai Patel [herein after 'KB' for brevity] an individual trader. During the investigation, it was found that KB was putting orders ahead of orders placed by Passport India Investment (Mauritius) Ltd. [herein after 'PII' for brevity]. One Dipak Patel, was the portfolio manager of PII, who also happens to be a cousin of KB and one Shri Anandkumar Baldevbhai Patel [herein after 'AB' for brevity].

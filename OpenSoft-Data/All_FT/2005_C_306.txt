@@ -1,9 +1,3 @@
-State of Uttar Pradesh and another v Cyber InfoTech and another
-Supreme Court of India
-
-27 July 2005
-C.As. Nos. 4553-54 of 2005 (Arising out of S.L.Ps. (C) Nos. 23580-81 of 2002) with C.As. Nos. 4555-56 of 2005 (Arising out of S.L.Ps. (C) Nos. 809-10 of 2003)
-The Judgment was delivered by: P. Venkatarama Reddi, J.
 Leave granted.
 1.  The first respondent Cyber Infotec (hereinafter referred to as writ petitioner) filed writ petition under Article 226 of the Constitution in the High Court of Allahabad, seeking issuance of a writ directing the State of U.P. and the Transport Department of the State, not to enforce the condition referred to in clause 4.2.2(i) of the tender document for the preparation of vehicular smart cards insofar as it requires the insertion of optical strip in the smart card. The provision for issuing the smart card at the time of registration for storing the details set out in the pro forma of the registration certificate (Form 23-A of the Central Motor Vehicles Rules, 1989) was prescribed under the said Rules by way of amendments brought out on 31-5-2002. A definition of "smart card" was introduced in Rule 2 (s), which reads as follows:
 "2. (s) 'Smart card' means a device capable of storing data and executing commands, which is a single chip microprocessor, mounted on a plastic card and the dimensions of the card and chip are as specified in ISO- 7816 specifications, as may be amended from time to time."

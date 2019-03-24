@@ -10,11 +10,25 @@
     background-color: black;
     padding: 20px;
     position: fixed;
-    left: 0;
-    right: 0;
     top: 0;
+    left:0;
+    right: 0;
     box-shadow: 0 0 30px 2px lightgray;
-
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+}
+.hide-me {
+    animation: smoothScroll 1s forwards;
+}
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-200px);
+    }
 }
 .header .icon {
     float: left;
@@ -67,6 +81,21 @@
     right: 5%;
     top: 25%;
     padding: 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+}
+.move-me {
+    animation: move-up 1s forwards;
+}
+@keyframes move-up {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-25%);
+    }
 }
 .sidebar .similar-cases, .sidebar .acts-cited {
     padding: 10px;
@@ -139,7 +168,7 @@
 .clearfix::after {
     display: table;
     content: "";
-    clear both;
+    clear: both;
 }
 @media only screen and (max-width: 1500px) {
     .article {

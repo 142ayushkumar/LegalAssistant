@@ -1,9 +1,3 @@
-Commissioner of Income Tax v Sundaram Spinnings Mills
-Supreme Court of India
-
-15 December 1999
-Appeal (Civil) 7434 of 1997
-The Judgment was delivered by : A. P. Misra, J.
 1.  This appeal challenges the decision of the Madras High Court in reference under Section 256(1) of the Income Tax Act, 1961, in which the following question was referred by the Income Tax Appellate Tribunal at the instance of Revenue which was adjudicated against it.
 "Whether, on the facts and in the circumstances of the case, the Appellate Tribunal is justified in law in holding that the manufacture of yam would amount to manufacture of textile within the meaning of Entry 21 of the Ninth Schedule and therefore the Assessee is entitled to higher rate of initial depreciation"?
 2.  This appeal is for the assessment year 1976-77: The respondent Assessee is a firm engaged in the business of manufacture of yam. It claimed higher rate of initial depreciation on the machinery employed in the manufacture of yarn on the ground that its manufacturing product, viz., 'yarn' falls under Item No.21 of Ninth Schedule to the Income Tax Act, I961 The view of the Assessing Authority as supported by the Inspecting Assistant Commissioner was that the manufacture of cotton yarn did not amount to manufacture of "textile". Yam was the material or component with which the "textiles" are manufactured and since in Item No, 21, word "textile" is used, manufacture of yam is not covered under Item No. 21.

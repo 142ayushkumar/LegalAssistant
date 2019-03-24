@@ -1,9 +1,3 @@
-Securities and Exchange Board of India v Icap India Private Limited
-Supreme Court of India
-
-24 November 2015
-Civil Appeal No. 5275 of 2006
-The Judgment was delivered by : Shiva Kirti Singh, J.
 1. This appeal under Section 15Z of the Securities & Exchange Board of India Act, 1992 (for brevity, 'the SEBI Act') has been preferred by the Securities & Exchange Board of India (for brevity, 'the SEBI') to challenge the judgment and order dated 14.08.2006 passed by the learned Securities Appellate Tribunal (hereinafter referred to as 'the SAT') in Appeal No.56 of 2004.
 2. The substantial question of law falling for determination involves interpretation of the term 'annual turnover' as it finds mention in the Explanation after Schedule III to the Securities & Exchange Board of India (Stock Brokers & Sub- brokers) Regulations, 1992 (for brevity, 'the Regulations'). The aforesaid Explanation reads as follows :
 "Explanation. - For the purpose of "annual turnover" means the aggregate of the sale and purchase prices of securities received and receivable by the stock broker on his own account as well as on account of his clients in respect of sale and purchase or dealing in securities during any financial year."
