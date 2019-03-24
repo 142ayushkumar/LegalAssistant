@@ -2,18 +2,17 @@
 From the query of type 3, extracts the case files
 '''
 import re
-from nltk.corpus import stopwords 
+from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import json
 stop_words = set(stopwords.words('english'))
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 '''
-Use the dictionaries 'Cases_from_caseName.json', 'States.json' and 'reduced_dictionary.json' 
+Use the dictionaries 'Cases_from_caseName.json', 'Case_Abbreviations_Dictionary.json' and 'reduced_dictionary.json' 
 in the same directory as this code file.
 Function for Query 3    
- - Returns the possible cases (case id) along with the priority in form of a score (max 200)
- - Number of parties has to be tweaked
+ - Writes the possible cases (case id) along with the priority in form of a score (max 20) as a dictionary in Query_3_results.json
 '''
 def query_3(query):
 
@@ -102,13 +101,7 @@ def query_3(query):
         def sortSecond(val):
             return val[1]
         selected_cases.sort(key = sortSecond, reverse=True)
-        #select=[]
-        #for i in selected_cases:
-        #    select.append(i[0])
-        #final_list = [] 
-        #for name in select: 
-        #    if name not in final_list: 
-        #        final_list.append(name) 
+
         d={}
         for file in selected_cases:
             d[file[0]]=file[1]
