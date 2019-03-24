@@ -8,12 +8,52 @@
   <meta name="keywords" content="Legal Assistant, Legal Query, Cases, Acts, Legal Help" />
   <meta name="author" content="Open Soft" />
   <link rel="stylesheet" href="../static/css/style.css">
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+  <script src="../static/js/script.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- For fa fa-angle-down -->
-
   <style>
         @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
   </style> 
+  <script>
+    var data = [
+    {
+        id: 0,
+        text: 'enhancement'
+    },
+    {
+        id: 1,
+        text: 'bug'
+    },
+    {
+        id: 2,
+        text: 'duplicate'
+    },
+    {
+        id: 3,
+        text: 'invalid'
+    },
+    {
+        id: 4,
+        text: 'wontfix'
+    }
+];
+
+$(".js-example-data-array").select2({
+  data: data
+})
+
+// In your Javascript (external .js resource or <script> tag)
+$(document).ready(function() {
+    $('.js-example-basic-single').select2();
+});
+
+  </script>
 
 </head>
 
@@ -63,7 +103,6 @@
         </div>
     </div>
     </form>
-
     </div>
     <div class="recents">
         <img src="../static/img/recent.png" alt="Recent">

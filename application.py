@@ -39,18 +39,17 @@ def index():
     end_date = request.args.get('to')
     print(f"query is {query}, category is {category}, acts is {acts}, judge is {judge}, start date is {start_date}")
     #Add this search in recents
-    recent = session["recent"]
     store = ""
     store = make_recent(query=query, category=category, acts=acts, judge=judge, store=store)
     if len(store) < 1:
         if 'recent' not in session:
             session["recent"] = []
         recents = session["recent"]
-        for x in recents:
-            print(f"x is {x}")
         return render_template('index.html', recents=recents)
-    print(store)
-    session["recent"].append(store)
+    if len(session["recent"]) >= 5:
+        print("here")
+        session["recent"] = session["recent"][0:5]
+    session["recent"] = [store] + session["recent"]
     # get results
     output = get_result(query=query, category=category, acts=acts, judge=judge, start_date=start_date, end_date=end_date)
     # pass the list to be displayed to index.html and render index.html
