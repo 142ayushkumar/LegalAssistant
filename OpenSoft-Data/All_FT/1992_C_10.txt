@@ -1,9 +1,3 @@
-Calcutta Electric Supply Company Limited v Commissioner of Income Tax
-Supreme Court of India
-
-15 January 1992
-C.A. No. 161 of 1977 and 212 of 1980
-The Judgment was delivered by: S. RANGANATHAN, J.
 1.  The appellants are all electric supply undertakings situated in various parts of the country. All the appeals relate to the assessment year 1962-63 or later. They raise a common question regarding the computation of depreciation on service lines installed by the assessees, a part of the expenditure incurred in connection with the installation of which is recovered by the assessees from consumers of electricity Depreciation, under the Income-tax Act, 1961, is computed as a percentage of the "written down value" of the asset in question. The Income Tax Act, 1961, came into force on April 1, 1962. S. 43(6) of the Act defines "written down value" thus:
 "'written down value', means:
 (a) in the case of assets acquired in the previous year, the actual cost to the assessee;
