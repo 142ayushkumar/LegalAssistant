@@ -4,13 +4,10 @@ from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 from nltk import word_tokenize
 from nltk.tokenize import RegexpTokenizer
-
-import sys
-sys.path.insert(0, '../')
 from bing_spell_check_api import *
 
-basic_file_path = '../data/'
-abb_path = '../Abbreviations/'
+basic_file_path = '/'
+abb_path = '/'
 
 
 def cal(x):
