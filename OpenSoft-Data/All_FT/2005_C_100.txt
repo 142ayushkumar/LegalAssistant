@@ -1,0 +1,19 @@
+Collector of Central Excise v Delton Cables Limited
+Supreme Court of India
+
+15 February 2005
+C.A. Nos. 5113-5115 of 1999
+The Order of the Court was as follows:
+1. The question in these appeals is whether the coiled cord (which is a PVC insulated tinsel thread fitted between the receiver and the main telephone apparatus) is classifiable under Tariff Heading 85.44 or 85.17 of the Central Excise and Tariff Act, 1985 as it stood at the relevant period in question which is 1990-91. The two competing headings, are as follows:
+85.17 "Electric apparatus for line telephony or line telegraphy, including such apparatus carrier-current line system"
+85.44 "Insulate (including, enamelled or anodised) wire, cable (including coaxial) and other insulated electric conductors, whether or not fitted with connections, optical fibre cables, made up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connections."
+2. The Assistant Collector, relying upon Section Note 2(a) to 2(b) to S. 16 within which the relevant headings fall came to the conclusion that the goods in question were to be classifiable under Tariff Heading 85.17. The Collector, however, was of the view that Section Note 2(b) would only operate as a residuary clause after exhausting 2(a) of Section Note 2 and, accordingly, classified it under Tariff Heading 85.44.
+The Tribunal, however, reversed the decision of the Collector by relying on second Section Note 2(b) without considering Section Note 2(a) at all.
+3. There appears to be no dispute that were it not for the Section Note 2(b), the item in question would be classified under Tariff Heading 85.44 as contended by the appellant. Section Note 2(a) and (b) respectively provide as follows:
+"(a) Parts which are goods included in any of the headings of Chapter 84 or Chapter 85 (other than Heading Nos. 84.85 and 85.48) are in all cases to be classified in their respective headings,
+(b) Other parts, if suitable for use solely or principally with a particular kind of machine, or with a number of machines of the same heading (including a machine of Heading No. 84.79 or Heading No. 85.43) are to be classified with the machines of that kind. However, parts which are equally suitable for use principally with the goods of Heading Nos. 85.17 and 85, 25 to 85.28 are to be classified in Heading 85.17."
+4. It is clear from a reading of the two clauses to the Section Note that Clause-b would only apply once it was found that the items in question were not specifically classifiable under their respective headings.
+"As has been clearly said by the Collector (Appeals) from the sequence of the paragraphs given under Section Note 2 it is clear that the question of switching over to Section Note 2(b) can arise only after ensuring that the parts are not covered by Section Note 2(b) which begins with the expression "other parts" meaning thereby that the parts which are not covered by Section Note 2(a) would be considered for coverage by Section Note 2(b). One cannot therefore directly jump over to Section Note 2(b) without exhausting the possibility of Section Note 2(a)."
+5. In our opinion, the Tribunal erred in wholly ignoring Section Note 2(a) and only considering the applicability of 2(b). The decision is, therefore, erroneous and we, accordingly set it aside.
+6. The appeals are allowed but without any order as to costs.
+Appeals allowed.

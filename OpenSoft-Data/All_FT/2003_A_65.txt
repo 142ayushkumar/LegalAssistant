@@ -1,0 +1,47 @@
+National Insurance Co.Ltd v Ajit Kumar And Ors
+Supreme Court of India
+
+2 September 2003
+Appeal (civil) 6915-6916 of 2003 (Arising out of SLP(C) Nos. 18242-18243/2002)
+The Judgment was delivered by : Arijit Pasayat, J.
+Leave granted.
+1.  The only question raised in these appeals is whether the insurer is liable to pay the compensation under the Motor Vehicles Act, 1988 (in short the 'Act') for the death or bodily injury to a person traveling in goods vehicle as passenger. Liability of the insurer was fixed by relying on this Court's decision in New India Assurance Co. Ltd. v. Satpal Singh (2000 (1) SCC 237 1999 Indlaw SC 493).
+2.  Factual aspects need not be gone into in detail, as there is practically no dispute on the factual aspects.
+3.  Learned counsel for the insurer-appellant submitted that Section 149 (2) of the Act is etymologically different from proviso (ii) to Section 96 (2)(b) of the Motor Vehicles Act 1939 (hereinafter referred to as the 'old Act') and, therefore, the ratio in Satpal Singh's case 1999 Indlaw SC 493 (supra) has no application. In response, learned counsel appearing for the claimants submitted that in the said case such a stand has been negatived and it has been held that insurer is liable to pay compensation to gratuitous passengers.
+4.  This Court had occasion to deal with cases of passengers traveling in goods vehicles which met with accident resulting in death of such person or bodily injury.
+Such cases belong to three categories i.e.
+(1) those covered by the old Act;
+(2) those covered by the Act; and
+(3) those covered by amendment of the Act in 1994 by the Motor Vehicles (Amendment) Act, 1994 (hereinafter referred to as the 'Amendment Act').
+The present appeals belong to the second category.
+5.  In Satpal Singh's case 1999 Indlaw SC 493 (supra) this Court proceeded on the footing that provision of Section 95(1) of the old Act is in pari materia with Section 147(1) of the Act, as it stood prior to the amendment in 1994.
+6.  On a closer reading of the expressions "goods vehicle", "public service vehicle", "stage carrier" and "transport vehicle" occurring in Sections 2(8), 2(25), 2(29) and 2(33) of the old Act with the corresponding provisions i.e. Section 2(14), 2(35), 2(40) and 2(47) of the Act, it is clear that there are conceptual differences. The provisions read as follows:
+Old Act:
+"2(8) "goods vehicle" means any motor vehicle constructed or adapted for use for the carriage of goods, or any motor vehicle not so constructed or adapted when used for the carriage of goods solely or in addition to passengers;"
+"2(25) "public service vehicle" means any motor vehicle used or adapted to be used for the carriage of passengers for hire or reward, and includes a motorcab, contract carriage, and stage carriage;"
+"2(29) "stage carriage" means a motor vehicle carrying or adapted to carry more than six persons excluding the driver which carries passengers for hire or reward at separate fares paid by or for individual passengers, either for the whole journey or for stages of the journey;"
+"2(33) "transport vehicle" means a public service vehicle or a goods vehicle;" New Act:
+"2(14) "goods carriage" any motor vehicle constructed or adapted for use solely for the carriage of goods, or any motor vehicle not so constructed or adapted when used for the carriage of goods;"
+"2(35) "public service vehicle" means any motor vehicle used or adapted to be used for the carriage of passengers for hire or reward, and includes a maxicab, a motorcab, contract, and stage carriage;"
+"2(40) "stage carriage" means a motor vehicle constructed or adapted to carry more than six passengers excluding the driver for hire or reward at separate fares paid by or for individual passengers, either for the whole journey or for stages of the journey;"
+"2(47) "transport vehicle" means a public service vehicle, a goods carriage, an educational institution bus or a private service vehicle;"
+(Underlined for emphasis)
+"Liability" as defined in Section 145(c) of the Act reads as follows:
+"'Liability' wherever used in relation to the death of or bodily injury to any person, includes liability in respect thereof under Section 140;"
+7.  Third party risks in the background of vehicles which are subject-matter of insurance are dealt with in Chapter VIII of the old Act and Chapter XI of the Act. Proviso to Section 147 needs to be juxtaposed with Section 95 of the old Act. Proviso to Section 147 of the Act reads as follows:
+"Provided that a policy shall not be required-
+(i) to cover liability in respect of the death, arising out of and in the course of his employment, of the employee of a person insured by the policy or in respect of bodily injury sustained by such an employee arising out of and in the course of his employment other than a liability arising under the Workmen's Compensation Act, 1923 (8 of 1923) in respect of the death of, or bodily injury to, any such employee -
+(a) engaged in driving the vehicle, or (b)if it is a public service vehicle engaged as conductor of the vehicle or in examining tickets on the vehicles, or (c)if it is a goods carriage, being carried in the vehicle, or
+(ii)to cover any contractual liability." It is of significance that proviso appended to Section 95 of the old Act contained clause (ii) which does not find place in the new Act.
+The same reads as follows:-
+"except where the vehicle is a vehicle in which passengers are carried for hire or reward or by reason of or in pursuance of a contract of employment, to cover liability in respect of the death of or bodily injury to persons being carried in or upon or entering or mounting or alighting from the vehicle at the time of the occurrence of the event out of which a claim arises."
+8.  The difference in the language of "goods vehicle" as appearing in the old Act and "goods carriage" in the Act is of significance. A bare reading of the provisions makes it clear that the legislative intent was to prohibit goods vehicle from carrying any passenger. This is clear from the expression "in addition to passengers" as contained in definition of "goods vehicle" in the old Act. The position becomes further clear because the expression used is "goods carriage" is solely for the carriage of goods". Carrying of passengers in a goods carriage is not contemplated in the Act.
+9.  There is no provision similar to clause (ii) of the proviso appended to Section 95 of the old Act prescribing requirement of insurance policy. Even Section 147 of the Act mandates compulsory coverage against death of or bodily injury to any passenger of "public service vehicle". The proviso makes it further clear that compulsory coverage in respect of drivers and conductors of public service vehicle and employees carried in goods vehicle would be limited to liability under the Workmen's Compensation Act, 1923 (in short 'WC Act'). There is no reference to any passenger in "goods carriage'.
+10.  The inevitable conclusion, therefore, is that provisions of the Act do not enjoin any statutory liability on the owner of a vehicle to get his vehicle insured for any passenger traveling in a goods carriage and the insurer would have no liability therefor.
+11.  Our view gets support from a decision of a three-Judge Bench in New India Assurance Co. Ltd. v. Asha Rani and Ors. (2003 (2) SCC 223 2002 Indlaw SC 1460) and Oriental Insurance Co. Ltd. v. Devireddy Konda Reddy and Ors. (2003 (2) SCC 339) 2003 Indlaw SC 46
+12.  Learned counsel for the respondents submitted that respondent No.1 should be permitted to avail such remedies as are available in law for recovering any amount to be paid as compensation from a person liable to pay compensation at the first instance.
+No permission is necessary for such purpose.
+13.  If respondent No.1 has any remedy in law it is open to pursue it in accordance with law.
+14.  The appeals are allowed by setting aside the judgment of the Tribunal and the High Court.
+There shall be no order as to costs.
+Appeal allowed

@@ -1,0 +1,27 @@
+Commissioner Of Customs, Ahmedabad v Gujarat Small Scale Industries Corporation
+Supreme Court of India
+
+29 April 2008
+Appeal (Civil) 3084 Of 2008, (Arising Out Of Slp(C) No. 20222/2006)
+The Order of the Court was as follows:
+1. Leave granted.
+2. This Civil Appeal is directed against the judgment dated 11th May, 2006 delivered by Customs, Excise and Service Tax Appellate Tribunal in Appeal No. C/607/Mumbai.
+3. The short question involved in this Civil Appeal is whether there was mis- declaration of goods imported, namely, Polyethylene (prime/virgin) mis-declared as Polyethylene-Wide-Spec. with the intention to evade duty?
+4. Briefly, the facts are as under:
+Respondent - importer imported 1485 MT of goods declaring them as "Polyethylene Wide Specs" @ US $ 410 PMT against 13 Bill of Entries. The department had some doubts about the genuineness of the value declared by the importer. They asked the respondent to produce manufacturer's invoice for which the importer expressed their inability to produce the same. At this stage, it may be noted that we are concerned with the period February, 1996 to April, 1996. At the relevant time respondent was a State Government owned Corporation. The Custom Officers drew 4 samples from different containers and forwarded the same to CIPET at Ahmedabad for testing the samples.
+The query raised by the department with the Institute was whether the subject samples tallied with the Quality Certificate furnished by the respondent. That certificate is dated 18th December, 1995 (see page 93 of the paper book). That certificate indicates importation of Polyethylene Wide Specs material on the basis of two relevant factors, namely, Melt Flow Index and Density. We quote herein below the said Certificate.
+"DECEMBER 18, 1995
+QUALITY CERTIFICATE
+THIS IS TO CERTIFY THAT 1485 MT POLYTHYLENE WIDE SPECS SHIPPED TO M/S GUJARAT SMALL INDUSTRIES CORPORATION LTD., AHMEDABAD, INDIA, THROUGH M/S G.A. INTERNATIONAL, DUBAI (U.A.E.) PER VESSEL MV "MED.TIKYO" V.102W VIDE B/L NO. SINCY 610 AND SINCY 611 DATED DECEMBER 18, 1995 IS POLYETHYLENE WIDE SPECS MATERIAL HAVING FOLLOWING CHARACTERISTICS:
+Sd/-
+Iector Moreno
+Technical Department
+Teshas Lineales, RESILIN, C.A.
+Complejo Petroqulmico Fi Tablazo,
+Venezuela."
+5. It is important to note that the Test Reports submitted by CIPET show the comparative test values in terms of Melt Flow Index and Density. The Test Certificate indicates that samples drawn from each container separately give a wide range of test values in terms of two factors, namely, Melt Flow Index and Density. For example, in the Test Report No. 686(a) dated 30th July, 1996 the Melt Flow Index has a Test Value of 3.4 whereas in the Test Report No. 686(b) for the same factor the Test Value is 3.3. It is 4.07 in Test Report No.687(a). Same is the position with regard to Density. In Test Report No.686 (a) Density is given as 0.950, whereas in the subsequent Test Report No.686(b) the Test Value in terms of Density is 0.948 and it is 0.934 in Test Report No.687(a) and so on. These Test Reports, therefore, support the Quality Certificate dated 18th December, 1995 which indicates a wide range of the grades given in terms of two main factors, namely, MFI and Density. The problem arose on mis-interpretation of the Test Reports.
+According to the department the imported material does not have Wide Spec gradation because the Test Values remain constant, for example, in the Test Report No.686(a) the Test Value in terms of MFI is 3.4 and 3.4 as mentioned in the last column. However, fallacy is that two samples are drawn from the same container and therefore the resultant figures in terms of Test Value remains the same. However, when samples are drawn from different containers the grades differ as discussed hereinabove.
+6. For the aforestated reasons, we are of the view that there was no reason for the department, on the facts and circumstances of this case, to reject the transaction value which is in consonance with the contract value.
+7. One more aspect needs to be mentioned. In the present case, as can be seen from the Contract/Sale Confirmation dated 20th November, 1995, the item is imported from Venezuela. The quantity is 1500.000 MT imported in 25 KG bags. Therefore, looking to the quantity involved and the price at US $ 410 per MT along with Wide Range of test values there was no need to reject the transaction value.
+8. Accordingly, we find no merit in the Civil Appeal and the same is dismissed with no order as to costs.
+Appeal dismissed.

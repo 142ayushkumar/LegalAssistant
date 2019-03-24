@@ -1,0 +1,18 @@
+Graphite India Limited v Commissioner of Central Excise, West Bengal
+Supreme Court of India
+
+9 March 2004
+C.A. No. 3516 of 1998
+The Order of the Court was as follows:
+1.  This appeal is against the order passed by the Customs, Excise and Gold (Control) Appellate Tribunal dated March 30, 1998. Briefly stated, the facts are as follows:
+2. The Appellants are the manufacturers of graphite electrodes and anodes. It is admitted that the final product would fall under Tariff Item 67. During the course of manufacture of the final products, certain intermediate products come into existence which are known as green blanks, baked blanks, pitch impregnated blanks and rebaked blanks. The appellants, during the material period, removed some of these blanks to their sister concern at Bangalore under the procedure laid down in Rule 56B of the Central Excise Rules. After graphitisation the final product was cleared on payment of duty under Tariff Item 67. The Appellants also cleared certain blanks by selling the same to M/s. Carbon Corporation Ltd. These, however, were cleared by payment of duty under Tariff Item 68.
+3.  Show cause notices were issued to the Appellants claiming differential duty on the basis that the blanks sold to M/s. Carbon Corporation Ltd. were classifiable under Tariff Item 67 and not under Tariff Item 68. The Assistant Col- lector held that the correct classification is under Tariff Item 67 and confirmed demand of the differential duty of Rs. 34/85, 483.36. The Collector of Central Excise (Appeals) dismissed the Appeal preferred by the Appellants. The Tribunal has, by the impugned order, dismissed the Appeal.
+The question for consideration is:
+"Whether the blanks are classifiable under Tariff Item 67 or Tariff Item 68?"
+The Tariff Items read as follows:
+Item 67-Graphite Electrodes Anodes
+Item 68-All Other Goods, N.E.S.
+4.  It is submitted that for preparation of graphite electrodes (in its final form) the product has to be baked at temperatures well above 2000 degree C whereas the blanks are baked at much lower temperatures. It is submitted that the blanks cannot be equated to electrodes inasmuch as they do not conduct electricity. In our view the temperatures at which the products are baked and the fact that blanks do not conduct electricity is entirely irrelevant. What has to be considered is the wording of Tariff Item 67. If Tariff Item 67 had only covered graphite electrodes then it could have been argued that the blanks cannot be said to be graphite electrodes.  However, Tariff Item 67 also contains the words "all sorts". It could not be shown to us that the final product, i.e., graphite electrodes had any varieties. Therefore, the words "all sorts" necessarily includes graphite electrodes in various stages of preparation. The authorities below have found on facts and this is supported by the literature produced by the Appellants that the blanks are also known as electrodes and that they contain the same properties as the final product. This being a finding of fact we see no reason to take a different view.
+5.  Even otherwise, we find substance in the reasoning of the Tribunal that the Appellants are themselves clearing the product, sent to the sister concern, under Rule 56B by classifying the product under Tariff Item 67 and showing them as the semi-finished goods. The blank could only be a semi-finished goods provided it is an electrode. Thus in respect of the sale transactions it would not be open to the appellants to claim that this is a completely independent product.
+6.  For the above reasons, we see no reason to interfere. The Appeal stand dismissed. There will be no order as to costs.
+Appeal dismissed.

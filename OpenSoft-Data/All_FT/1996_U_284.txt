@@ -1,0 +1,37 @@
+Union of India v Indian Leads Private Limited
+Supreme Court of India
+
+6 February 1996
+C.A. No. S.L.P. (C) No. 10464 of 1989, [Arising as an appeal against 1988 (38) E.L.T. 23 (Bom.)]
+The Order of the Court was as follows:
+1. Leave granted.
+2. This appeal is from the judgment of the Division Bench of the Bombay High Court allowing the writ appeal preferred by the respondent-assessee. The writ petition filed by the respondent was dismissed by the learned Single Judge. The question herein pertains to the interpretation of Notification No. 33 of 1981, dated March 1, 1981. The Notification reads as follows:
+"Exemptions to waste or scrap of copper, zinc, aluminium and lead.
+In exercise of the powers conferred by sub rule (1) of rule 8 of the Central Excise Rules, 1944, the Central Government hereby exempts waste or scrap of copper, zinc, aluminium and lead, falling under Item Numbers 26A, 26B, 27 and 27A, respectively, of the First Schedule to the Central Excises and Salt Act, 1944 (1 of 1944), from the whole of the duty of excise leviable thereon subject to condition that:
+(a) such waste or scrap are manufactured from copper, zinc, aluminium or lead, falling under Item Numbers 26A, 26B, 27 and 27A respectively, of the said First Schedule on which appropriate amount of duty of excise, or, as the case may be, the additional duty leviable u/s. 3 of the Customs Tariff Act, 1975 (51 of 1975) has already been paid; or
+(b) such waste or scrap arise from products falling under any Item Numbers of the said First Schedule other than Item Numbers 26A, 26B, 27 and 27A manufactured from the said copper, zinc, aluminium or lead."
+3. The question is whether the requirement in clause (a), viz., that the metal (lead in this case) should be duty paid has to be read into cl. (b) as well. Revenue says, it should be so read. The High Court has rejected that contention.
+4. We will first state the facts which give rise to the said question. The respondent assessee is engaged in the manufacture of lead products. In the course of its business, it imported large quantities of lead scrap consisting of whole drained scrap batteries, battery plate scrap and cable lead scrap. The authorities levied countervailing duty upon the said imported goods as provided in Tariff Item 27A(2) in the First Schedule to the Central Excises and Salt Act as in force on the relevant date. The respondent's contention, however, was that by virtue of the aforesaid Notification, the goods of the said nature were exempt from excise duty and hence, no countervailing duty should be charged. This contention was rejected by the first authority and, on appeal, by the appellate authority. It is then that the respondent approached the High Court by way of writ petition. Though the learned Single Judge did not agree with the submission of the respondent the Division Bench did and that is how, the Revenue is in appeal before us.
+5. Tariff Item 27A referred to in the Notification read thus:
+"27A - LEAD
+Tariff Item Description of Goods Rate of duty No. Basic Special Excise
+27A LEAD (1) Unwrought, including ingots pigs, Rs. 10% of blocks, anodes, slabs cakes and 840/- the basic cast sticks per duty metric chargeable tonne.
+(2) Waste and scrap Rs. -do- 840/- per metric tonne.
+Explanation I. - 'Lead' shall include any alloy in which lead predominates by weight over each of the other metals.
+Explanation II. - 'Waste and scrap' means waste and scrap of lead fit only for the recovery of metal or for use in the manufacture of chemicals, but does not include slag, ash and other residues."
+6. We may also read at this stage Tariff Item 31, which reads thus:
+" 31 - ELECTRIC BATTERIES
+Tariff Description of Goods Rate of duty Item No. ------------ Basic Special Excise
+31. ELECTRIC BATTERIES AND PARTS THEREOF.
+(1) Dry 25% 10% of the Adv. basic duty chargeable
+(2) Storage 20% -do- Adv.
+(3) Parts of storage batteries the following 25% -do- "
+namely containers, covers and plates. Adv.
+7. On a reading of the notification, we are inclined to agree with the conclusion arrived at by the Division Bench of the High Court.
+Firstly, cl. (b) does not say, as does clause (a), that the lead or other metal referred to therein should be duty paid.
+Secondly, while cl. (a) speaks of waste or scrap manufactured from copper, zinc, aluminium or lead, cl. (b) speaks of waste or scrap arising from products falling under Tariff Items other than 26A, 26B, 27 and 27A provided they are manufactured from copper, zinc, aluminium or lead.
+Since the waste or scrap is not arising from the metals as such but from other products made from those metals and the presumption being that those goods will necessarily be duty paid the notification does not provide that the lead or other metal referred to in cl. (b) should also be duty paid. We are unable to agree with Sri Bajpai, learned counsel for the Revenue, that because of the use of the word "said" in cl. (b) preceding the words "copper, zinc, aluminium or lead, the aforesaid requirement in cl. (a) must be read into cl. (b). The contention is that the use of word "said" refers to the duty paid copper, zinc, aluminium or lead in cl. (a). The submission is untenable the plain language of the notification and also having regard to its object.
+8. But then the question arises as to the entitlement of the respondent to refund of the duty paid by him. Sri Murthy says that this is not a proceeding relating to refund. We cannot agree. The respondent applied for refund and when that was declined, he filed the writ petition from which this appeal arises. It cannot but be an extension of the refund proceedings. Once this is so, the 1991 Amendment Act No. 40 of 1991 gets attracted. The constitutionality of the said Act is pending consideration before a nine Judge Constitution Bench of this Court. We, therefore, cannot dispose of this appeal finally.
+9. There is yet another circumstance. Sri Murthy, learned counsel for the assessee, contends that duty is not at all leviable upon the waste or scrap imported by him. An identical contention was rejected by three Judge Bench of this Court in Khandelwal Metal and Engineering Works and Anr. etc. v. Union of India and Ors. but the correctness of the said decision was doubted recently by a Bench of this Court and the matter referred to Constitution Bench. Hyderabad Industries Limited v. Union of India.
+This is another reason, we cannot dispose of the appeal. But since we have heard the learned counsel on the question of interpretation of the Notification, we thought it appropriate to record our finding on that issue. We adjourn this appeal sine die awaiting the decision of the nine Judge Bench as well as the Constitution Bench in the matters mentioned above.
+Order accordingly.

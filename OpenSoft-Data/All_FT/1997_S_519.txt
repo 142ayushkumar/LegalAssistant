@@ -1,0 +1,18 @@
+Hindustan Transmission Products Limited v State of Kerala
+Supreme Court of India
+
+10 September 1997
+C.As. Nos. 309-13 of 1991
+The Order of the Court was as follows:
+1.  The assessee is aggrieved by a decision of the High Court of Kerala in a tax revision case. The principal question that arises in the appeals relates to the interpretation of Section 5(3) of the Kerala General Sales Tax Act, 1963 which, at the relevant time, read thus:
+"5. (3) Notwithstanding anything contained in sub-section (1) or subsection (2), the tax payable by a dealer in respect of any sale of the goods mentioned in the First Schedule by such dealer to another for use by the latter as component part of any other goods mentioned in the said Schedule, which he intends to manufacture inside the State for sale, shall be at the rate of only one per cent on the taxable turnover relating to such sale : Provided that the provisions of this sub-section shall not apply to any sale unless the dealer selling the goods furnishes to the assessing authority in the prescribed manner a declaration duly filled in and signed by the dealer to whom the goods are sold containing the prescribed particulars in a prescribed form.
+Provided further that the goods sold are capable of being used as component part of any of the goods mentioned in the First Schedule.
+Explanation. -For the purposes of this sub-section, 'component part' means an article which forms an identifiable constituent of any finished product, which along with others goes to make up the finished product and which is identifiable visually and is separable by a mechanical process and not by a chemical process, provided the identity of such article is not lost by separation."
+2.  It is the contention of the assessee that once he has produced the declaration referred to in the first proviso above, he is entitled to be taxed only at the rate of 1% on the taxable turnover relating to such sale, without anything more; in other words, that he does not have to establish that the goods sold are capable of being used as the component parts of any of the goods mentioned in the First Schedule.
+3.  It is apparent from Section 5(3), read as a whole, that the selling dealer is entitled to the rate mentioned therein only provided that the goods sold are capable of being used as component parts of any of the goods mentioned in the First Schedule.
+For the purposes of obtaining the reduced rate mentioned in sub-section (3), the selling dealer must, therefore, not only produce the purchasing dealer's declaration, as set out in the first proviso thereto, but he must also establish that the goods he has sold are capable of being used as component parts of any of the goods mentioned in the First Schedule, as stated in the second proviso thereto.
+4.  The basis upon which the assessee has proceeded thus far must, therefore, be held to be erroneous.
+The assessee has not chosen, at any time heretofore, to establish that the goods that he sold, namely, super enamelled a copper wire, was a component part of a transformer, which was what the purchasing dealer would use the super enamelled copper wire for.
+5. In that situation, we have declined to peruse the material produced by learned counsel for the assessee at the Bar to show that transformers are electrical goods, which are goods mentioned in the First Schedule, and, more importantly, that super enamelled copper wire is an article which forms an identifiable constituent of a transformer, which, along with others, goes to make up the transformer and which is visually identifiable and is separable by a mechanical process.
+The appeals are, accordingly, dismissed, with costs.
+Appeals dismissed.

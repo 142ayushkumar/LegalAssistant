@@ -1,0 +1,30 @@
+Commissioner of Income Tax, Kerala v P. Krishna Warrier
+Supreme Court of India
+
+10 February 1969
+The Judgment was delivered by: SHAH, J.
+1.  One P. S. Warrier carried on business in Ayurvedic drugs in the name and style of "Arya Vaidya Shala". He made a will appointing trustees of his estate. The trustees were directed to carry on the "Arya Vaidya Shala" and to maintain a hospital and a school conducted by Warrier and to apply 60% of the income for the benefit of the hospital and the school and the rest for the benefit of two thavazies. Eligibility to tax of 60% of the income directed to be utilised for the hospital and the school was finally decided by this court in Commissioner of Income-tax v. P. Krishna Warriar.
+2.  In these appeals the dispute relates to the special surcharge on income-tax and super-tax on the balance of the income directed to be given to the two thavazies in the account years relevant to the assessment years 1957-58 to 1961-62. After the original assessments were completed, on coming to learn that 15% surcharge on tax should have been levied in respect of the total income of the trust, which in his view was unearned income, the Income-tax Officer issued notices u/s. 34(1)(b) and assessed the trustees to special surcharge under the Finance Act, 1957 (2 of 1957).
+3.  The order was confirmed in appeal by the Appellate Assistant Commissioner and the Appellate Tribunal.
+4.  At the instance of the trustees three questions were referred to the High Court of Kerala, the last of which alone is relevant in these appeals
+"(3) Whether the 40 per cent. of the profits of the business of Arya Vaidyashala payable to the two thavazies is assessable as 'unearned income' in the hands of the trustees u/s. 41 of the Indian Income-tax Act, 1922, and subject to the levy of a special surcharge?"
+5.  The High Court of Kerala held that
+"the share paid to the thavazies, being earned income, was not liable to surcharge".
+6. In the opinion of the High Court the case did not fall within the terms of s. 41 of the Indian income-tax Act, 1922, since the business of "Arya Vaidya Shala" was property and the trustees did not carry on the business on behalf of any beneficiary. By the Finance Act (No. 2), 1957 (2 of 1957), Part I, a surcharge on income-tax is levied.
+The relevant provision reads:
+"(ii) In the case of every individual who is not married and every individual or Hindu undivided family whose total income in either case exceeds Rs. 20, 000 and in the case of every unregistered firm or other association of persons."
+7.  The amount of income-tax computed at the rates hereinbefore specified shall be increased by the aggregate of the surcharges calculated as under :--
+(a) A surcharge for purposes of the Union equal to the sum of five per cent of the amount of income-tax ; and
+(b) A special surcharge on unearned income at fifteen per cent. of the difference between the amount of income-tax on the total income and the amount of income-tax on the whole of the earned income, if any included in the total income if such earned income had been the total income :
+"... A similar provision is made for the levy of surcharge on super-tax in the case of every individual, Hindu undivided family, unregistered firm and other association of persons, at the rates prescribed therein and surcharge on super-tax is levied under the following provision "
+8.  The amount of super-tax computed at the rates hereinbefore specified shall be increased by the aggregate of the surcharge calculated as under:
+(a) A surcharge for purposes of the Union equal to the sum of five per cent of the amount of super-tax ;
+(b) A special surcharge on unearned income at fifteen per cent. of the difference between the amount of super-tax on the total income and the amount of super-tax on the whole of the earned income, if any, included in the total income, if such earned income has been the total income.
+9.  The Finance Acts of 1958, 1959, 1960 and 1961 contained similar provisions for levy of a surcharge on income-tax and super-tax. By s. 2(6AA) it is enacted, in so far as it is relevant for the purpose of these appeals, that
+"
+'earned income' means any income of an assessee who is an individual, Hindu undivided family, unregistered firm or other association of persons not being a company, a local authority, a registered firm or a firm assessed u/cl. (b) of sub-s. (5) of section 23--(b) which is chargeable under the head 'Profits and gains of business, profession or vocation' where the business, profession or vocation is carried on by the assessee or, in the case of a firm, where the assessee is a partner actively engaged in the conduct of the business, profession or vocation ; or and includes any such income which, though it is the income of another person, is included in the assessee's income under the provisions of this Act, but does not include any such income which is exempt from tax under sub-s. (2) of s. 14 or under a notification issued u/s. 60 ; ..."
+10.  Under the will of P. S. Warrier, the trustees were directed to carry on the business of "Arya Vaidya Shala". In the income of the business the trustees had no beneficial interest, but it was still income chargeable under the head "Profits and gains of business, profession or vocation" carried on by the trustees.
+11.  Being income chargeable under the head "Profits and gains of business, profession or vocation" carried on by the trustees, it was earned income in their hands, and to the earned income the special surcharge under the Finance Acts of 1957, 1958, 1959, 1960 and 1961 had no application.
+12. The High Court was right in answering the third question referred by the Tribunal in favour of the trustees
+The appeals fail and are dismisssed with costs. One hearing fee.
+Appeal dismissed.

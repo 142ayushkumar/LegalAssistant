@@ -1,0 +1,23 @@
+State of Orissa and another v Jayashree Chemicals and others
+Supreme Court of India
+
+4 September 2003
+C.A. No. 3524 of 1996
+The Order of the Court was as follows:
+1. The respondent Company filed a writ petition before the High Court challenging the levy of duty under the Orissa Electricity (Duty) Act, 1961, on delayed payment surcharge for the period 1-4-1981 to 31-12-1985. It had raised additional contentions which are not relevant for the purposes of this appeal.
+As far as the issue noted above, the High Court allowed the writ petition by holding that no duty was leviable on the delayed payment surcharge and that the respondent was entitled to the refund of such duty levied and collected for the period 1-4-1981 to 31-12-1985.
+2. Learned counsel appearing on behalf of the appellants has submitted that the High Court has proceeded on the basis of a misconstruction of the provisions of the Electricity Duty Act and particularly the provisions of S. 2(g)(v) which defines rate charged.
+3. The charging section under the Act is S. 3 which insofar as it is relevant reads:
+"3. Electricity duty on energy supplied to consumers. (1) There shall be levied for and paid to the State Government, on the energy consumed by a consumer, a duty (hereinafter referred to as the 'electricity duty') computed on the basis of the rate charged therefor by a licensee, by the Board or by any Government referred to in cl. (c) of S. 2 at the rates specified...." (emphasis supplied)
+4. The phrase "rate charged'' has been defined in S. 2(g) of the Act:
+"2. (g) 'rate charged' does not include hire for meter or service line, but includes:
+(i)-(iv) * * *
+(v) any charge on the rate whether imposed by the licensee, Board, the State Government or the Central Government."
+5. The Division Bench, however, said that
+"under S. 2(g)(v) any surcharge on the rates whether imposed by the licensee, Board, the State Government or the Central Government is not included in the expression 'rate charged'"
+6. Having come to this conclusion the Court then went on to construe the phrase "rate charged" and held that since it was nothing but interest for making the delayed payment, it could not be said to be part of the rate.
+7. The error is apparent. What was taken as not included, was in fact statutorily included within the expression "rate charged". The Court was not therefore, required to judicially define the phrase "rate charged". The only question before the Court could have been whether a delayed payment surcharge is a charge on the rate within the meaning of S. 2(g)(v) of the Act.
+8. It appears from S. 2(g) that in the event customer is entitled to a rebate, the rate charged is taken on the basis of the rebate allowed. If a customer is given the benefit of rebate, which is normally granted when payment is made of the electricity bill on time, there is no reason why the consumer should not be asked to pay duty on the basis of charge for delayed payment. In any event it is not for us to justify the levy. The statute itself is clear. It cannot be said that the surcharge is not a charge on the rate. It is not also in dispute that the surcharge has been imposed by the State Electricity Board. \
+9. Therefore, the electricity duty was payable on the delayed payment surcharge under S. 3 of the Act. Our attention has been drawn to an earlier decision of the same High Court which had taken a contrary view to the view expressed by the judgment impugned before us. It is unfortunate that the earlier decision was not drawn to the notice of the Division Bench in this case. Be that as it may, we have considered the merits of the matter and are of the view that the earlier decision was correct and the judgment under appeal is wrong. We accordingly allow the appeal and set aside the decision of the High Court.
+10. We are told that by way of interim relief the appellants had refunded the duty charged to the respondent Company against a bank guarantee. It will be open to the appellants to encash such bank guarantee.
+Appeal allowed.

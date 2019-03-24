@@ -1,0 +1,20 @@
+Commissioner of Central Excise, Cochin v Mannampalakkal Rubber Latex Works
+Supreme Court of India
+
+13 September 2007
+C.A. No. 1808 of 2002
+The Order of the Court was as follows:
+1.  Assessee is engaged in the manufacturer of Latex (Rubber) based Adhesive with brand names Superset (LC) and Superset (LB). The dispute involved hereunder concerns classification.
+2.  We quote hereunder tariff heading '35.06' of the Central Excise Tariff which reads as under:
+We also quote hereunder tariff heading '40.01' which reads as under:
+3.  Department claims that Latex based Adhesive manufactured by assessee falls under tariff heading '35.06'. According to the Department, the said product falls under tariff heading '35.06' as it is being sold as an adhesive to the leather footwear manufacturers. The Department also relied upon the process of manufacture for coming to the conclusion that heading '35.06' is applicable.
+4.  We do not find any merit in this civil appeal. Apart from the reasons given by the Tribunal in the impugned judgment, we find that tariff heading '35.06' quoted above falls under Chapter 35 which refers to 'enzymes, modified starches: glues and albuminoidal substances', whereas tariff heading '40.01' falls under Chapter 40 which refers to 'rubber and articles thereof'. Note 5(b) to Chapter 40 states as under :
+The presence of the following substances in any rubber or mixture of rubbers shall not affect its classification in heading No. 40.01 or 40.02, as the case may be, provided that such rubber or mixture of rubbers retains its essential character as a raw material:
+(i)emulsifiers or anti-tack agents;
+(ii)small amounts of breakdown products of emulsifiers;
+(iii)very small amounts of the following:
+heat-sensitive agents (generally for obtaining thermosensitive rubber latexes), cationic surface-active agents (generally for obtaining electro-positive rubber latexes), anti-oxidants, coagulants, crumbling agents, freeze-resisting agents, peptisers, preservatives, stabilisers, viscosity-control agents or similar special purpose additives."
+5.  Reading Note 5(b),it becomes clear that the test to distinguish rubber based adhesives and non-rubber based adhesives or other adhesives is the test of composition and not the test of end-user. Generally, in matters of classification "composition test" is an important test and "end-user test" would apply only if the entry say so. Applying Note 5(b) and keeping in mind the distinction between rubber adhesive and other adhesives, we are of the view that tariff heading '40.01' is applicable to the facts of the present case. Applying the composition test, we also find that the rubber content in the product in question is above 90 per cent.
+6.  For the aforestated reasons, we are of the view that Latex based Adhesives manufactured by the assessee falls under heading '40.01' and not under heading '35.06'.
+7.  For the aforestated reasons, appeal stands dismissed. No order as to costs.
+Appeal dismissed.

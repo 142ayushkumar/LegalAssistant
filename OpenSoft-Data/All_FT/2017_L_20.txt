@@ -1,0 +1,40 @@
+Nagar Nigam, Allahabad, through its Municipal Commissioner v Life Insurance Corporation of India and others
+Supreme Court of India
+
+3 August 2017
+Civil Appellate Jurisdiction Civil Appeal No. 7460 of 2009
+The Judgment was delivered by : Rohinton Fali Nariman, J.
+1. Mr. T.N. Singh, learned counsel appearing on behalf of the appellant-Nagar Nigam has assailed the judgment of the Allahabad High Court in which the respondent-Life Insurance Corporation of India was held not to be covered by the expression "insurance company" under a notification dated 30.01.1999 issued by the appellant.
+2. The judgment under appeal has held:
+"We also notice that in Item No. 25 of the Schedule annexed with the Nagar Nigam, Allahabad Notification dated 13.01.99/Annexure-2 to the writ petition without an exception various establishments, undertakings etc. are all in essence pure and simple business or commercial units. In category Ga, Serial No.1 of the list refers to Finance Company/Chit Fund. It is followed by Item No.2 referring to Insurance Company '(each Branch)'. It goes to show that respondents provided license fee with respect to business of a Company in the nature of 'Financial Companies' 'Chit Fund Companies' and the like Insurance Companies dealing in general insurance (i.e. other than Life Insurance-exclusively carried on by LIC of India).
+Aforesaid conclusion is further discernible from the fact that the list does not embarrass in itself any charitable hospital or government hospital or other likewise establishments.
+In that view of the matter we do find a clear distinction between Insurance Company (carrying on business under Insurance Act 1958) vis-a-vis the Life Insurance Corporation carrying business of life insurance under Life Insurance Corporation of India Act, 1956. Otherwise also Principle of Interpretation. It is an accepted principle of Statutory Interpretation that in a case where two interpretations of a provision imposing tax/fee is possible, Court should accept the interpretation which leans in favour of the assessee i.e. the person who is sought to be burdened."
+3. Mr. B.B. Sawhney, learned Senior Counsel appearing on behalf of the respondents has sought to support the judgment under appeal by advancing slightly different arguments, which we have permitted him to advance. He has referred to the statutory authority to levy licence fee and read to us Section 438 of the Uttar Pradesh Municipal Corporations Act, 1959, which reads as follows:-
+"438. Certain things not to be kept, and certain trades and operations not to be carried on without licence.- (1) Except under and in conformity with the terms and conditions of a licence granted by the Municipal Commissioner, no person shall-
+(a) keep in or upon any premises any article specified in the bye-laws in any quantity or in excess of the quantity specified in the bye-laws as the maximum quantity of such article which may at one time be kept in or upon the same premises without a licence; and
+(b) keep in or upon any building intended for or used as a dwelling or within fifteen feet of such building cotton, in pressed bales or boras or loose, in quantity exceeding four hundred-weight;
+(c) keep, or allow to be kept, in or upon any premises horses, cattle or other four-footed animals-
+(i) for sale,
+(ii) for letting out on hire,
+(iii) for any purposes for which any charge is made or any remuneration is received, or
+(iv) for sale of any produce thereof;
+(d) carry on or allow to be carried on, in or upon any premises-
+(i) any trade or operations connected with any trade specified in the bye-laws,
+(ii) any trade or operation which is dangerous to life or health or property, or likely to create a nuisance either from its nature or by reason of the manner in which or the conditions under which, the same, is or is proposed to be carried on;
+(e) carry on within the City, or use any premises, for the trade or operation of a farrier."
+He has referred to and relied upon sub-clause (d) of Section 438 which states that a licence fee can be levied only if any trade or operations connected with any trade specified in the bye-laws is there. According to him, the expression "trade" would not, by any stretch of imagination, include the business of insurance since what is referred to in Section 438 is keeping for sale or otherwise goods or animals or the manufacture of goods in premises. To buttress his submission, he has referred to Section 2 sub-sections (78), (79) and (80) which reads as follows:-
+"(78) "trade effluent" means any liquid either with or without particles of matter in suspension therein, which is so wholly or in part produced in the course of any trade or industry carried on at trade premises and in relation to any trade premises, means any such liquid as aforesaid which is so produced in the course of any trade or industry carried on at those premises, but does not include domestic sewage;
+(79) "trade premises" means any premises used or intended to be used for carrying on any trade or industry;
+(80) "trade refuse" means and includes the refuse of any trade, manufacture or business;"
+4. When the Court questioned learned counsel for the appellant as to this interpretation, the answer it got was that bye-laws can be framed, in any event, under Section 541 and, in particular, sub-clause (41) which reads as follows:-
+"(41) fixing of fees for any licence, sanction or permission to be granted by or under this Act;"
+5. We were also referred to Section 452 which reads as follows:-
+"452. Licence fees, etc.- The Municipal Commissioner may charge a fee to be fixed by bye-law for any licence, sanction or permission which he is entitled or required to grant by or under this Act."
+6. It will be noticed that both the aforesaid provisions, namely, Section 541 as well as Section 452 only refer back to a provision in the Act which specifies that a levy may be made for licence fees. We were not referred to any provision other than Section 438 for the purpose of locating such levy.
+7. In our opinion, learned counsel for the respondents appears to be correct in his submission, inasmuch as Section 438 deals with licence fee which is chargeable for activities related to functions of Municipal Corporations, which activities refer to premises in which goods or animals are kept for sale or for any refer to Section 438(8) of the Act which reads as under:-
+"(8) Nothing in sub-sections (6) ad (7) shall be deemed to apply to mills for spinning or weaving cotton, jute, wool or silk to any other large mill or factory which the Municipal Commissioner may from time to time with the approval of the Executive Committee, specially exempt from the operation thereof."
+8. Mr. B.B. Sawhney, learned Senior Counsel, also referred to Section 541(20) which reads as under:-
+"20. the control and supervision of all premises used for any of the purposes mentioned in Section 438 and of all trades and manufactures carried thereon and the prescribing and regulating of the construction, dimensions, ventilation, lighting, cleansing, drainage and water-supply of any such premises;"
+This provision also has direct reference to Section 438 and supports the interpretation that he has suggested.
+9. In the premises, we dismiss the appeal, but for the reasons stated by us.
+Appeal dismissed

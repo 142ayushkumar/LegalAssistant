@@ -1,0 +1,19 @@
+Commissioner of Central Excise, Nagpur v Lloyds Steels Industries Limited
+Supreme Court of India
+
+10 March 2005
+C.A. No. 2752 of 2004
+The Order of the Court was as follows:
+1.  This Appeal is filed against the Judgment of the Customs, Excise and Service Tax Appellate Tribunal (in short "CESTAT"), West Regional Bench at Mumbai dated 11th November, 2003.
+2.  In this case the question is whether the value of scrap/waste retained by a job worker is to be included in the value of the component manufactured by him. We have today in the case of M/s. General Engineering Works, Bharatpur v. Commissioner of Central Excise, Jaipur delivered a Judgment wherein we have held that where the conversion charges/job work charges get influenced/depressed on account of the job worker retaining and selling the scrap/waste the value of the scrap/waste has to be included in the value of the component.
+In this case the contract contains following terms:-
+"(a) Conversion charges are applicable on CR output wt. of CR Coils including 1.5% unrolled/semi rolled material going alongwith the CR FH Coil. The Conversion Charges are with due consideration of scrap credit after reduction of estimated salvage value.
+Yield: 95.5% from HR to CR including approximately 1.5% unrolled/semi rolled material forming part of CR FH Coil. The balance material to be retained and disposed off by Lloyds and the value of which has been adjusted in the Conversion Charges (the value of 1.5% approximately unrolled/semi rolled material going along with CR FH Coil has also been considered in arriving at the revised Conversion Charges besides the scrap retained and disposed off by Lloyds)."
+The contract also contains the following clause:-
+"NOTES
+i. Scrap shall be calculated on an actual basis. Benefit of scrap credit to be passed on to TATA Steel. Accounting for scrap will be on a monthly basis on actual yields achieved but not exceeding yield norms.".
+3.  This clearly indicates that the value of Conversion Charges is affected by the fact that the Respondents retain the scrap and sell it.
+4.  The Tribunal has, in the impugned Judgment, noted that conversion costs may get depressed. Yet the Tribunal then erroneously assumes; that if such a value is included, it would have to be deducted from the cost of raw material. The Tribunal erroneously holds that if that is not done such a charge would be included twice over.
+5.  As has been set out in greater detail in the Judgment delivered today in M/s. General Engineering Works case the cost of the raw material is one element. Whatever is the quantity of raw material used, its value will have to be taken into account. Conversion charges is a second element. If by retaining scrap/waste the conversion charges get reduced, then the value of the scrap/waste will have to be added to the conversion charges. By so doing there is no inclusion of same charge twice over as erroneously held by the Tribunal.
+6. Accordingly, on the principles laid down in General Engineering Works case, we set aside the impugned Judgment and allow the Appeal. The Order of the adjudicating authority dated 7th October, 2002 gets restored. There shall be no order as to costs.
+Appeal allowed.

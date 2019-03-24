@@ -1,4 +1,8 @@
 import re
+from nltk.corpus import stopwords 
+from nltk.tokenize import word_tokenize
+stop_words = set(stopwords.words('english'))
+
 
 def highlighter_function(file_name, list_of_acts_file):
 	all_words = []
@@ -28,13 +32,25 @@ def highlighter_function(file_name, list_of_acts_file):
 			
 			if temp_words[word_no] == "Act" and word_no <= len(temp_words)-2:
 				if word_no + 2 >= len(temp_words) or temp_words[word_no+2][-3:] != "-->":
+					
 					char = temp_words[word_no+1][0]
+					
 					if char >= '0' and char <= '9':
 						start_word = word_no
-						# while start_word >= 0:
-						# 	start_word--
+
+						flag = 0
+						while start_word >= 0:
+							start_word -= 1
+							# print(line_no, temp_words[start_word])
+							if flag == 0 and temp_words[start_word] in stop_words:
+								start_word += 1
+								break
+							elif flag == 0 and temp_words[start_word][-1] == ')':
+								flag = 1
+							elif flag == 1 and temp_words[start_word][0] == '(':
+								flag = 0
 							
-						caseName_index.append((line_no, start_word, word_no))
+						caseName_index.append((line_no, start_word, word_no+1))
 
 		line_no += 1
 
