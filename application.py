@@ -14,19 +14,6 @@ def get_result(query, category, acts, judge, start_date, end_date):
     returns query output as list
     '''
     return 1
-def make_recent(query, category, acts, judge, store=""):
-    '''
-    returns string which is stored in a cookie for showing recent queries
-    '''
-    if query is not None:
-        store += query
-    if category is not None:
-        store += " " + category
-    if acts is not None:
-        store += " " + category
-    if judge is not None:
-        store += " " + judge
-    return store
 
 @app.route("/", methods = ['GET'])
 def index():
@@ -40,8 +27,9 @@ def index():
     print(f"query is {query}, category is {category}, acts is {acts}, judge is {judge}, start date is {start_date}")
     #Add this search in recents
     store = ""
-    store = make_recent(query=query, category=category, acts=acts, judge=judge, store=store)
-    if len(store) < 1:
+    temp = query is None and category is None and acts is None and judge is None and start_date is None and end_date is None
+    store = {"query" : query, "category" : category, "acts" : acts, "judge" : judge, "start_date" : start_date, "end_date" : end_date}
+    if temp:
         if 'recent' not in session:
             session["recent"] = []
         recents = session["recent"]

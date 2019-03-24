@@ -112,7 +112,7 @@ $(document).ready(function() {
 
             <ul>
                 {% for recent in recents %}
-                    <li> {{ recent }}</li>
+                    <li category="{{ recent['category'] }}" acts="{{ recent['acts'] }}" judge="{{ recent['judge'] }}" from="{{ from }}" to="{{ to }}"> {{ recent["query"] }}</li>
                 {% endfor %}
             </ul>
 
