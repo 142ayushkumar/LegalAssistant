@@ -10,16 +10,17 @@
   <link rel="stylesheet" href="../static/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- For fa fa-angle-down -->
+
   <style>
         @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-    </style> 
+  </style> 
 
 </head>
 
   <body>
     <div class="header">
         <img style="position: fixed" src="../static/img/nav-logo.png">
-        <span class="header-text">LegalAssistant.com</span>
+        <div class="header-text">LegalAssistant.com</div>
         <hr class="line">
         <div class="dropdowns">
             <button class="buttons">Law Topics <i class="fa fa-angle-down arrow"></i></button>
@@ -33,37 +34,59 @@
     </div>
     <img src="../static/img/logo.png" alt="logo" class="logo">
     <div class="search-box">
-    <form method="post">
+    <form method="get">
         <div class="input-group inner-addon left-addon">
             <i class="glyphicon glyphicon-search"></i>
-            <input type="text" class="form-control" placeholder=" search by keywords/ NL query / case title / act / section" name="query">
+            <input type="text" class="form-control" placeholder="&#xF002; search by keywords/ NL query / case title / act / section" style="font-family:Arial, FontAwesome" name="query">
             <span class="input-group-btn">
-                <button type="submit" id="search_button" class="btn btn-default" name="search" value="search">Search</button>
+                <button type="submit" id="search_button" class="btn btn-default" value="search">Search</button>
             </span>
             
         </div>
-    
+    <div class="filter-wrap">
         <div class="filters">
-            <img src="../static/img/filter.png" alt="filter">Filter Search <span class="date">from : <input type="date" name="from"> to: <input type="date" name="to"></span>
+            <div class="filter-icon"><img src="../static/img/filter.png" alt="filter">Filter Search</div> <div class="date"><span class="from">from : <input type="date" name="from"></span> <span class="to">to: <input type="date" name="to"></span></div>
         </div>
-        <div class="more-filters form-inline my-2 my-lg-0 ml-auto">
-                <input class="form-control ml-5 mr-sm-2 " type="Category" placeholder="Category" aria-label="Category" name="category">
-                <input class="form-control mr-sm-2" type="Acts" placeholder="Acts" aria-label="Acts" name="acts">
-                <input class="form-control mr-sm-2" type="Judge" placeholder="Judge" aria-label="Judge" name="judge">
+        <div class="more-filters">
+            <div class="category">
+                <input placeholder="&#xF002; Category" style="font-family:Arial, FontAwesome" aria-label="Category" name="category">
+                <p>Category</p>
+            </div>
+            <div class="Acts">
+                <input type="Acts" placeholder="&#xF002; Acts" style="font-family:Arial, FontAwesome" aria-label="Acts" name="acts">
+                <p>Acts</p>
+            </div>
+            <div class="Judge">
+                <input type="Judge" placeholder="&#xF002; Judge" style="font-family:Arial, FontAwesome" aria-label="Judge" name="judge">
+                <p>Judge</p>
+            </div>
         </div>
-        <p> Category  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp      Acts  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp    Judge</p>
+    </div>
     </form>
-        <div>
-            <img src="../static/img/recent.png" alt="Recent"> 
-            <span>Recent</span>
+
+    </div>
+    <div class="recents">
+        <img src="../static/img/recent.png" alt="Recent">
+        <span>Recent</span>
+
+        <div class="recent-list">
+
+            <ul>
+                {% for recent in recents %}
+                    <li> {{ recent }}</li>
+                {% endfor %}
+            </ul>
+
         </div>
     </div>
     <div class="footer">
-        <span style="margin-left: 2%">Help</span>
-        <span style="margin-left: 5%">Send Feedback</span>
-        <span style="margin-left: 5%">Privacy</span>
-        <span style="margin-left: 5%"> Terms</span>
-        <span style="float: right">&copy 2019-20 Legal Assistant Corporation | All rights reserved</span>
+        <ul>
+            <li style="margin-left: 5%">Help</li>
+            <li style="margin-left: 5%">Send Feedback</li>
+            <li style="margin-left: 5%">Privacy</li>
+            <li style="margin-left: 5%"> Terms</li>
+        </ul>
+        <div>&copy 2019-20 Legal Assistant Corporation | All rights reserved</div>
     </div>
   </body>
   </html>

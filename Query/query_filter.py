@@ -1,19 +1,33 @@
 import json
 import datetime
+import operator
 fd1 = open('final_dictionary.json')
 fd2 = open('query.json')
+fd3 = open('case_ranking.json')
+fd4 = open('list_of_cases.txt')
+fd5 = open('case_to_acts.json')
+
 
 data = json.load(fd1)
 query = json.load(fd2)
+case_ranking = json.load(fd3)
+case_to_acts = json.load(fd5)
+# list_of_cases = json.load(fd4)
 
 
 fd1.close()
 fd2.close()
+fd3.close()
+fd5.close()
 
 dict_of_values = {}
 
 
-for it in data:
+for it in fd4:
+	it = it[:-1]
+	if it not in data:
+		continue
+	# print(it)
 	if 1:#it.date >= query.from_fate and it.date <= query.to_date:
 		list1 = []
 		list2 = []
@@ -40,11 +54,25 @@ for it in data:
 		temp_dict["acts"] = list2
 		temp_dict["judges"] = list3
 		temp_dict["date"] = data[it]["date"]
-		temp_dict["value"] = val1*val2*val3/max(1,val1*val2 + val2*val3 + val3*val1) + val1 + val2 + val3
-
+		temp_dict["acts"] = case_to_acts[it]
+		t = 3*val1*val2*val3/max(1,val1*val2 + val2*val3 + val3*val1) + val1 + val2 + val3
+		u = 0
+		if(it in case_ranking):
+			u = 1e3*case_ranking[it]
+		temp_dict["value"] = 2*t*u/max(1, t + u) + t + u
 		dict_of_values[it] = temp_dict
 
-for dd in dict_of_values:
-	if dict_of_values[dd]["value"]>1.6:
-		print(dict_of_values[dd])
-jsonFile = json.dumps(dict_of_values)
+unsorted_dict = {}
+for it in dict_of_values:
+	unsorted_dict[it] = dict_of_values[it]["value"]
+
+sorted_dict = sorted(unsorted_dict.items(), key = operator.itemgetter(1), reverse =True) 
+
+sorted_final_dict = {}
+
+for it in sorted_dict:
+	sorted_final_dict[it] = dict_of_values[it[0]]
+
+print(sorted_final_dict)
+# jsonFile = json.dumps(dict_of_values)
+fd4.close()

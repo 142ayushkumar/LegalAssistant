@@ -1,0 +1,22 @@
+Kerala State Industrial Development Corporation v Commissioner of Income Tax
+Supreme Court of India
+
+12 November 2002
+C.A. No. 3189 of 2000 (Arising as an appeal by special leave from the judgment and order Dt. 18 December 1999, of the Kerala High Court in I.T.R. No. 250 of 1997).
+The Order of the Court was as follows:
+1.   The subject-matter of the dispute in this appeal relates to the interpretation of section 5 of the Interest-tax Act, 1974 ("the Act"), which reads thus:
+"Subject to the provisions of this Act, the chargeable interest of any previous year of a credit institution shall be the total amount of interest (other than interest on loans and advances made to other credit institutions) accruing or arising to the credit institution in that previous year:
+Provided that any interest in relation to categories of bad or doubtful debts referred to in section 43D of the Income Tax Act, shall be deemed to accrue or arise to the credit institution in the previous year in which it is credited by the credit institution to its profit and loss account for that year or, as the case may be, in which it is actually received by the credit institution, whichever is earlier."
+2.   The questions which had been referred to the High Court 1999 Indlaw KER 307  for its decision were:
+"(1) Whether, on the facts and circumstances of the case, on account of incorporation of section 145 of the Income-tax Act, 1961
+(2) Whether, on the facts and circumstances of the case, on account of doctrine of incorporation, section 145 of the Income-tax Act, 1961
+3. The High Court decided the first question only against the assessee and in favour of the Revenue. The second question was not considered given the High Court's decision on the first question.
+4. The High Court, in the impugned judgment has held that the "chargeable interest", in terms of section 5 of the Act was the total amount of interest accruing in the relevant previous year and, that there was no scope in the section to read "chargeable interest" as meaning the amount actually received in the relevant previous year.
+5. It appears to us that in arriving at this conclusion the High Court has overlooked the opening words of section 5 of the Act which make the provisions of the said section "subject to the provisions of the Act." The other provisions of the Act include section 21 whereunder provisions of certain specified sections and schedules of the Income Tax Act have been made applicable with necessary modifications as if the said provisions referred to the Interest-tax Act instead of the Income-tax Act. There is no dispute that at the material time section 145 of the Income Tax Act was incorporated in the Interest-tax Act by virtue of section 21 of that Act. Section 145 of the Income Tax Act permits income chargeable under the head "Profits and gains of business or profession" or "Income from other sources" to be computed in accordance with either the cash or mercantile system of accounting, as may be regularly employed by the assessee.
+3. The assessee, in the case before us, has followed the cash system of accounting in respect of the interest income. Learned counsel appearing on behalf of the assessee, therefore, has, in our opinion rightly, contended that section 5 of the Interest-tax Act would in the circumstances allow the calculation or computation of chargeable interest on the basis of the amount of interest actually received. It is of significance that the provisions of the Act were amended by the Finance Act (No. 2) of 1991, to include credit institutions such as the appellant and at the same time section 145 of the Income Tax Act was also incorporated in the Act.
+6. Even if there were any ambiguity in the matter, the Budget Speech of the Minister of Finance while introducing the Finance Bill:
+"The new tax will be levied on the gross amount of interest received by all banks, financial institutions and non-banking financial companies in the corporate sector on loans and advances made in India."
+7. That the Finance Minister's speech can be relied upon to throw light on the object and purpose of the particular provisions introduced by the Finance Bill has been recognised by this court in K. P. Varghese v. ITO 1981 Indlaw SC 334.
+8. In view of the above the appeal is allowed and the order of the High Court is set aside. We answer the questions referred to earlier in this judgment in favour of the assessee and against the Revenue.
+There will be no order as to costs.
+Appeal allowed.

@@ -1,0 +1,29 @@
+Moti Lal Chunnilal (Tak) v Commissioner of Income Tax
+Supreme Court of India
+
+19 November 1997
+C.As. No. 3560 of 1989 with Nos. 1862-63 of 1994, 16865-68 of 1996, 3553 of 1989 and 8233 of 1997 (Arising out of S.L.P. (C) No. 17892 of 1997)
+The Order of the Court was as follows:
+1.  The following questions of law arose for decision before the High Court.
+"1. Whether on the facts and in the circumstances of the case, the Tribunal was right in holding that the firm was not validly constituted and that the object of the agreement was of such a nature that, if permitted, it would defeat the public policy as contained in the provisions of the Rajasthan Excise Act, 1950
+2. If the answer to the above is in the affirmative, whether the Tribunal was justified in holding that the firm was not valid and, therefore, not entitled to registration u/s. 185 of the Income Tax Act, 1961."
+2.  The facts of the case as stated by the High Court are as under:
+"The Government of Rajasthan granted a licence for the retail sale of country liquor during the year 1966-67 at Bhilwara, including the shops situate at Bhopalganj, Gulmandi and Dhanmandi in the joint names of Motilal, Chunnilal and Dhanwarlal sons of Motilal. It appears that with a view to carry on the aforesaid business of retail sale of country liquor, the aforesaid licensees entered into a partnership with five other persons and constituted the firm M/s Motilal Chunnilal, Bhilwara consisting of the following eight partners.
+1. Motilal
+2. Chunnilal
+3. Dhanwarlal
+4. Smt Vijalaxmi, wife of Satishchandra
+5. Poonamchand, son of Gangaram
+6. Bhuralal, son of Devilal
+7. Ram Nath, son of Mangiram and
+8. Smt Kamla, wife of Mangilal
+On the basis of the deed of partnership dated 8-8-1996 entered into by the aforesaid eight persons, the assessee M/s. Motilal Chunnilal applied for registration of the firm. However, registration of the firm was refused by the Income Tax Officer on the ground that the partnership was not legal as it violated the provisions of cl. (3) of the term of the licence issued by the Excise Department of the State. Cl. (3) of the licence translated into English reads as under: 'The licence-holder shall not be entitled to transfer the licence of the shop to any person without the written permission of the officer granting the licence and shall not be entitled to take a partner and such permission shall not be given till such time as the licence holder pays all dues outstanding against him.'
+During the course of enquiry, the Income Tax Officer found that the licence-holder had not obtained the permission in writing from the authorities of the Excise Department of the State for entering into a partnership with five other persons. Thus, the Income Tax Officer held that the failure on the part of the licence-holders to take permission in writing from the Excise authorities to form the partnership amounted to violation of the conditions of the licence and provisions of the Rajasthan Excise Act, and, therefore, the contract of partnership was hit by S. 23 of the Indian Contract Act. The Appellate Assistant Commissioner on appeal and the Tribunal on further appeal held that there was a clear prohibition in cl. (3) of the licence in respect of the formation of a partnership by the licence-holders without the prior permission of the Excise authorities. Thus, the provisions of the excise law have been violated as there was public policy involved in the provisions of the Excise Act and Rules and the agreement of partnership was entered into in violation of such public policy and should, therefore, be held to be invalid. The Tribunal dismissed the appeal and maintained the order of refusal of registration of the assessee-firm."
+3.  The question is whether the firm is entitled to registration even though it was constituted in violation of excise law and whether the Income Tax Officer could deny registration of the partnership firm under the Income Tax Act on the ground of public policy. These questions are now concluded by the judgment of this Court in the case of Biharilal Jaiswal v. CIT 1995 Indlaw SC 6461995 Indlaw SC 646.
+4.   There the question was of registration of a firm in relation to a liquor licence. The licence was issued in the name of an individual. The condition of licence expressly prohibited formation of partnership in relation to the licence. In spite of this prohibition the licence-holder entered into a partnership. This Court held that registration could not be granted to a partnership firm where the partnership agreement was prohibited by law. It was observed that one arm of law cannot be utilised to defeat the other arm of law. Doing so would be opposed to public policy and bring the law into ridicule. It will be wrong to think that the Income Tax Officer need not look to the general law relating to partnership while dealing with the question of registration under the Income Tax Act.
+5.  In the instant case, it was necessary for the licence-holder to take prior permission of the licensing officer before entering into any partnership agreement. This was made a condition of the excise licence in order to ensure collection of the dues of the Excise Department. The licence-holder cannot claim the benefit of registration of a firm formed in violation of an express condition of the licence. It will clearly be against public policy to grant benefit of registration to a firm under the provisions of the Income Tax Act when the firm was set up in violation of an express condition of the excise licence, specially when the condition was inserted to ensure full payment of excise duty.
+6.  The Commissioner's appeals are allowed. The assessee's appeals are dismissed. There will be no order as to costs
+7.   CA No. ... of 1997 @ SLP (C) No. 17892 of 1997.
+Leave granted.
+8.  The appeal is allowed in terms of CA No. 3560 of 1989. There will be no order as to costs.
+Appeal allowed.

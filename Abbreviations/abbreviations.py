@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
 	# data_words = imp_words(fd1)
 
-	# dict_abb = myfun(data_words)
+	# dict_abb = myfun(data_words, j)
 
 	fd2 = open("abbreviation_mapping.json", "r")
 

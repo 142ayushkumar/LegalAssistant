@@ -1,0 +1,16 @@
+Commissioner of Income Tax v A. R. Adaikappa Chettiar and Others
+Supreme Court of India
+
+20 September 1995
+C.As. Nos. 342 to 347 of 1977 With C.A. No. 1318 of 1980
+The Order of the Court was as follows:
+1.  These appeals are preferred by the Revenue against the decision of the Madras High Court. The question that was referred by the Tribunal under section 66(1) of Indian Income-tax Act, 1922, was:
+"Whether, on the facts and in the circumstances of the case, the Appellate Tribunal was right in law in deleting the additions made under section 2(6C)(iii) of the Indian Income-tax Act, 1922, and under section 40(c) of the Income-tax Act, 1961 ?"
+2.  The assessee was the managing agent of a particular company. The company had provided him a car which he used for his private purposes also. Applying the provisions of section 2(6C)(iii) of the 1922 Act, the Income-tax Officer disallowed certain amount from the assessment of the company. Thereafter, the Income-tax Officer concerned with the individual assessment of managing agent added that account in his individual assessment. The question arose whether the said addition can be made in the individual assessment of the managing agent.
+3.  The question has to be answered with reference to definition of income in section 2(6C) of the Indian Income-tax Act, 1922. The definition includes several items. The only sub-clause which is relevant for the present purpose is sub-clause (iii) which read thus:
+"2(6C) 'income' includes - ....
+(iii) the value of any benefit or perquisite, whether convertible into money or not, obtained from a company either by a director or by any other person who has a substantial interest in the company (that is to say, who is concerned in the management of the business of the company, being the beneficial owner of shares, not being shares entitled to a fixed rate of dividend whether with or without a right to participate in profits, carrying not less than twenty per cent. of the voting power), and any sum paid by any such company in respect of any obligation which but for such payment would have been payable by the director or other person aforesaid;...."
+4.  In other words, the question was whether the said benefit can be included in the income of the managing agent by virtue of sub-clause (iii) in the definition of income. For this sub-clause to apply, it is necessary that the person who obtained certain benefit must have had substantial interest in the company as specified in the said section. The finding is that the assessee herein did not hold a substantial interest in the relevant company. Once this is so, no further question arises. It was really unnecessary for the High Court to go into and express an opinion on the question whether any benefit obtained unauthorisedly falls within the said sub-clause or not.
+5. So far as we are concerned, it is enough for us to say that the assessee did not hold a substantial interest in the company nor was he a relative of such person.
+6.  The appeals are accordingly dismissed with the above observations. No costs.
+Appeals dismissed.

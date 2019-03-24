@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700');
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+a {
+    text-decoration: none;
+}
+html {
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+    box-shadow: 0 0 20px 1px gray;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.header input {
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    padding-left: 3px;
+}
+.logo {
+    flex: 1;
+    text-align: center;
+    /*border-right: 1px solid white;*/
+    padding: 10px;
+}
+.logo img {
+    width: 40px;
+}
+.search {
+    flex: 8;
+    padding: 5px;
+    padding-left: 0px;
+}
+.search-btn {
+    flex: 1;
+}
+.search>div:first-of-type {
+
+}
+.search .search-box-wrap
+{
+
+    width: 60%;
+    float: left;
+    text-align: center;
+
+}
+.search-box-wrap #searchbox {
+    width: 95%;
+}
+.search-btn  button{
+    margin-top: 5px;
+    display: block;
+    padding: 3px 20px 5px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+}
+.search-btn button:hover {
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.search .date {
+    text-align: center;
+    width: 40%;
+    float: right;
+}
+.search .date input {
+    width: 40%;
+    font-size: 14px;
+    height: 28px !important;
+}
+.search .date input:first-of-type {
+    margin-right: 5px;
+}
+.search .more-filters {
+    padding-top: 10px;
+    text-align: center;
+
+}
+.search .more-filters .more-inputs{
+    width: 33%;
+    float: left;
+}
+
+.more-inputs input {
+    width: 65%;
+    margin-left: 5px;
+}
+
+.search-btn  {
+
+}
+.search-btn button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.main .result-list {
+    max-width: 1000px;
+    margin-left: 10%;
+    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+
+    border-radius: 10px;
+}
+
+.main .result-list .result {
+    padding: 10px 20px;
+}
+
+.result-list .result .heading {
+
+}
+
+.result-list .result .heading p a {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.result-list .result .heading p:nth-of-type(2) {
+    margin-top: -10px;
+    font-size: 12px;
+
+}
+.result-list .result .info ul {
+    border: 1px solid lightgray;
+}
+.result-list .result .info ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.result .summary{
+
+    margin-top: -12px;
+}
+.result .acts-cited{
+
+}
+.result:nth-of-type(even) {
+    background-color: #F8F8F8;
+}
+.footer {
+
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 20px 0px gray;
+}
+
+.footer ul {
+    max-width: 1000px;
+    margin-left: 10%;
+
+}
+.footer ul li {
+    display: inline-block;
+    padding: 5px 10px 0 5px;
+}
+.footer ul li a {
+    color: white;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*.result-list .result:first-of-type {*/
+    /*border-radius: 10px 10px 0 0;*/
+    /*border: 1px solid black;*/
+
+/*}*/
+/*.result-list .result:last-of-type {*/
+    /*border-radius: 0 0 10px 10px;*/
+/*}*/
+/*.result {*/
+    /*border-right: 1px solid black;*/
+    /*border-left: 1px solid black;*/
+    /*border-bottom: 1px solid black;*/
+/*}*/
+
+@media only screen and (max-width: 1200px) {
+    .logo img{
+        margin-top: 20px;
+    }
+    .search .search-box-wrap
+    {
+
+        width: 100%;
+        float: none;
+        text-align: center;
+
+    }
+    .search .date {
+
+        width: 100%;
+
+        margin-top: 13px;
+        float: none;
+    }
+    .search .date input {
+        width: 30%;
+    }
+    .main .result-list {
+        margin: auto;
+        margin-top:180px;
+    }
+    .search-btn button {
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .search #searchbox {
+        font-size: 14px !important;
+    }
+    .search .more-filters, .search .date {
+        font-size: 12px !important;
+    }
+    .search .date input {
+        height: 22px !important;
+    }
+}
+

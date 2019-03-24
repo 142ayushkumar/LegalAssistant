@@ -1,0 +1,20 @@
+Commissioner of Wealth Tax, Bombay v Consolidated Pneumatic Tools Company Limited
+Supreme Court of India
+
+27 July 1971
+The Judgment was delivered by : HEGDE, J.
+These are appeals by special leave.
+1.  The question for decision in these appeals is whether the goods in transit from England to India belonging to a non-resident assessee can be considered as wealth of the assessee during the relevant valuation dates. The relevant assessment years are 1957-58, 1958-59 and 1959-60 The assessee is admittedly a non-resident company. It is said that during the relevant valuation dates some goods belonging to the assessee were on the High Seas.
+2.  The question for decision is whether the value of those goods can be taken into consideration in computing the net wealth of the assessee
+3. S. 3 of the Wealth-tax Act, 1957, is the charging section. That section says
+"Subject to the other provisions contained in this Act, there shall be charged for every assessment year commencing on and from the first day of April, 1957, a tax (hereinafter referred to as 'wealth-tax') in respect of the net wealth on the corresponding valuation date of every individual, Hindu undivided family and company at the rate or rates specified in the Schedule. "
+Net wealth is defined in s. 2(m) and means" the amount by which the aggregate value computed in accordance with the provisions of the Act of all the assets, wherever located, belonging to the assessee on the valuation date, including assets required to be included in his net wealth as on that date under this Act, is in excess of the aggregate value of all the debts owed by the assessee on the valuation date other than . . . ." (The remaining portion is not relevant for our purposes)
+4.  If these provisions had stood by themselves there would have been some force in the arguments advanced on behalf of the assessee that the value of the goods with which we are concerned in this case should be taken into consideration in computing the net wealth of the assessee. But the above provisions are controlled so far as the non-resident assessees are concerned by s. 6 of the Act. That section provides:
+"In computing the net wealth of an individual who is not a citizen of India or of an individual or a Hindu undivided family not resident in India or resident but not ordinarily resident in India, or of a company not resident in India during the year ending on the valuation date----
+(i) the value of the assets and debts located outside India
+shall not be taken into account."
+5.  As mentioned earlier, the assessee is a non-resident company. Therefore, in computing its net wealth the restrictions placed by s. 6 will have to be taken into consideration
+6.  Quite clearly, the High Seas cannot be considered as a part of India in the absence of anything in the Act making it a part of India. Therefore, prima facie, we must proceed on the basis that the goods with which we are concerned in this case were located outside India on the relevant valuation dates. But the learned Solicitor-General invited our attention to a passage in Dicey's Conflict of Laws, 6th edition, which says
+"Goods on the High Seas which are capable of being dealt with in England by means of bills of lading in this country are, wherever actually situate, to be held situate in England."
+7.  These observations are made in a different context and they will have no bearing in interpreting the scope of s. 6 of the Act. The scope of s. 6 is plain and unambiguous. It was urged on behalf of the revenue that the question raised is a question of law arising from the order of the Tribunal and, therefore, the High Court was bound to consider it. But herein we are dealing with appeals brought by special leave. It is within the discretion of this court to grant or refuse to grant relief in appeals brought by special leave. For the reasons mentioned above we find no merit in these appeals .In the result, these appeals fail and they are dismissed with costs. One hearing fee.
+Appeals dismissed.
