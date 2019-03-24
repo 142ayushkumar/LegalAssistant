@@ -6,12 +6,11 @@ from nltk import word_tokenize
 from nltk.tokenize import RegexpTokenizer
 from bing_spell_check_api import *
 
-basic_file_path = '/'
-abb_path = '/'
+
 
 
 def cal(x):
-	if copy_rankings.has_key(x):
+	if x in copy_rankings:
 		return -copy_rankings[x]
 	else:
 		return 0
@@ -19,9 +18,9 @@ def cal(x):
 
 def get_related_acts(search_query):
 
-	file = open(basic_file_path	+ 'actlist.txt' , 'r')
+	file = open('actlist.txt' , 'r')
 
-	abb_file = open(abb_path + 'abbreviation_mapping.json', 'r')
+	abb_file = open('abbreviation_mapping.json', 'r')
 	abb_dict = json.load(abb_file)
 	acts = []
 	
@@ -54,7 +53,7 @@ def get_related_acts(search_query):
 	copy_rel_acts = []
 	i = 0
 	for act in rel_acts:
-		if abb_dict.has_key(act[0]):
+		if act[0] in abb_dict:
 			for x in abb_dict[act[0]]:
 				copy_rel_acts.append((x,act[1]))
 		else :
@@ -66,7 +65,7 @@ def get_related_acts(search_query):
 def get_related_cases(rel_acts):
 	
 
-	f = open(basic_file_path + 'act_to_cases.json','r')
+	f = open('act_to_cases.json','r')
 
 	act_to_case_dict = json.load(f)
 	cases = []
@@ -74,7 +73,7 @@ def get_related_cases(rel_acts):
 		# print(act)
 		try:
 			for x in act_to_case_dict[act[0]]:
-				cases.append(x.encode('utf-8'))
+				cases.append(x)
 		except :
 			pass
 
@@ -87,7 +86,7 @@ def get_related_cases(rel_acts):
 
 
 if __name__ == '__main__':
-	search_query = raw_input("search query = ")
+	search_query = input("search query = ")
 	search_query = search_query.replace('.', '')
 
 	search_query = corrected_text(search_query)
@@ -103,7 +102,7 @@ if __name__ == '__main__':
 	cases = list(cases)
 	cases = cases[:min(10,len(cases))]
 	# print(cases)
-	f = open(basic_file_path +'case_ranking.json','r')
+	f = open('case_ranking.json','r')
 	rankings = json.load(f)
 	# print(rankings[:10])
 	copy_rankings = {}
@@ -115,12 +114,14 @@ if __name__ == '__main__':
 	sorted_cases = sorted(cases,key = lambda x:cal(x))
 	cases_score_dict = {}
 	# print(sorted_cases)
-	for case in sorted_cases[:10]:
-		if copy_rankings.has_key(case):
+	for case in sorted_cases:
+		if case in copy_rankings:
 			cases_score_dict[case] = copy_rankings[case]
+		else:
+			cases_score_dict[case] = 0
 
 	final_dict['cases'] = cases_score_dict
 
 	f1 = open('query2.json','w')
-	final = json.dumps(final_dict,indent = 3)
+	final = json.dumps(final_dict, indent = 1)
 	f1.write(final)
