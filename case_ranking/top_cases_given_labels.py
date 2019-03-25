@@ -1,0 +1,47 @@
+import json
+import networkx as nx
+import operator
+# base_dir = "/Users/saurav/Desktop/OpenSoft/case_ranking/"
+
+with open('subject_to_case.txt', 'r') as file:
+	json_data = file.read()
+	category_data = json.loads(json_data)
+
+def give_best_cases(label_names):
+	'''
+		In this function, give the input as a list of labels
+		Note - the name of labels must match exactly with that in subject_to_case.txt
+	'''
+	case_score = dict()
+	for labels in label_names:
+		# print(labels)
+		for cases in category_data[labels]:
+			case_score[cases] = 0
+
+	for labels in label_names:
+		with open(labels + '.txt', 'r') as file:
+			json_data = file.read()
+			label_data = json.loads(json_data)
+		for case in label_data:
+			case_score[case] = case_score[case] + label_data[case]*len(label_data) 
+
+	case_score = sorted(case_score.items(), key=operator.itemgetter(1))
+	# print(case_score)
+	case_to_score = dict()
+	case_score_len = len(case_score)-1
+	for i in range(min(100,case_score_len)):
+		case_to_score.update({case_score[case_score_len-i][0]:case_score[case_score_len-i][1]})
+
+	# print(case_to_score)
+	return case_to_score
+
+if __name__ == '__main__':
+	n = int(input("Number of Categories"))
+	label_names = []
+	for i in range(n):
+		label = input("Give Category")
+		label_names.append(label)
+	# print(label_names)
+	x = dict()
+	x = give_best_cases(label_names)
+	print(x)
