@@ -84,14 +84,12 @@ def get_result(query, categories = [], acts = [], judges = [], start_date = None
 
 @app.route("/", methods = ['GET'])
 def index():
-    print(request.data)
     query = request.args.get('query')
     category = request.args.get('category')
     acts = request.args.get('acts')
     judge = request.args.get('judge')
     start_date = request.args.get('from')
     end_date = request.args.get('to')
-    print(f"query is {query}, category is {category}, acts is {acts}, judge is {judge}, start date is {start_date}")
     #Add this search in recents
     store = ""
     temp = query is None and category is None and acts is None and judge is None and start_date is None and end_date is None
@@ -135,4 +133,8 @@ def cases(filename):
 @app.route("/search", methods=['GET'])
 def search():
     return render_template('search.html')
+
+
+if __name__ == "__main__":
+    app.run(host="localhost", port=8080, debug=True)
 
