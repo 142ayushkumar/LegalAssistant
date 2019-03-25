@@ -33,7 +33,7 @@ def get_result(query, categories = [], acts = [], judges = [], start_date = None
     '''
 
     '''
-    This code is only for query of type 3. Results are sorted according
+    This code is only for query of type 3. Results are sorted according to
     matching with given query.
     '''
     
