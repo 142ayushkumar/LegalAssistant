@@ -6,8 +6,11 @@ from nltk import word_tokenize
 from nltk.tokenize import RegexpTokenizer
 from bing_spell_check_api import *
 
+'''
+query2(search_query) : Returns result in the form of dictionary in query2.json file 
+'''
 
-
+copy_rankings = {}
 
 def cal(x):
 	if x in copy_rankings:
@@ -85,8 +88,7 @@ def get_related_cases(rel_acts):
 
 
 
-if __name__ == '__main__':
-	search_query = input("search query = ")
+def query2(search_query):
 	search_query = search_query.replace('.', '')
 
 	search_query = corrected_text(search_query)
@@ -105,7 +107,7 @@ if __name__ == '__main__':
 	f = open('case_ranking.json','r')
 	rankings = json.load(f)
 	# print(rankings[:10])
-	copy_rankings = {}
+
 	scaling_ratio = 1000/6
 	for key in rankings:
 		copy_rankings[key] = rankings[key]*scaling_ratio
@@ -125,3 +127,7 @@ if __name__ == '__main__':
 	f1 = open('query2.json','w')
 	final = json.dumps(final_dict, indent = 1)
 	f1.write(final)
+
+if __name__ == '__main__':
+	search_query = input("search query = ")
+	query2(search_query)
