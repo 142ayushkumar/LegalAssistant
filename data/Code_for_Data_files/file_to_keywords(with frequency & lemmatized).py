@@ -4,8 +4,13 @@
 # Github repo-https://github.com/csurfer/rake-nltk
 # Install the following components of nltk- corpus,stem,wordnet
 # A stopwords.json file contains stopwords
-# Input -Case documents
+# Input -Case documents, Stopwords list
 # Output-Dict file->word->frequency
+# Function- 
+# 1. Rake tokenizes and filters words according to the stopwords list and returns all 
+# the words in a file with their frequency. 
+# 2. nltk pos_tagger is used to identify word tag and alongwith nltk lemmatizer, gives lemmatized
+# keyword.
 
 
 from rake_nltk import Rake
