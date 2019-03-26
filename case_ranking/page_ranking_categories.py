@@ -1,7 +1,7 @@
 import json
 import networkx as nx
 import operator
-base_dir = "/Users/saurav/Desktop/OpenSoft/"
+base_dir = ""
 
 with open(base_dir + 'subject_to_case.txt', 'r') as file:
 	json_data = file.read()
