@@ -112,12 +112,11 @@ body {
     margin-top: 20px;
 }
 .main .result-list {
-    max-width: 1000px;
-    margin-left: 10%;
+    max-width: 960px;
+    margin-left: 12%;
     padding: 10px;
     margin-top: 150px;
     margin-bottom: 60px;
-
     border-radius: 10px;
 }
 
@@ -156,8 +155,26 @@ body {
 .result:nth-of-type(even) {
     background-color: #F8F8F8;
 }
-.footer {
 
+select {
+    width: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    top: 25%;
+    right: 5%;
+    width: 25%;
+    padding: 10px;
+    height: 600px;
+    overflow: scroll;
+}
+
+.category, .judge, .acts {
+    margin-bottom: 20px;
+}
+
+.footer {
     background-color: black;
     position: fixed;
     left: 0;
@@ -184,17 +201,17 @@ body {
     display: table;
 }
 /*.result-list .result:first-of-type {*/
-    /*border-radius: 10px 10px 0 0;*/
-    /*border: 1px solid black;*/
+/*border-radius: 10px 10px 0 0;*/
+/*border: 1px solid black;*/
 
 /*}*/
 /*.result-list .result:last-of-type {*/
-    /*border-radius: 0 0 10px 10px;*/
+/*border-radius: 0 0 10px 10px;*/
 /*}*/
 /*.result {*/
-    /*border-right: 1px solid black;*/
-    /*border-left: 1px solid black;*/
-    /*border-bottom: 1px solid black;*/
+/*border-right: 1px solid black;*/
+/*border-left: 1px solid black;*/
+/*border-bottom: 1px solid black;*/
 /*}*/
 button.minimal {
     background: #e3e3e3;
@@ -223,6 +240,24 @@ button.minimal:active {
     -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
     box-shadow: inset 0 0 1px 1px #e3e3e3;
     color: #000;
+}
+
+@media only screen and (max-width: 1600px) {
+    .main .result-list {
+        margin-left: 2%;
+    }
+
+    .sidebar {
+        right: 2%;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1325px) {
+    .sidebar {
+        display: none;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .logo img{
@@ -264,5 +299,28 @@ button.minimal:active {
     }
     .search .date input {
         height: 22px !important;
+    }
+
+    .header .more-filters {
+        display: none;
+    }
+
+    .header img {
+        width: 30px;
+        margin-top: 10px !important;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .main .result-list {
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (max-height : 700px) {
+    .sidebar ul {
+        height: 120px;
     }
 }
