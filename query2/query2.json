@@ -1,26 +1,26 @@
 {
-   "cases": {
-      "1978_B_4": 0.004741981657600947, 
-      "1965_L_2": 0.0036900429227280356, 
-      "1987_R_42": 0.0019900818520823984, 
-      "2001_K_104": 0.0019900818520823984, 
-      "2003_M_252": 0.004360446121129862, 
-      "1963_S_29": 0.012939522573297974, 
-      "1999_B_127": 0.0019900818520823984, 
-      "1967_S_30": 0.0019900818520823984, 
-      "2000_U_145": 0.016181475392352096, 
-      "1979_N_19": 0.01783224622399077
-   }, 
-   "acts": [
-      "Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016", 
-      "Aadhaar (Enrolment and Update) (Fifth Amendment) Regulations, 2018", 
-      "Maharashtra Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016", 
-      "Assam Autonomous Districts Administration of Justice (Miscellaneous Provisions) Act, 1957", 
-      "Assam Autonomous Districts Administration of Justice Act, 1960", 
-      "Acquisition of Certain Area At Ayodhya Act, 1993", 
-      "Ajmer Development Authority Act, 2013", 
-      "Dekkhan Agriculturist's Relief Act, 1879", 
-      "Delhi Ancient and Historical Monuments and Archaeological Sites and Remains Act, 2004", 
-      "Madras Ancient and Historical Monument and Archaeological Sites and Remains Act, 1966"
-   ]
+ "cases": {
+  "1996_S_445": 0.001998074148677107,
+  "2017_S_144": 0.001998074148677107,
+  "1980_U_4": 0,
+  "1961_U_4": 0.014301998536845455,
+  "1968_S_39": 0.009362467029552402,
+  "2003_U_66": 0.0025186950543041988,
+  "2006_A_45": 0.0024124132809434356,
+  "1965_L_2": 0.003704862372216903,
+  "1974_C_16": 0.030343961506065966,
+  "1978_B_4": 0.004761025760643521
+ },
+ "acts": [
+  "Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016",
+  "Aadhaar (Enrolment and Update) (Fifth Amendment) Regulations, 2018",
+  "Maharashtra Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016",
+  "Acquisition of Certain Area At Ayodhya Act, 1993",
+  "Assam Autonomous Districts Administration of Justice (Miscellaneous Provisions) Act, 1957",
+  "Assam Autonomous Districts Administration of Justice Act, 1960",
+  "Ajmer Development Authority Act, 2013",
+  "Dekkhan Agriculturist's Relief Act, 1879",
+  "Delhi Ancient and Historical Monuments and Archaeological Sites and Remains Act, 2004",
+  "Madras Ancient and Historical Monument and Archaeological Sites and Remains Act, 1966"
+ ]
 }

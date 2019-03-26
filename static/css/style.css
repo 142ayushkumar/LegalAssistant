@@ -1,4 +1,6 @@
-html 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html
 {
     box-sizing: border-box;
 }
@@ -168,6 +170,8 @@ a
 }
 .footer div {
     margin: 10px;
+    text-align: right;
+    padding-right: 7%;
 }
 .recents {
 
@@ -185,6 +189,10 @@ a
 }
 .recents ul li:nth-of-type(2n) {
     background-color: lightgray;
+}
+
+.recent-selected {
+    background-color: lightcyan;
 }
 @media only screen and (max-width: 1500px) {
     .filters .filter-icon {
@@ -229,6 +237,9 @@ a
         margin-top: 200px;
     }
     .footer {
+        text-align: center;
+    }
+    .footer div {
         text-align: center;
     }
     .footer ul {

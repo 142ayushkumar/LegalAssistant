@@ -2,18 +2,17 @@
 From the query of type 3, extracts the case files
 '''
 import re
-from nltk.corpus import stopwords 
+from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import json
 stop_words = set(stopwords.words('english'))
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 '''
-Use the dictionaries 'Cases_from_caseName.json', 'States.json' and 'reduced_dictionary.json' 
+Use the dictionaries 'Cases_from_caseName.json', 'Case_Abbreviations_Dictionary.json' and 'reduced_dictionary.json' 
 in the same directory as this code file.
 Function for Query 3    
- - Returns the possible cases (case id) along with the priority in form of a score (max 200)
- - Number of parties has to be tweaked
+ - Writes the possible cases (case id) along with the priority in form of a score (max 20) as a dictionary in Query_3_results.json
 '''
 def query_3(query):
 
@@ -81,7 +80,7 @@ def query_3(query):
             list_cases_party_1 = file_dict[str(i[0])]
             for j in parties_2:
                 list_cases_party_2 = file_dict[str(j[0])]
-                intersection = [value.encode('utf-8') for value in list_cases_party_1 if value in list_cases_party_2]
+                intersection = [value for value in list_cases_party_1 if value in list_cases_party_2]
                 score = float(i[1]+j[1])/200
                 if intersection != []:
                     if [intersection[0],score] not in selected_cases:
@@ -93,8 +92,8 @@ def query_3(query):
                 for j in range(len(file_dict[str(i[0])])):
                     if count==20:
                         break
-                    if [(file_dict[str(i[0])][j]).encode('utf-8'),float(i[1])/200] not in selected_cases:
-                        selected_cases.append([(file_dict[str(i[0])][j]).encode('utf-8'),float(i[1])/200])
+                    if [file_dict[str(i[0])][j],float(i[1])/200] not in selected_cases:
+                        selected_cases.append([file_dict[str(i[0])][j],float(i[1])/200])
                         count+=1
         else:
             selected_cases=selected_cases[:20]
@@ -102,18 +101,12 @@ def query_3(query):
         def sortSecond(val):
             return val[1]
         selected_cases.sort(key = sortSecond, reverse=True)
-        #select=[]
-        #for i in selected_cases:
-        #    select.append(i[0])
-        #final_list = [] 
-        #for name in select: 
-        #    if name not in final_list: 
-        #        final_list.append(name) 
+        print(selected_cases)
         d={}
         for file in selected_cases:
             d[file[0]]=file[1]
         with open('Query_3_results.json','w') as out:
-            json.dump(d,out)
+            json.dump(d,out,indent=1)
     
     else:
         search_1=[]
@@ -141,18 +134,18 @@ def query_3(query):
             for j in range(len(file_dict[str(i[0])])):
                 if count==20:
                     break
-                if [(file_dict[str(i[0])][j]).encode('utf-8'),float(i[1])/200] not in selected_cases:
-                    selected_cases.append([(file_dict[str(i[0])][j]).encode('utf-8'),float(i[1])/100])
+                if [file_dict[str(i[0])][j],float(i[1])/200] not in selected_cases:
+                    selected_cases.append([file_dict[str(i[0])][j],float(i[1])/100])
                     count+=1
         d={}
         for file in selected_cases:
             d[file[0]]=file[1]
         with open('Query_3_results.json','w') as out:
-            json.dump(d,out)
+            json.dump(d,out,indent=1)
 
 if __name__ == '__main__':
 
-    q = raw_input("Enter case : ")
+    q = input("Enter case : ")
     query_3(q)
     
     

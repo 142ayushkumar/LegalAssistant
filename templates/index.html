@@ -8,19 +8,49 @@
   <meta name="keywords" content="Legal Assistant, Legal Query, Cases, Acts, Legal Help" />
   <meta name="author" content="Open Soft" />
   <link rel="stylesheet" href="../static/css/style.css">
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+  <script src="../static/js/script.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- For fa fa-angle-down -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-  <style>
-        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-  </style> 
+    <link href="../static/img/logo.png" rel="shortcut icon" type="image/png"/>
+
+    <script>
+        $(function () {
+            if ($('input[type="date"]').prop('type') != 'date') {
+                $('input[type="date"]').datepicker();
+            }
+
+            $(".recent-list ul li").click(function () {
+                let query = $(this).text(),
+                    category = $(this).attr("category"),
+                    acts = $(this).attr("acts"),
+                    judge = $(this).attr("judge");
+                $("#querybox").val(query);
+                $("input[name=category]").val(category);
+                $("input[name=acts]").val(acts);
+                $("input[name=judge]").val(judge);
+                $(this).toggleClass("recent-selected");
+            });
+        });
+    </script>
 
 </head>
 
   <body>
     <div class="header">
-        <img style="position: fixed" src="../static/img/nav-logo.png">
-        <div class="header-text">LegalAssistant.com</div>
+        <a href="/" style="text-decoration: none; color: white">
+            <img style="position: fixed" src="../static/img/nav-logo.png">
+            <div class="header-text">LegalAssistant.com</div>
+        </a>
         <hr class="line">
         <div class="dropdowns">
             <button class="buttons">Law Topics <i class="fa fa-angle-down arrow"></i></button>
@@ -32,12 +62,15 @@
             >All Sections <i class="fa fa-angle-down arrow"></i></button>
         </div>
     </div>
+
     <img src="../static/img/logo.png" alt="logo" class="logo">
     <div class="search-box">
     <form method="get">
         <div class="input-group inner-addon left-addon">
             <i class="glyphicon glyphicon-search"></i>
-            <input type="text" class="form-control" placeholder="&#xF002; search by keywords/ NL query / case title / act / section" style="font-family:Arial, FontAwesome" name="query">
+            <input class="form-control" id="querybox" name="query"
+                   placeholder="&#xF002; search by keywords/ NL query / case title / act / section"
+                   style="font-family:Arial, FontAwesome" type="text">
             <span class="input-group-btn">
                 <button type="submit" id="search_button" class="btn btn-default" value="search">Search</button>
             </span>
@@ -53,17 +86,18 @@
                 <p>Category</p>
             </div>
             <div class="Acts">
-                <input type="Acts" placeholder="&#xF002; Acts" style="font-family:Arial, FontAwesome" aria-label="Acts" name="acts">
+                <input aria-label="Acts" name="acts" placeholder="&#xF002; Acts" style="font-family:Arial, FontAwesome"
+                       type="text">
                 <p>Acts</p>
             </div>
             <div class="Judge">
-                <input type="Judge" placeholder="&#xF002; Judge" style="font-family:Arial, FontAwesome" aria-label="Judge" name="judge">
+                <input aria-label="Judge" name="judge" placeholder="&#xF002; Judge"
+                       style="font-family:Arial, FontAwesome" type="text">
                 <p>Judge</p>
             </div>
         </div>
     </div>
     </form>
-
     </div>
     <div class="recents">
         <img src="../static/img/recent.png" alt="Recent">
@@ -73,7 +107,7 @@
 
             <ul>
                 {% for recent in recents %}
-                    <li> {{ recent }}</li>
+                    <li category="{{ recent['category'] }}" acts="{{ recent['acts'] }}" judge="{{ recent['judge'] }}" from="{{ from }}" to="{{ to }}"> {{ recent["query"] }}</li>
                 {% endfor %}
             </ul>
 
