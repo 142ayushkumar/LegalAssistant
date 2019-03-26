@@ -3,4 +3,3 @@ __pycache__
 flask_session
 .vscode
 env
-data

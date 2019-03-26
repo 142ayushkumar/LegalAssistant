@@ -6,8 +6,11 @@ import json
 import datetime
 import operator
 import re
+import nltk
+import fuzzywuzzy
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
@@ -136,5 +139,5 @@ def search():
 
 
 if __name__ == "__main__":
-    app.run(host="localhost", port=8080, debug=True)
+    app.run(host="localhost", port=5000, debug=True)
 
