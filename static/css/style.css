@@ -4,11 +4,11 @@ html
 {
     box-sizing: border-box;
 }
-*, *:before, *:after 
+*, *:before, *:after
 {
     box-sizing: inherit;
 }
-  
+
 a
 {
     text-decoration: none;
@@ -56,12 +56,12 @@ a
 
 .arrow
 {
-    color: white;   
+    color: white;
 }
 
 .buttons {
     background:none!important;
-    border:none; 
+    border:none;
     padding:0!important;
     color: white;
     cursor:pointer;
@@ -76,6 +76,16 @@ a
 .input-group {
     width: 90% !important;
     margin: auto;
+}
+
+input[type=date] {
+    border-radius: 5px !important;
+    border-color: darkgrey !important;
+}
+
+input[type=date]:focus {
+    border-color: black !important;
+    outline: none !important;
 }
 .buttons
 {
@@ -121,24 +131,30 @@ a
 .more-filters
 {
     padding-top: 2%;
-
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 5%;
 }
-.more-filters div{
-    width: 25%;
+
+.more-filters .category, .more-filters .judge {
+    width: 45%;
 
 }
-.more-filters input {
+
+.more-filters .acts {
     width: 100%;
-    border-radius: 2px;
-    height: 40px;
-    padding: 5px 10px;
+    margin: 10px auto 10px auto;
 }
+
+.more-filters div select {
+    width: 100%;
+}
+
 .more-filters p {
 
     text-align: center;
@@ -156,11 +172,11 @@ a
     bottom: 0;
     width: 100%;
 
-    padding: 10px; 
+    padding: 10px;
 }
 .footer ul {
     list-style-type: none;
-    margin: 10px;
+    margin: 5px;
     padding: 0;
     float: left;
     width: 50%;
@@ -169,7 +185,7 @@ a
     display: inline-block;
 }
 .footer div {
-    margin: 10px;
+    margin: 5px;
     text-align: right;
     padding-right: 7%;
 }
@@ -190,15 +206,24 @@ a
 .recents ul li:nth-of-type(2n) {
     background-color: lightgray;
 }
-
 .recent-selected {
-    background-color: lightcyan;
+    background-color: #222222;
+    color: white;
 }
 @media only screen and (max-width: 1500px) {
     .filters .filter-icon {
         position: relative;
         text-align: center;
         margin-bottom: 2%;
+    }
+
+    .more-filters {
+        flex-flow: column wrap;
+    }
+
+    .more-filters .category, .more-filters .judge, .more-filters .acts {
+        width: 100%;
+        margin: auto;
     }
 
 }
@@ -212,23 +237,10 @@ a
         display: block;
         margin: auto;
     }
-    .more-filters
-    {
-        padding-top: 2%;
 
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-around;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-bottom: 5%;
-
+    .more-filters {
+        width: 100%;
     }
-    .more-filters div{
-        width: 80%;
-        margin: auto;
-    }
-
 
 }
 @media only screen and (max-width: 720px) {

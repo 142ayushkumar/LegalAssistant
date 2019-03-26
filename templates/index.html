@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Legal Assistant</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="Legal Assistant, Legal Query, Cases, Acts, Legal Help" />
-  <meta name="author" content="Open Soft" />
-  <link rel="stylesheet" href="../static/css/style.css">
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
-  <script src="../static/js/script.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- For fa fa-angle-down -->
+    <title>Legal Assistant</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Legal Assistant, Legal Query, Cases, Acts, Legal Help" name="keywords"/>
+    <meta content="Open Soft" name="author"/>
+    <link href="../static/css/style.css" rel="stylesheet">
+
+
+    <script src="../static/js/script.js"></script>
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- For fa fa-angle-down -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
 
     <link href="../static/img/logo.png" rel="shortcut icon" type="image/png"/>
 
@@ -29,42 +32,67 @@
                 $('input[type="date"]').datepicker();
             }
 
+            $('.category-select').select2();
+            $('.category-select').select2({width: "100%", placeholder: "Categories"});
+
+            $('.judge-select').select2();
+            $('.judge-select').select2({width: "100%", placeholder: "Judges"});
+
+            $('.act-select').select2();
+            $('.act-select').select2({width: "100%", placeholder: "Acts"});
+
+
             $(".recent-list ul li").click(function () {
-                let query = $(this).text(),
-                    category = $(this).attr("category"),
-                    acts = $(this).attr("acts"),
-                    judge = $(this).attr("judge");
-                $("#querybox").val(query);
-                $("input[name=category]").val(category);
-                $("input[name=acts]").val(acts);
-                $("input[name=judge]").val(judge);
-                $(this).toggleClass("recent-selected");
+                let c = $(this).attr("category");
+                let j = $(this).attr("judge");
+                let a = $(this).attr("acts");
+
+                let f = $(this).attr("from");
+                let t = $(this).attr("to");
+
+
+                let x = JSON.parse(c);
+                let y = JSON.parse(j);
+                let z = JSON.parse(a);
+
+
+                $(".category-select").val(x).trigger('change');
+                $(".judge-select").val(y).trigger('change');
+                $(".act-select").val(z).trigger('change');
+
+
+                $("input[name=from]").val(f);
+                $("input[name=to]").val(t);
+
             });
+
         });
+
     </script>
+
 
 </head>
 
-  <body>
-    <div class="header">
-        <a href="/" style="text-decoration: none; color: white">
-            <img style="position: fixed" src="../static/img/nav-logo.png">
-            <div class="header-text">LegalAssistant.com</div>
-        </a>
-        <hr class="line">
-        <div class="dropdowns">
-            <button class="buttons">Law Topics <i class="fa fa-angle-down arrow"></i></button>
-            <button class="buttons">Insight & Analysis <i class="fa fa-angle-down arrow"></i></button>
-            <button class="buttons">Surveys & Rankings <i class="fa fa-angle-down arrow"></i></button>
-            <button class="buttons">Legal Newswire <i class="fa fa-angle-down arrow"></i></button>
-            <button class="buttons">Practice Tools <i class="fa fa-angle-down arrow"></i></button>
-            <button class="buttons"
-            >All Sections <i class="fa fa-angle-down arrow"></i></button>
-        </div>
+<body>
+<div class="header">
+    <a href="/" style="text-decoration: none; color: white">
+        <img style="position: fixed" src="../static/img/nav-logo.png">
+        <div class="header-text">LegalAssistant.com</div>
+    </a>
+    <hr class="line">
+    <div class="dropdowns">
+        <button class="buttons">Law Topics <i class="fa fa-angle-down arrow"></i></button>
+        <button class="buttons">Insight & Analysis <i class="fa fa-angle-down arrow"></i></button>
+        <button class="buttons">Surveys & Rankings <i class="fa fa-angle-down arrow"></i></button>
+        <button class="buttons">Legal Newswire <i class="fa fa-angle-down arrow"></i></button>
+        <button class="buttons">Practice Tools <i class="fa fa-angle-down arrow"></i></button>
+        <button class="buttons"
+        >All Sections <i class="fa fa-angle-down arrow"></i></button>
     </div>
+</div>
 
-    <img src="../static/img/logo.png" alt="logo" class="logo">
-    <div class="search-box">
+<img src="../static/img/logo.png" alt="logo" class="logo">
+<div class="search-box">
     <form method="get">
         <div class="input-group inner-addon left-addon">
             <i class="glyphicon glyphicon-search"></i>
@@ -74,53 +102,69 @@
             <span class="input-group-btn">
                 <button type="submit" id="search_button" class="btn btn-default" value="search">Search</button>
             </span>
-            
+
         </div>
-    <div class="filter-wrap">
-        <div class="filters">
-            <div class="filter-icon"><img src="../static/img/filter.png" alt="filter">Filter Search</div> <div class="date"><span class="from">from : <input type="date" name="from"></span> <span class="to">to: <input type="date" name="to"></span></div>
+        <div class="filter-wrap">
+            <div class="filters">
+                <div class="filter-icon"><img src="../static/img/filter.png" alt="filter">Filter Search</div> <div class="date"><span class="from">from : <input type="date" name="from"></span> <span class="to">to: <input type="date" name="to"></span></div>
+            </div>
+            <div class="more-filters">
+                <div class="category">
+
+                    <select class="category-select" multiple="multiple" name="categories[]">
+                        <option value="1">Alpha</option>
+                        <option value="2">Beta</option>
+                    </select>
+                    <p>Categories</p>
+                </div>
+
+                <div class="judge">
+
+                    <select class="judge-select" multiple="multiple" name="judges[]">
+
+                    </select>
+                    <p>Judges</p>
+                </div>
+
+                <div class="acts">
+
+
+                    <select class="act-select" multiple="multiple" name="acts[]">
+                        <option value="adf">Tamil Nadu Prevention of Dangerous Activities of Bootleggers, Drug-offenders,
+                            Goondas, Immoral Traffic Offenders, Forest-offenders, Sand-Offenders, Slum-grabbers and Video
+                            Pirates Act, 1982
+                        </option>
+                    </select>
+
+                    <p>Acts</p>
+                </div>
+
+            </div>
         </div>
-        <div class="more-filters">
-            <div class="category">
-                <input placeholder="&#xF002; Category" style="font-family:Arial, FontAwesome" aria-label="Category" name="category">
-                <p>Category</p>
-            </div>
-            <div class="Acts">
-                <input aria-label="Acts" name="acts" placeholder="&#xF002; Acts" style="font-family:Arial, FontAwesome"
-                       type="text">
-                <p>Acts</p>
-            </div>
-            <div class="Judge">
-                <input aria-label="Judge" name="judge" placeholder="&#xF002; Judge"
-                       style="font-family:Arial, FontAwesome" type="text">
-                <p>Judge</p>
-            </div>
-        </div>
-    </div>
     </form>
-    </div>
-    <div class="recents">
-        <img src="../static/img/recent.png" alt="Recent">
-        <span>Recent</span>
+</div>
+<div class="recents">
+    <img src="../static/img/recent.png" alt="Recent">
+    <span>Recent</span>
 
-        <div class="recent-list">
+    <div class="recent-list">
 
-            <ul>
-                {% for recent in recents %}
-                    <li category="{{ recent['category'] }}" acts="{{ recent['acts'] }}" judge="{{ recent['judge'] }}" from="{{ from }}" to="{{ to }}"> {{ recent["query"] }}</li>
-                {% endfor %}
-            </ul>
-
-        </div>
-    </div>
-    <div class="footer">
         <ul>
-            <li style="margin-left: 5%">Help</li>
-            <li style="margin-left: 5%">Send Feedback</li>
-            <li style="margin-left: 5%">Privacy</li>
-            <li style="margin-left: 5%"> Terms</li>
+            {% for recent in recents %}
+            <li category="{{ recent['category'] }}" acts="{{ recent['acts'] }}" judge="{{ recent['judge'] }}" from="{{ from }}" to="{{ to }}"> {{ recent["query"] }}</li>
+            {% endfor %}
         </ul>
-        <div>&copy 2019-20 Legal Assistant Corporation | All rights reserved</div>
+
     </div>
-  </body>
-  </html>
+</div>
+<div class="footer">
+    <ul>
+        <li style="margin-left: 5%">Help</li>
+        <li style="margin-left: 5%">Send Feedback</li>
+        <li style="margin-left: 5%">Privacy</li>
+        <li style="margin-left: 5%"> Terms</li>
+    </ul>
+    <div>&copy 2019-20 Legal Assistant Corporation | All rights reserved</div>
+</div>
+</body>
+</html>
