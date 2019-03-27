@@ -13,26 +13,16 @@
 
     <link href="../static/img/logo.png" rel="shortcut icon" type="image/png"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(function() {
-            $(window).scroll(function() {
-                var sticky = $('.header'),
-                    scroll = $(window).scrollTop();
-                var sticky2 = $('.sidebar');
-
-                if (scroll >= 100) {
-                    sticky.addClass('hide-me');
-                    sticky2.addClass('move-me')
-                }
-                else {
-                    sticky.removeClass('hide-me');
-                    sticky2.removeClass('move-me');
-                }
-            });
-        });
-    </script>
+    <script src="../static/js/article.js"></script>
 </head>
+<style>
+    .sidebar .tags span {
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
 
+    }
+</style>
 <body>
 
     <div class="header clearfix">
@@ -63,7 +53,7 @@
             <li><a href="">Lorem ipsum dolor sit.</a></li>
             <li><a href="">Cum modi nemo officiis?</a></li>
         </ul>
-        <h4>Tags</h4>
+        <h4>Categories</h4>
         <div class="tags">
             <span><a href="">Lorem.</a></span>
             <span><a href="">Dolorem.</a></span>
@@ -74,14 +64,14 @@
             <span><a href="">Odit!</a></span>
             <span><a href="">Et.</a></span>
             <span><a href="">Perferendis.</a></span>
-            <span><a href="">Eaque!</a></span>
+            <span><a href="">Eaque! Lorem ipsum dolor sit amet.</a></span>
         </div>
     </div>
 
     <div class="article">
 
         <div class="heading">
-            <h1> {{ casename }}<h1>
+            <h1> {{ casename }}</h1>
         </div>
 
         <div class="info">

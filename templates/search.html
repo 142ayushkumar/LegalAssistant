@@ -25,74 +25,9 @@
 
     <link href="../static/css/style.css" rel="stylesheet">
 
-    <script>
-        $(function () {
-            if ($('[type="date"]').prop('type') != 'date') {
-                $('[type="date"]').datepicker();
-            }
-
-            $('.category-select').select2();
-            $('.category-select').select2({width: "100%", placeholder: "Categories"});
-
-            $('.judge-select').select2();
-            $('.judge-select').select2({width: "100%", placeholder: "Judges"});
-
-            $('.act-select').select2();
-            $('.act-select').select2({width: "100%", placeholder: "Acts"});
-
-            $(".filters-button").click(function() {
-                if($(".maxi-header-2").is(":hidden")) {
-                    $(".maxi-header-2").slideDown();
-                }
-                else {
-                    $(".maxi-header-2").slideUp();
-                }
-            });
-        });
-    </script>
+    <script src="../static/js/search.js"></script>
     
-    <style>
-        .maxi-header-2 {
-            display: none;
-            position: absolute;
-            left: 0;
-            right: 0;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        .mini-header-2 {
-            display: flex;
-            flex-flow: row wrap;
-            border: 1px solid black;
-            padding: 15px 5px 10px 5px;
-            background-color: black;
-        }
-        .head-wrap-2 {
-            border: 1px solid black;
-        }
-        .logo-2 {
-            border: 1px solid black;
-            flex: 1;
-            text-align: center;
-        }
-        .search-2 {
-            float: right;
-            flex: 6;
-        }
-        .search-2 input {
-            width: 80%;
-            margin-top: 1%;
-        }
 
-        .header-2 {
-            border: 1px solid black;
-        }
-        .filters-button {
-            color: white;
-            margin-left: 5%;
-            border: 1px solid white;
-            padding: 5px 10px;
-        }
-    </style>
 
 </head>
 <body>
@@ -100,25 +35,31 @@
 
 <div class="head-wrap-2">
     <div class="header-2">
-        <div class="mini-header-2 clearfix">
+        <div class="mini-header-2">
 
             <div class="logo-2">
-            <img src="../static/img/nav-logo.png">
-
+                <a href="/">
+                    <img src="../static/img/nav-logo.png" width="60px">
+                </a>
             </div>
+
             <div class="search-2">
                 <input type="text">
                 <button type="submit">Search</button>
 
 
-                <span class="filters-button">Filters</span>
-            </div>
 
+            </div>
 
 
         </div>
         <div class="maxi-header-2">
+
+
             <div class="search-box">
+                <div class="close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+                </div>
                 <form method="get">
 
                     <div class="filter-wrap">
@@ -164,41 +105,8 @@
         </div>
     </div>
 </div>
-</div>
-
-<!--<div class="sidebar">-->
-
-    <!--<h2>Search Filters</h2>-->
-    <!--<div class="category">-->
-        <!--<h5>Categories</h5>-->
-        <!--<select class="category-select" multiple="multiple" name="categories[]">-->
-            <!--<option value="1">Alpha</option>-->
-            <!--<option value="2">Beta</option>-->
-        <!--</select>-->
-    <!--</div>-->
-
-    <!--<div class="judge">-->
-        <!--<h5>Judges</h5>-->
-        <!--<select class="judge-select" multiple="multiple" name="judges[]">-->
-
-        <!--</select>-->
-    <!--</div>-->
-
-    <!--<div class="acts">-->
-
-        <!--<h5>Acts</h5>-->
-        <!--<select class="act-select" multiple="multiple" name="acts[]">-->
-            <!--<option value="adf">Tamil Nadu Prevention of Dangerous Activities of Bootleggers, Drug-offenders,-->
-                <!--Goondas, Immoral Traffic Offenders, Forest-offenders, Sand-Offenders, Slum-grabbers and Video-->
-                <!--Pirates Act, 1982-->
-            <!--</option>-->
-        <!--</select>-->
 
 
-    <!--</div>-->
-
-
-<!--</div>-->
 
 <div class="main">
 
@@ -226,6 +134,10 @@
                 <p><strong>Acts cited : </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quaerat.</p>
             </div>
 
+            <div class="categories">
+                <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
+            </div>
+
 
         </div>
 
@@ -251,7 +163,9 @@
             <div class="acts-cited">
                 <p><strong>Acts cited : </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quos?</p>
             </div>
-
+            <div class="categories">
+                <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
+            </div>
 
         </div>
         <div class="result">
@@ -279,7 +193,9 @@
             <div class="acts-cited">
                 <p><strong>Acts cited</strong> : Ipsum, Dolor, Alie</p>
             </div>
-
+            <div class="categories">
+                <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
+            </div>
 
         </div>
         <div class="result">
@@ -305,7 +221,9 @@
                 <p><strong>Acts cited</strong> : Ipsum, Dolor, Alie</p>
             </div>
 
-
+            <div class="categories">
+                <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
+            </div>
         </div>
     </div>
     <div class="more-results">
