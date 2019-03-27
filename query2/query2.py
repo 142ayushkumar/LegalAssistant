@@ -1,5 +1,4 @@
 import json
-from collections import OrderedDict
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 from nltk import word_tokenize
@@ -29,15 +28,12 @@ def get_related_acts(search_query):
 	
 	tokenizer = RegexpTokenizer(r'\w+')
 	act_tokens = tokenizer.tokenize(search_query)
-	# print(act_tokens)
+	
 
 	numerical_part = []
 	for word in act_tokens:
 		if any(ch.isdigit() for ch in word):
 			numerical_part.append(word)
-
-	# print(numerical_part)
-
 
 
 	for act in file:
@@ -49,8 +45,6 @@ def get_related_acts(search_query):
 
 	file.close()
 
-	# print(acts[:10])
-
 
 	rel_acts = process.extract(search_query, acts, limit =50 ,scorer=fuzz.token_set_ratio)
 	copy_rel_acts = []
@@ -61,7 +55,6 @@ def get_related_acts(search_query):
 				copy_rel_acts.append((x,act[1]))
 		else :
 			copy_rel_acts.append(act)
-	# print(str(rel_acts) + '\n')
 
 	return copy_rel_acts, numerical_part
 
@@ -73,14 +66,11 @@ def get_related_cases(rel_acts):
 	act_to_case_dict = json.load(f)
 	cases = []
 	for act in rel_acts:
-		# print(act)
 		try:
 			for x in act_to_case_dict[act[0]]:
 				cases.append(x)
 		except :
 			pass
-
-	# print(set(cases))
 
 	cases_relv = set(cases)
 	
@@ -89,7 +79,10 @@ def get_related_cases(rel_acts):
 
 
 def query2(search_query):
-	search_query = search_query.replace('.', '')
+
+	punctuations = '.,\"\'()'
+	for ch in punctuations:
+		search_query = search_query.replace(ch, '')
 
 	search_query = corrected_text(search_query)
 
@@ -98,15 +91,14 @@ def query2(search_query):
 	final_dict = {}
 	rel_acts_wo_score = [x[0] for x in rel_acts]
 	final_dict['acts'] = rel_acts_wo_score[:min(10,len(rel_acts_wo_score))]
-	# print(rel_acts)
+	
 	cases = get_related_cases(rel_acts)
-	# print(cases)
+	
 	cases = list(cases)
 	cases = cases[:min(10,len(cases))]
-	# print(cases)
+	
 	f = open('case_ranking.json','r')
 	rankings = json.load(f)
-	# print(rankings[:10])
 
 	scaling_ratio = 1000/6
 	for key in rankings:
@@ -115,7 +107,6 @@ def query2(search_query):
 
 	sorted_cases = sorted(cases,key = lambda x:cal(x))
 	cases_score_dict = {}
-	# print(sorted_cases)
 	for case in sorted_cases:
 		if case in copy_rankings:
 			cases_score_dict[case] = copy_rankings[case]
