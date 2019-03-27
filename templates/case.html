@@ -59,22 +59,23 @@
             <li><a href="">Dolorem eius eveniet saepe vel!</a></li>
         </ul>
         <h4>Acts Cited</h4>
-        <ul class="acts-cited">
-            <li><a href="">Lorem ipsum dolor sit.</a></li>
-            <li><a href="">Cum modi nemo officiis?</a></li>
+        <ul class="acts-cited"> 
+            {% for x in acts_cited %}
+                <li><a href=""> {{ x }} </a></li>
+            {% endfor %}
         </ul>
-        <h4>Tags</h4>
+        <h4>Categories</h4>
         <div class="tags">
-            <span><a href="">Lorem.</a></span>
-            <span><a href="">Dolorem.</a></span>
-            <span><a href="">Itaque!</a></span>
-            <span><a href="">Excepturi.</a></span>
-            <span><a href="">Assumenda.</a></span>
-            <span><a href="">Beatae.</a></span>
-            <span><a href="">Odit!</a></span>
-            <span><a href="">Et.</a></span>
-            <span><a href="">Perferendis.</a></span>
-            <span><a href="">Eaque!</a></span>
+            {% for category in categories %}
+                <span> {{ category }} </span>
+            {% endfor %}
+        </div>
+        <h4>Citations</h4>
+        <div class="citations">
+            {% for citation in citations %}
+                <span> {{ citation }} </span>
+            {% endfor %}
+
         </div>
     </div>
 
