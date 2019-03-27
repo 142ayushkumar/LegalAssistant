@@ -116,8 +116,12 @@ def query_3(query):
         d={}
         for file in selected_cases:
             d[file[0]]=file[1]
-        with open('Query_3_results.json','w') as out:
-            json.dump(d,out,indent=1)
+        final_dict = {}
+        final_dict["acts"] = {}
+        final_dict["cases"] = d
+
+        with open('query_3.json','w') as out:
+            json.dump(final_dict,out,indent=1)
     
     else:
         search_1=[]
@@ -151,8 +155,12 @@ def query_3(query):
         d={}
         for file in selected_cases:
             d[file[0]]=file[1]
-        with open('Query_3_results.json','w') as out:
-            json.dump(d,out,indent=1)
+        final_dict = {}
+        final_dict["acts"] = {}
+        final_dict["cases"] = d
+
+        with open('query_3.json','w') as out:
+            json.dump(final_dict,out,indent=1)
 
 if __name__ == '__main__':
 

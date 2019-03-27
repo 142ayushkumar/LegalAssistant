@@ -5,3 +5,4 @@ flask_session
 env
 Opensoft-Data
 *.pyc
+data

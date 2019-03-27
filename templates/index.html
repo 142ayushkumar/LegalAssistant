@@ -26,49 +26,7 @@
 
     <link href="../static/img/logo.png" rel="shortcut icon" type="image/png"/>
 
-    <script>
-        $(function () {
-            if ($('input[type="date"]').prop('type') != 'date') {
-                $('input[type="date"]').datepicker();
-            }
-
-            $('.category-select').select2();
-            $('.category-select').select2({width: "100%", placeholder: "Categories"});
-
-            $('.judge-select').select2();
-            $('.judge-select').select2({width: "100%", placeholder: "Judges"});
-
-            $('.act-select').select2();
-            $('.act-select').select2({width: "100%", placeholder: "Acts"});
-
-
-            $(".recent-list ul li").click(function () {
-                let c = $(this).attr("category");
-                let j = $(this).attr("judge");
-                let a = $(this).attr("acts");
-
-                let f = $(this).attr("from");
-                let t = $(this).attr("to");
-
-
-                let x = JSON.parse(c);
-                let y = JSON.parse(j);
-                let z = JSON.parse(a);
-
-
-                $(".category-select").val(x).trigger('change');
-                $(".judge-select").val(y).trigger('change');
-                $(".act-select").val(z).trigger('change');
-
-
-                $("input[name=from]").val(f);
-                $("input[name=to]").val(t);
-
-            });
-
-        });
-
-    </script>
+    <script src="../static/js/main.js"></script>
 
 
 </head>
@@ -76,7 +34,7 @@
 <body>
 <div class="header">
     <a href="/" style="text-decoration: none; color: white">
-        <img style="position: fixed" src="../static/img/nav-logo.png">
+        <img src="../static/img/nav-logo.png" style="position: fixed" width="50px">
         <div class="header-text">LegalAssistant.com</div>
     </a>
     <hr class="line">
@@ -91,7 +49,7 @@
     </div>
 </div>
 
-<img src="../static/img/logo.png" alt="logo" class="logo">
+<img alt="logo" class="logo" src="../static/img/logo.png" width="150px">
 <div class="search-box">
     <form method="get">
         <div class="input-group inner-addon left-addon">
