@@ -88,9 +88,12 @@ def get_related_cases(rel_acts):
 
 def cases_and_acts(search_query):
 	# search_query = raw_input("search query = ")
-	search_query = search_query.replace('.', '')
+	search_query1 = search_query.replace('.', '')
 
-	search_query = corrected_text(search_query)
+	try:
+		search_query = corrected_text(search_query1)
+	except:
+		search_query = search_query1
 
 	rel_acts, numerical_part = get_related_acts(search_query)	
 
