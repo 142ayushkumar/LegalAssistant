@@ -6,11 +6,8 @@ import json
 import datetime
 import operator
 import re
-import nltk
-import fuzzywuzzy
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
@@ -20,18 +17,20 @@ from query3.case_names import query_3
 os.chdir("..")
 
 os.chdir("Filtering")
-from Filtering.query_filter import filter
+# as filter already exists, importing as qfilter
+from Filtering.query_filter import filter as filter_query
 os.chdir("..")
 
 from date import get_date
 
 os.chdir("query2")
-from query2.query2 import query2
+from query2.query2 import query2 as query_2
 os.chdir("..")
 
 os.chdir("query_identifier")
-from query_identifier.query_identifier import findQuery
+from query_identifier.query_identifier import find_query
 os.chdir("..")
+
 
 app = Flask(__name__)
 
@@ -44,33 +43,24 @@ def get_result(query, categories = [], acts = [], judges = [], start_date = None
     '''
     returns query output as list
     '''
-    
-    os.chdir("query_identifier")
-    queryType = findQuery(query)
-    os.chdir("..")
+    query_type = find_query(query)
 
-    
-
-
-    '''
-    os.chdir("query3")
-    query_3(query)
-    _filePtr = open('Query_3_results.json')
-    allResults = json.load(_filePtr)
-    os.chdir("..")
-    '''
-
-    os.chdir("query2")
-    query2(query)
-    _filePtr = open('query2.json')
-    allResults = json.load(_filePtr)
-    os.chdir("..")
+    if query_type == 2:
+        query_3(query)
+        _filePtr = open('query_3.json')
+        allResults = json.load(_filePtr)
+    elif query_type == 3:
+        query2(query)
+        _filePtr = open('query2.json')
+        allResults = json.load(_filePtr)
+    else:
+        #query other than 2 and 3
 
     print(allResults["acts"])
     print(allResults["cases"])
     
     allResultsList = []
-    for case in allResults:
+    for case in allResults["cases"]:
         allResultsList.append(case)
 
     queryToPerform = {}
@@ -80,9 +70,7 @@ def get_result(query, categories = [], acts = [], judges = [], start_date = None
 
     filterResult = {}
 
-    os.chdir("Filtering")
-    filterResult = filter(allResultsList, queryToPerform)
-    os.chdir("..")
+    filterResult = query_filter(allResultsList, queryToPerform)
 
     prefinalResult = []
 
@@ -160,12 +148,7 @@ def cases(filename):
 def search():
     return render_template('search.html')
 
-@app.errorhandler(404)
-def page_not_found(e):
-    # note that we set the 404 status explicitly
-    return render_template('error.html'), 404
-
 
 if __name__ == "__main__":
-    app.run(host="localhost", port=5000, debug=True)
+    app.run(host="localhost", port=8080, debug=True)
 
