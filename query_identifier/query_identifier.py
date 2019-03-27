@@ -72,9 +72,10 @@ def is_query4(query) :
         return -1
         
     
-def filter_query(query) :
+def query_identifier(query) :
 
     # query 2
+    return 2
     type_of_query = is_query2(query)
 
     if type_of_query is 2 :

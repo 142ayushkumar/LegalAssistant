@@ -11,6 +11,7 @@ from nltk.tokenize import word_tokenize
 stop_words = set(stopwords.words('english'))
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
+from flask_paginate import Pagination, get_page_args
 
 os.chdir("query3")
 from query3.case_names import query_3
@@ -24,13 +25,14 @@ os.chdir("..")
 from date import get_date
 
 # os.chdir("query2")
-from query2.query2 import query2 as query_2
+from query2.act_query import *
+from query2.act_query import act_query as query_2
 # os.chdir("..")
 
 from query4.fin import *
 
 # os.chdir("query_identifier")
-# from query_identifier.query_identifier import find_query
+from query_identifier.query_identifier import find_query
 # os.chdir("..")
 
 
@@ -58,19 +60,22 @@ print("Start")
 load_init()
 print("end")
 
+def get_cases(offset=0, per_page=10):
+    return books[offset: offset + per_page]
+
+
 def get_result(query, categories = [], acts = [], judges = [], start_date = None, end_date = None):
     '''
     returns query output as list
     '''
-    return 4
     query_type = find_query(query)
-
+    print(query_type)
     if query_type == 2:
         query_3(query)
         _filePtr = open('query_3.json')
         allResults = json.load(_filePtr)
     elif query_type == 3:
-        query2(query)
+        query_2(query)
         _filePtr = open('query2.json')
         allResults = json.load(_filePtr)
     else:
@@ -192,12 +197,27 @@ def cases(filename):
 @app.route("/search", methods=['GET'])
 def search():
     query = request.args.get('query')
+    categories = request.args.get('category')
+    acts = request.args.get('acts')
+    judges = request.args.get('judge')
+    start_date = request.args.get('from')
+    end_date = request.args.get('to')
     print("query is " + query)
-    cases = find_cases(query)
-    # cases = ["1953_A_4.txt"]
-    # for case in cases:
-    #     print(case)
+    cases = query_3(query)
     all_cases = list()
+    page, per_page, offset = get_page_args(page_parameter='page',
+                                           per_page_parameter='per_page')
+    total = len(query)
+    pagination_cases = get_cases(offset=offset, per_page=per_page)
+    pagination = Pagination(page=page, per_page=per_page, total=total,
+                            css_framework='bootstrap4')
+    return render_template('search.html',
+                           discussions=pagination_discussions,
+                           page=page,
+                           per_page=per_page,
+                           pagination=pagination,
+                           username=username
+                           )
     for i,case in enumerate(cases):
         filename = case[:-4]
         temp = {}
@@ -208,7 +228,6 @@ def search():
         temp["judge"] = case_data[filename][3]
         temp["verdict"] = case_data[filename][4]
         all_cases.append(temp)
-    # print("cases length is " + len(cases))
     return render_template('search.html', all_cases=all_cases)
 
 @app.errorhandler(404)

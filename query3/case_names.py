@@ -112,10 +112,13 @@ def query_3(query):
         def sortSecond(val):
             return val[1]
         selected_cases.sort(key = sortSecond, reverse=True)
-        print(selected_cases)
-        d={}
-        for file in selected_cases:
-            d[file[0]]=file[1]
+        # print(selected_cases)
+        # d={}
+        # for file in selected_cases:
+            # d[file[0]]=file[1]
+        d = []
+        for x in selected_cases:
+            d.append(x[0])
         final_dict = {}
         final_dict["acts"] = {}
         final_dict["cases"] = d
@@ -152,9 +155,10 @@ def query_3(query):
                 if [file_dict[str(i[0])][j],float(i[1])/100] not in selected_cases:
                     selected_cases.append([file_dict[str(i[0])][j],float(i[1])/100])
                     count+=1
-        d={}
-        for file in selected_cases:
-            d[file[0]]=file[1]
+       
+        d = []
+        for x in selected_cases:
+            d.append(x[0])
         final_dict = {}
         final_dict["acts"] = {}
         final_dict["cases"] = d
