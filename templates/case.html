@@ -49,12 +49,25 @@
             <li><a href="">Dolorem eius eveniet saepe vel!</a></li>
         </ul>
         <h4>Acts Cited</h4>
-        <ul class="acts-cited">
-            <li><a href="">Lorem ipsum dolor sit.</a></li>
-            <li><a href="">Cum modi nemo officiis?</a></li>
+        <ul class="acts-cited"> 
+            {% for x in acts_cited %}
+                <li><a href=""> {{ x }} </a></li>
+            {% endfor %}
         </ul>
         <h4>Categories</h4>
         <div class="tags">
+<<<<<<< HEAD
+            {% for category in categories %}
+                <span> {{ category }} </span>
+            {% endfor %}
+        </div>
+        <h4>Citations</h4>
+        <div class="citations">
+            {% for citation in citations %}
+                <span> {{ citation }} </span>
+            {% endfor %}
+
+=======
             <span><a href="">Lorem.</a></span>
             <span><a href="">Dolorem.</a></span>
             <span><a href="">Itaque!</a></span>
@@ -65,6 +78,7 @@
             <span><a href="">Et.</a></span>
             <span><a href="">Perferendis.</a></span>
             <span><a href="">Eaque! Lorem ipsum dolor sit amet.</a></span>
+>>>>>>> 2b06492bce4d4cbb1fa6c7019e2e0dc05cca32a8
         </div>
     </div>
 
