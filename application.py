@@ -18,18 +18,18 @@ os.chdir("..")
 
 os.chdir("Filtering")
 # as filter already exists, importing as qfilter
-from Filtering.query_filter import filter as filter_query
+from Filtering.query_filter import filter_query
 os.chdir("..")
 
 from date import get_date
 
-os.chdir("query2")
+# os.chdir("query2")
 from query2.query2 import query2 as query_2
-os.chdir("..")
+# os.chdir("..")
 
-os.chdir("query_identifier")
-from query_identifier.query_identifier import find_query
-os.chdir("..")
+# os.chdir("query_identifier")
+# from query_identifier.query_identifier import find_query
+# os.chdir("..")
 
 
 app = Flask(__name__)
@@ -131,7 +131,7 @@ def index():
         session["recent"] = session["recent"][0:5]
     session["recent"] = [store] + session["recent"]
     # get results
-    output = get_result(query=query, category=category, acts=acts, judge=judge, start_date=start_date, end_date=end_date)
+    output = get_result(query=query, categories=category, acts=acts, judge=judge, start_date=start_date, end_date=end_date)
     # pass the list to be displayed to index.html and render index.html
     return render_template('search.html', output=output)
         
