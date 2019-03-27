@@ -18,17 +18,18 @@ model = None
 json_data = None
 category_data = None
 def load_init():
+    print("1")
     global tokenizer, thres_all, one_hot, model, json_data, category_data
-    with open('data/model/tokenizer.pkl','rb') as f:
+    with open('query4/data/model/tokenizer.pkl','rb') as f:
         tokenizer = pickle.load(f)
-    with open('data/model/thresholds.pkl','rb') as f:
+    with open('query4/data/model/thresholds.pkl','rb') as f:
         thres_all= pickle.load(f)
-    with open('data/model/labeler.pkl','rb') as f:
+    with open('query4/data/model/labeler.pkl','rb') as f:
         one_hot = pickle.load(f)
     
-    model = keras.models.load_model('data/model/weights.18.hdf5')
+    model = keras.models.load_model('query4/data/model/weights.18.hdf5')
     
-    with open('data/citation/case_ranking/subject_to_case.txt', 'r') as file:
+    with open('query4/data/citation/case_ranking/subject_to_case.txt', 'r') as file:
         json_data = file.read()
         category_data = json.loads(json_data)
         
@@ -65,7 +66,7 @@ def give_best_cases(label_names):
                 label_count[cases] = label_count[cases] + 1;
 
     for labels in label_names:
-        with open("data/citation/case_ranking/"+labels + '.txt', 'r') as file:
+        with open("query4/data/citation/case_ranking/"+labels + '.txt', 'r') as file:
             json_data = file.read()
             label_data = json.loads(json_data)
         for case in label_data:
@@ -82,7 +83,7 @@ def case_ranker(q,file_lists):
     arg.trainFile = './input.txt'
     arg.testFile = './input.txt'
     arg.trainMode = 5
-    test_dir = 'data/ranker/All_FT/'
+    test_dir = 'query4/data/ranker/All_FT/'
 
     sp = sw.starSpace(arg)
     sp.init()
@@ -103,7 +104,7 @@ def case_ranker(q,file_lists):
     doc_score = {}
 
     for file in file_lists:
-        fp = open('data/ranker/All_FT/'+file)
+        fp = open('query4/data/ranker/All_FT/'+file)
         sentences = get_sentences(fp)
 
         if(len(sentences)==0):
@@ -129,7 +130,7 @@ def find_cases(q):
     file_lists = []
     for file_tuple in x:
         file = file_tuple[0]+".txt"
-        sum_list.append(open("data/ranker/All_FT/" + file).read())
+        sum_list.append(open("query4/data/ranker/All_FT/" + file).read())
         file_lists.append(file)
     with open('./input.txt','w') as f:
         f.write(" ".join(sum_list))
@@ -146,13 +147,13 @@ def find_cases(q):
 
 #one time function calls
 
-load_init()
+# load_init()
 
 import time
 start_time = time.time()
 
-if __name__ == "__main__"
-q = '''How to sue my lawyer'''
-x = find_cases(q)
-print(x)
-print("Time: ", time.time()-start_time)
+if __name__ == "__main__":
+    q = '''How to sue my lawyer'''
+    x = find_cases(q)
+    print(x)
+    print("Time: ", time.time()-start_time)

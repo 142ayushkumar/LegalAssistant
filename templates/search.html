@@ -45,7 +45,7 @@
 
             <div class="search-2">
                 <input type="text">
-                <button type="submit">Search</button>
+                <button type="submit" value="search">Search</button>
 
 
 
@@ -60,7 +60,7 @@
                 <div class="close">
                 <i class="fa fa-window-close" aria-hidden="true"></i>
                 </div>
-                <form method="get">
+                <form action="/search" method="get">
 
                     <div class="filter-wrap">
                         <div class="filters">
@@ -109,123 +109,36 @@
 
 
 <div class="main">
-
     <div class="result-list">
-        <div class="result">
+        {% for case in all_cases %}
+            <div class="result">
 
 
-            <div class="heading">
-                <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, perferendis.</a></p>
-                <p>https://www.lipsum.com/</p>
+                <div class="heading">
+                    <p><a href=" {{ url_for('cases', filename= case['filename'] ) }}"> {{ case['casename'] }} </a></p>
+                    <p>https://www.lipsum.com/</p>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li class="date"><strong>Date</strong> : {{ case['date'] }} </li>
+                        <li class="judgement"><strong>Judgement</strong> : {{ case['verdict']}}</li>
+                        <li class="judge-name"><strong>Judge</strong> : {{ case['judge']}} </li>
+                    </ul>
+                </div>
+
+                <div class="summary">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nobis quasi voluptatibus? Delectus dolorem odio officia tempora temporibus. Beatae consequatur cupiditate dolore dolorem, expedita incidunt necessitatibus neque officia reprehenderit sit! Ab animi beatae dolorum eos esse et explicabo id iure magni nobis optio pariatur reiciendis rem, repudiandae sequi totam ullam.</p>
+                </div>
+
+                <div class="acts-cited">
+                    <p><strong>Acts cited : </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quaerat.</p>
+                </div>
+
+                <div class="categories">
+                    <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
+                </div>
             </div>
-            <div class="info">
-                <ul>
-                    <li class="date"><strong>Date</strong> : 12/12/1990</li>
-                    <li class="judgement"><strong>Judgement</strong> : dignissimos</li>
-                    <li class="judge-name"><strong>Judge</strong> : Lorem</li>
-                </ul>
-            </div>
-
-            <div class="summary">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nobis quasi voluptatibus? Delectus dolorem odio officia tempora temporibus. Beatae consequatur cupiditate dolore dolorem, expedita incidunt necessitatibus neque officia reprehenderit sit! Ab animi beatae dolorum eos esse et explicabo id iure magni nobis optio pariatur reiciendis rem, repudiandae sequi totam ullam.</p>
-            </div>
-
-            <div class="acts-cited">
-                <p><strong>Acts cited : </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quaerat.</p>
-            </div>
-
-            <div class="categories">
-                <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
-            </div>
-
-
-        </div>
-
-        <div class="result">
-
-
-            <div class="heading">
-                <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nisi.</a></p>
-                <p>https://www.lipsum.com/</p>
-            </div>
-            <div class="info">
-                <ul>
-                    <li class="date"><strong>Date</strong> : 12/12/1990</li>
-                    <li class="judgement"><strong>Judgement</strong> : dignissimos</li>
-                    <li class="judge-name"><strong>Judge</strong> : Lorem</li>
-                </ul>
-            </div>
-
-            <div class="summary">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet dicta, distinctio dolore dolorum eligendi error est eum facilis illum impedit libero maxime molestias natus nulla obcaecati perferendis praesentium quae rerum soluta sunt tenetur voluptas. Amet cupiditate facere nulla voluptates! Cum doloribus, hic iste quas quia quos sequi suscipit.</p>
-            </div>
-
-            <div class="acts-cited">
-                <p><strong>Acts cited : </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quos?</p>
-            </div>
-            <div class="categories">
-                <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
-            </div>
-
-        </div>
-        <div class="result">
-
-
-            <div class="heading">
-                <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nisi.</a></p>
-                <p>https://www.lipsum.com/</p>
-            </div>
-            <div class="info">
-                <ul>
-                    <li class="date"><strong>Date</strong> : 12/12/1990</li>
-                    <li class="judgement"><strong>Judgement</strong> : dignissimos</li>
-                    <li class="judge-name"><strong>Judge</strong> : Lorem</li>
-
-
-
-                </ul>
-            </div>
-
-            <div class="summary">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet dicta, distinctio dolore dolorum eligendi error est eum facilis illum impedit libero maxime molestias natus nulla obcaecati perferendis praesentium quae rerum soluta sunt tenetur voluptas. Amet cupiditate facere nulla voluptates! Cum doloribus, hic iste quas quia quos sequi suscipit.</p>
-            </div>
-
-            <div class="acts-cited">
-                <p><strong>Acts cited</strong> : Ipsum, Dolor, Alie</p>
-            </div>
-            <div class="categories">
-                <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
-            </div>
-
-        </div>
-        <div class="result">
-
-
-            <div class="heading">
-                <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nisi.</a></p>
-                <p>https://www.lipsum.com/</p>
-            </div>
-            <div class="info">
-                <ul>
-                    <li class="date"><strong>Date</strong> : 12/12/1990</li>
-                    <li class="judgement"><strong>Judgement</strong> : dignissimos</li>
-                    <li class="judge-name"><strong>Judge</strong> : Lorem</li>
-                </ul>
-            </div>
-
-            <div class="summary">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet dicta, distinctio dolore dolorum eligendi error est eum facilis illum impedit libero maxime molestias natus nulla obcaecati perferendis praesentium quae rerum soluta sunt tenetur voluptas. Amet cupiditate facere nulla voluptates! Cum doloribus, hic iste quas quia quos sequi suscipit.</p>
-            </div>
-
-            <div class="acts-cited">
-                <p><strong>Acts cited</strong> : Ipsum, Dolor, Alie</p>
-            </div>
-
-            <div class="categories">
-                <p><strong>Categories : </strong>Lorem ipsum dolor sit amet.</p>
-            </div>
-        </div>
-    </div>
+        {% endfor %}
     <div class="more-results">
 
 
