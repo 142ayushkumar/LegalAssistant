@@ -10,7 +10,6 @@ sys.path.insert(0, '../')
 from bing_spell_check_api import *
 
 
-
 def cal(x, copy_rankings):
 	if x in copy_rankings:#.has_key(x):
 		return -copy_rankings[x]
