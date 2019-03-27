@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 * {
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
@@ -14,9 +15,7 @@ p {
     padding: 0;
     line-height: 1.2;
 }
-a {
-    text-decoration: none;
-}
+
 html {
     padding: 0;
 }
@@ -24,8 +23,66 @@ body {
     margin: 0;
 }
 
-.header {
-    border: 1px solid black;
+a:not(.footer-2 a) {
+    color: darkgoldenrod !important;
+}
+a:hover:not(.footer-2 a) {
+    color: goldenrod !important;
+}
+.head-wrap-2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.maxi-header-2 {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow: scroll;
+}
+.mini-header-2 {
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 15px 5px 15px 5px;
+    background-color: black;
+
+}
+
+.logo-2 {
+
+    flex: 1;
+    text-align: center;
+}
+.search-2 {
+    float: right;
+    flex: 6;
+}
+.search-2 input {
+    width: 80%;
+    margin-top: 1%;
+}
+
+.search-2 input:focus {
+    outline: none!important;
+}
+
+.filters .filter-icon {
+    position: static;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.search-2 button {
+    margin-left: -5px;
+    width: 10% !important;
+}
+
+.close {
+    position: absolute;
+    right: 2%;
 }
 .main .result-list {
     max-width: 960px;
@@ -46,6 +103,7 @@ body {
 
 .result-list .result .heading p a {
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
 }
 
