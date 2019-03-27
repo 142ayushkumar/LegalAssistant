@@ -1,7 +1,7 @@
 import requests
 import json
 
-api_key = 'fd6b0387f53b4b42b5a07a6bffd33580'
+api_key = '08c7c6ddbf9f4009a30a2050105dfc96'
 
 def corrected_text(example_text = 'hy buddi, i am doin am zing. hw ar you?'):
     '''

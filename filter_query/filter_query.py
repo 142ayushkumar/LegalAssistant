@@ -95,8 +95,8 @@ def filter_query(query) :
     return 1
 
 
-print ("Enter query")
+# print ("Enter query")
 
-query = input()
+# query = input()
 
-print(filter_query(query))
+# print(filter_query(query))

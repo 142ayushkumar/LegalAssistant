@@ -149,7 +149,7 @@ def query_3(query):
             for j in range(len(file_dict[str(i[0])])):
                 if count==20:
                     break
-                if [file_dict[str(i[0])][j],float(i[1])/200] not in selected_cases:
+                if [file_dict[str(i[0])][j],float(i[1])/100] not in selected_cases:
                     selected_cases.append([file_dict[str(i[0])][j],float(i[1])/100])
                     count+=1
         d={}
