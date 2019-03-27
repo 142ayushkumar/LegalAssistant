@@ -137,6 +137,11 @@ def cases(filename):
 def search():
     return render_template('search.html')
 
+@app.errorhandler(404)
+def page_not_found(e):
+    # note that we set the 404 status explicitly
+    return render_template('error.html'), 404
+
 
 if __name__ == "__main__":
     app.run(host="localhost", port=5000, debug=True)
