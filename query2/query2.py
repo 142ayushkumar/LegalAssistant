@@ -124,7 +124,7 @@ def query2(search_query):
 
 	final_dict['cases'] = cases_score_dict
 
-	f1 = open('query2.json','w')
+	f1 = open('query_2.json','w')
 	final = json.dumps(final_dict, indent = 1)
 	f1.write(final)
 

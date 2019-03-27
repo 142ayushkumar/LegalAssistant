@@ -3,7 +3,7 @@ import datetime
 import operator
 
 
-def filter(list_of_cases, query):
+def filter_query(list_of_cases, query):
 
 	fd1 = open('final_dictionary.json')
 	# fd2 = open('query.json')
