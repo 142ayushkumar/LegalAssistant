@@ -8,9 +8,9 @@ stop_words = set(stopwords.words('english'))
 
 
 
-def act_query(inp_words)
+def act_query(inp_words):
 
-	inp_words = re.split(' |, |-|\(|\)', inp_words)s
+	inp_words = re.split(' |, |-|\(|\)', inp_words)
 
 	flag_sec = 0
 	flag = 0
