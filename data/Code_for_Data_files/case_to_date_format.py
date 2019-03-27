@@ -1,8 +1,18 @@
+# Code for generating dates of cases in the following format : YYYY/MM/DD
+# Files used in this code : "case_to_date.json"
+# Files generated in this code : "case_to_date_format.json"
+# Functions used in this code are :
+#	1.	month_to_number() :	Takes a month and converts it to its respective number.
+#							For example 'January' gets converted to '01'
+#	2.	date_to_proper_format() :	Converts a given case_to_date dictionary into required date format(YYYY/MM/DD). 
+#									For example "2000 04 06" gets coverted to "2000/04/06"
+
+
+
 import json
 import os
 
-def month_to_number(strn):
-
+def month_to_number(strn):					
 
 	if strn == 'January':
 		strn = '01'
@@ -53,18 +63,8 @@ def month_to_number(strn):
 		return strn
 
 	return strn
-	
 
-def case_to_date():
-
-	with open('case_to_date.json', 'r') as f:
-		case_to_date_dict = json.load(f)
-	return case_to_date_dict
-
-
-if __name__ == '__main__':
-	case_to_date_dict = case_to_date()
-
+def date_to_proper_format(case_to_date_dict):
 
 	for key in case_to_date_dict:
 		lst = case_to_date_dict[key].split(' ')
@@ -80,11 +80,15 @@ if __name__ == '__main__':
 		
 		case_to_date_dict[key] = lst[2]+'/'+lst[1]+'/'+lst[0] 
 
-	c = 0
-	for key in case_to_date_dict:
-		if c < 10:
-			print(key, case_to_date_dict[key])
-		c = c + 1
+	return case_to_date_dict
+
+
+if __name__ == '__main__':
+
+	with open('case_to_date.json', 'r') as f:
+		case_to_date_dict = json.load(f)
+	
+	case_to_date_dict = date_to_proper_format(case_to_date_dict)					
 
 	file = open('case_to_date_format.json' , 'w')
 	j = json.dumps(case_to_date_dict , indent = 3)
