@@ -23,6 +23,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
 
+    <link href="../static/css/style.css" rel="stylesheet">
+
     <script>
         $(function () {
             if ($('[type="date"]').prop('type') != 'date') {
@@ -38,87 +40,165 @@
             $('.act-select').select2();
             $('.act-select').select2({width: "100%", placeholder: "Acts"});
 
-
+            $(".filters-button").click(function() {
+                if($(".maxi-header-2").is(":hidden")) {
+                    $(".maxi-header-2").slideDown();
+                }
+                else {
+                    $(".maxi-header-2").slideUp();
+                }
+            });
         });
     </script>
+    
+    <style>
+        .maxi-header-2 {
+            display: none;
+            position: absolute;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .mini-header-2 {
+            display: flex;
+            flex-flow: row wrap;
+            border: 1px solid black;
+            padding: 15px 5px 10px 5px;
+            background-color: black;
+        }
+        .head-wrap-2 {
+            border: 1px solid black;
+        }
+        .logo-2 {
+            border: 1px solid black;
+            flex: 1;
+            text-align: center;
+        }
+        .search-2 {
+            float: right;
+            flex: 6;
+        }
+        .search-2 input {
+            width: 80%;
+            margin-top: 1%;
+        }
+
+        .header-2 {
+            border: 1px solid black;
+        }
+        .filters-button {
+            color: white;
+            margin-left: 5%;
+            border: 1px solid white;
+            padding: 5px 10px;
+        }
+    </style>
 
 </head>
 <body>
 
 
-<div class="head-wrap">
-    <div class="header">
-        <a href="/" style="text-decoration: none; color: white">
-            <div class="logo">
-                <img src="../static/img/nav-logo.png">
-            </div>
-        </a>
+<div class="head-wrap-2">
+    <div class="header-2">
+        <div class="mini-header-2 clearfix">
 
-        <div class="search">
-            <div class="clearfix">
-                <div class="search-box-wrap">
-                    <input type="text" id="searchbox" name="query">
-                </div>
-                <div class="date">
-                    <label for="from">From </label>
-                    <input type="date" id="from" name="from">
-                    <label for="to">To </label>
-                    <input type="date" id="to" name="from">
-                </div>
+            <div class="logo-2">
+            <img src="../static/img/nav-logo.png">
+
+            </div>
+            <div class="search-2">
+                <input type="text">
+                <button type="submit">Search</button>
+
+
+                <span class="filters-button">Filters</span>
             </div>
 
-            <div class="more-filters clearfix">
-                <div class="more-inputs">
-                    <label for="category">Categories </label>
-                    <input type="text" id="category" name="category">
-                </div>
-                <div class="more-inputs">
-                    <label for="acts">Acts </label>
-                    <input type="text" id="acts" name="acts">
-                </div>
-                <div class="more-inputs">
-                    <label for="judges">Judge </label>
-                    <input type="text" id="judges" name="judge">
-                </div>
-            </div>
+
+
         </div>
-        <div class="search-btn">
-            <button class="minimal" type="submit">Search</button>
+        <div class="maxi-header-2">
+            <div class="search-box">
+                <form method="get">
+
+                    <div class="filter-wrap">
+                        <div class="filters">
+                            <div class="filter-icon"><img src="../static/img/filter.png" alt="filter">Filter Search</div> <div class="date"><span class="from">from : <input type="date" name="from"></span> <span class="to">to: <input type="date" name="to"></span></div>
+                        </div>
+                        <div class="more-filters">
+                            <div class="category">
+
+                                <select class="category-select" multiple="multiple" name="categories[]">
+                                    <option value="1">Alpha</option>
+                                    <option value="2">Beta</option>
+                                </select>
+                                <p>Categories</p>
+                            </div>
+
+                            <div class="judge">
+
+                                <select class="judge-select" multiple="multiple" name="judges[]">
+
+                                </select>
+                                <p>Judges</p>
+                            </div>
+
+                            <div class="acts">
+
+
+                                <select class="act-select" multiple="multiple" name="acts[]">
+                                    <option value="adf">Tamil Nadu Prevention of Dangerous Activities of Bootleggers, Drug-offenders,
+                                        Goondas, Immoral Traffic Offenders, Forest-offenders, Sand-Offenders, Slum-grabbers and Video
+                                        Pirates Act, 1982
+                                    </option>
+                                </select>
+
+                                <p>Acts</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
         </div>
     </div>
 </div>
-
-<div class="sidebar">
-    <div class="category">
-        <h3>Categories</h3>
-        <select class="category-select" multiple="multiple" name="categories[]">
-            <option value="1">Alpha</option>
-            <option value="2">Beta</option>
-        </select>
-    </div>
-
-    <div class="judge">
-        <h3>Judges</h3>
-        <select class="judge-select" multiple="multiple" name="judges[]">
-
-        </select>
-    </div>
-
-    <div class="acts">
-
-        <h3>Acts</h3>
-        <select class="act-select" multiple="multiple" name="acts[]">
-            <option value="adf">Tamil Nadu Prevention of Dangerous Activities of Bootleggers, Drug-offenders,
-                Goondas, Immoral Traffic Offenders, Forest-offenders, Sand-Offenders, Slum-grabbers and Video
-                Pirates Act, 1982
-            </option>
-        </select>
-
-
-    </div>
-
-
 </div>
+
+<!--<div class="sidebar">-->
+
+    <!--<h2>Search Filters</h2>-->
+    <!--<div class="category">-->
+        <!--<h5>Categories</h5>-->
+        <!--<select class="category-select" multiple="multiple" name="categories[]">-->
+            <!--<option value="1">Alpha</option>-->
+            <!--<option value="2">Beta</option>-->
+        <!--</select>-->
+    <!--</div>-->
+
+    <!--<div class="judge">-->
+        <!--<h5>Judges</h5>-->
+        <!--<select class="judge-select" multiple="multiple" name="judges[]">-->
+
+        <!--</select>-->
+    <!--</div>-->
+
+    <!--<div class="acts">-->
+
+        <!--<h5>Acts</h5>-->
+        <!--<select class="act-select" multiple="multiple" name="acts[]">-->
+            <!--<option value="adf">Tamil Nadu Prevention of Dangerous Activities of Bootleggers, Drug-offenders,-->
+                <!--Goondas, Immoral Traffic Offenders, Forest-offenders, Sand-Offenders, Slum-grabbers and Video-->
+                <!--Pirates Act, 1982-->
+            <!--</option>-->
+        <!--</select>-->
+
+
+    <!--</div>-->
+
+
+<!--</div>-->
 
 <div class="main">
 
@@ -233,7 +313,7 @@
 
     </div>
 </div>
-<div class="footer">
+<div class="footer-2">
     <ul>
         <li><a href="#">Help</a></li>
         <li><a href="#">Privacy</a></li>
