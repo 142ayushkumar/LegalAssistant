@@ -29,9 +29,9 @@ os.chdir("query2")
 from query2.query2 import query2
 os.chdir("..")
 
-os.chdir("query_identifier")
-from query_identifier.query_identifier import findQuery
-os.chdir("..")
+# os.chdir("query_identifier")
+# from query_identifier.query_identifier import findQuery
+# os.chdir("..")
 
 app = Flask(__name__)
 
@@ -162,7 +162,6 @@ def search():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    # note that we set the 404 status explicitly
     return render_template('error.html'), 404
 
 
