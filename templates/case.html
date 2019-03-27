@@ -15,7 +15,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../static/js/article.js"></script>
 </head>
+<style>
+    .sidebar .tags span {
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
 
+    }
+</style>
 <body>
 
     <div class="header clearfix">
@@ -57,14 +64,14 @@
             <span><a href="">Odit!</a></span>
             <span><a href="">Et.</a></span>
             <span><a href="">Perferendis.</a></span>
-            <span><a href="">Eaque!</a></span>
+            <span><a href="">Eaque! Lorem ipsum dolor sit amet.</a></span>
         </div>
     </div>
 
     <div class="article">
 
         <div class="heading">
-            <h1> {{ casename }}<h1>
+            <h1> {{ casename }}</h1>
         </div>
 
         <div class="info">
