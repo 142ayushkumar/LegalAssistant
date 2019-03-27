@@ -1,0 +1,5 @@
+condone
+delay
+deliver
+grant
+leave
