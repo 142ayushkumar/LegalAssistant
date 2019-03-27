@@ -18,7 +18,7 @@ os.chdir("..")
 
 os.chdir("Filtering")
 # as filter already exists, importing as qfilter
-from Filtering.query_filter import filter as filter_query
+from Filtering.query_filter import filter_query
 os.chdir("..")
 
 from date import get_date
