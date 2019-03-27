@@ -1,26 +1,26 @@
 {
  "acts": [
-  "Indian Ports Act, 1908",
-  "Bureau of Indian Standards Act, 1986",
-  "Bureau of Indian Standards Act, 2016",
-  "Burn Company and Indian Standard Wagon Company (Nationalisation) Act, 1976",
-  "Indian Air Force Volunteer Reserve (Discipline) Act, 1939",
-  "Indian Aircraft (Amendment) Act, 1939",
-  "Indian Aircraft (Amendment) Act, 1960",
-  "Indian Bar Councils Act, 1926",
-  "Indian Bills of Lading Act, 1856",
-  "Indian Boilers (Amendment) Act, 1951"
+  "Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015",
+  "Companies (Surcharge on Income Tax) Act, 1971",
+  "Compulsory Deposit Scheme (Income Tax Payers) Act, 1974",
+  "Compulsory Deposit Scheme (Income Tax Payers) Amendment Act, 1981",
+  "Compulsory Deposit Scheme (Income Tax Payers) Amendment Act, 1985",
+  "Income Tax (Amendment) Act, 1963",
+  "Income Tax (Amendment) Act, 1965",
+  "Income Tax (Amendment) Act, 1972",
+  "Income Tax (Amendment) Act, 1973",
+  "Income Tax (Amendment) Act, 1976"
  ],
  "cases": {
-  "1994_S_529": 0.05167710938466561,
-  "1960_T_167": 0.004127928203980331,
-  "2007_S_270": 0.0025568342904731473,
-  "2007_M_146": 0.002422448489397679,
-  "2008_G_97": 0.0023375736212535646,
-  "2009_S_705": 0.00206699822511372,
-  "2015_B_2": 0.001998074148677107,
-  "2010_G_1": 0.001998074148677107,
-  "2008_B_115": 0.001998074148677107,
-  "2017_V_47": 0
+  "1975_M_19": 0.002882599617288771,
+  "1981_C_32": 0.017801644343328673,
+  "1981_C_30": 0.004275997967215558,
+  "1971_A_36": 0.003176644815029276,
+  "1970_C_64": 0.0032623781555378246,
+  "2008_M_476": 0,
+  "1997_C_331": 0.0025362154348270035,
+  "1973_C_24": 0.001998074148677107,
+  "1991_A_70": 0.002896777036769684,
+  "2018_E_3": 0.001998074148677107
  }
 }

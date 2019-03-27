@@ -7,9 +7,11 @@
 a:not(.header a, .footer a){
     color: darkgoldenrod !important;
 }
-a:hover {
+
+a:not(.header a, .footer a):hover {
     color: goldenrod !important;
 }
+
 .header {
     color: white;
     background-color: black;
@@ -153,6 +155,10 @@ a:hover {
 }
 
 .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: black;
 }
 .footer ul{
