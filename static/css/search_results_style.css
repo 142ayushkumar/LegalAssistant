@@ -23,102 +23,15 @@ html {
 body {
     margin: 0;
 }
-/*.header {*/
-    /*display: flex;*/
-    /*flex-flow: row wrap;*/
-    /*background-color: black;*/
-    /*color: white;*/
-    /*padding: 20px 10px;*/
-    /*box-shadow: 0 0 20px 1px gray;*/
-    /*position: fixed;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*top: 0;*/
-/*}*/
-/*.header input {*/
-    /*border-radius: 2px;*/
-    /*border: 1px solid lightgray;*/
-    /*padding-left: 3px;*/
-/*}*/
-/*.logo {*/
-    /*flex: 1;*/
-    /*text-align: center;*/
-    /*!*border-right: 1px solid white;*!*/
-    /*padding: 10px;*/
-/*}*/
-/*.logo img {*/
-    /*width: 40px;*/
-/*}*/
-/*.search {*/
-    /*flex: 8;*/
-    /*padding: 5px;*/
-    /*padding-left: 0px;*/
-/*}*/
-/*.search-btn {*/
-    /*flex: 1;*/
-/*}*/
-/*.search>div:first-of-type {*/
 
-/*}*/
-/*.search .search-box-wrap*/
-/*{*/
-
-    /*width: 60%;*/
-    /*float: left;*/
-    /*text-align: center;*/
-
-/*}*/
-/*.search-box-wrap #searchbox {*/
-    /*width: 95%;*/
-/*}*/
-/*.search-btn  button{*/
-    /*margin-top: 5px;*/
-/*}*/
-
-/*.search .date {*/
-    /*text-align: center;*/
-    /*width: 40%;*/
-    /*float: right;*/
-/*}*/
-/*.search .date input {*/
-    /*width: 40%;*/
-    /*font-size: 14px;*/
-    /*height: 28px !important;*/
-/*}*/
-/*.search .date input:first-of-type {*/
-    /*margin-right: 5px;*/
-/*}*/
-/*.search .more-filters {*/
-    /*padding-top: 10px;*/
-    /*text-align: center;*/
-
-/*}*/
-/*.search .more-filters .more-inputs{*/
-    /*width: 33%;*/
-    /*float: left;*/
-/*}*/
-
-/*.more-inputs input {*/
-    /*width: 65%;*/
-    /*margin-left: 5px;*/
-/*}*/
-
-/*.search-btn  {*/
-
-/*}*/
-/*.search-btn button {*/
-    /*display: block;*/
-    /*margin: auto;*/
-    /*margin-top: 20px;*/
-/*}*/
 .header {
     border: 1px solid black;
 }
 .main .result-list {
     max-width: 960px;
-    margin-left: 12%;
+    margin-left: 12% !important;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 60px;
     border-radius: 10px;
 }
@@ -155,28 +68,15 @@ body {
 .result .acts-cited{
 
 }
-.result:nth-of-type(even) {
-    background-color: #F8F8F8;
-}
-
-/*select {*/
-    /*width: 100%;*/
-/*}*/
-
-/*.sidebar {*/
-    /*top: 25%;*/
-    /*right: 5%;*/
-    /*width: 25%;*/
-    /*padding: 10px;*/
-    /*height: 600px;*/
-    /*overflow: scroll;*/
+/*.result:nth-of-type(even) {*/
+    /*background-color: #F8F8F8;*/
 /*}*/
 
 .category, .judge, .acts {
     margin-bottom: 20px;
 }
 
-.footer {
+.footer-2 {
     background-color: black;
     position: fixed;
     left: 0;
@@ -185,16 +85,16 @@ body {
     box-shadow: 0 0 20px 0px gray;
 }
 
-.footer ul {
+.footer-2 ul {
     max-width: 1000px;
     margin-left: 10%;
 
 }
-.footer ul li {
+.footer-2 ul li {
     display: inline-block;
     padding: 5px 10px 0 5px;
 }
-.footer ul li a {
+.footer-2 ul li a {
     color: white;
 }
 .clearfix::after {
@@ -202,19 +102,7 @@ body {
     clear: both;
     display: table;
 }
-/*.result-list .result:first-of-type {*/
-/*border-radius: 10px 10px 0 0;*/
-/*border: 1px solid black;*/
 
-/*}*/
-/*.result-list .result:last-of-type {*/
-/*border-radius: 0 0 10px 10px;*/
-/*}*/
-/*.result {*/
-/*border-right: 1px solid black;*/
-/*border-left: 1px solid black;*/
-/*border-bottom: 1px solid black;*/
-/*}*/
 button.minimal {
     background: #e3e3e3;
     border: 1px solid #bbb;
@@ -246,33 +134,18 @@ button.minimal:active {
 
 @media only screen and (max-width: 1600px) {
     .main .result-list {
-        margin-left: 2%;
+        margin-left: 10% !important;
     }
 
-    .sidebar {
-        right: 2%;
-        height: 400px;
-    }
+
 
 }
 
-@media only screen and (max-width: 1325px) {
-    .sidebar {
-        display: none;
-    }
-}
 @media only screen and (max-width: 1200px) {
     .logo img{
         margin-top: 20px;
     }
-    .search .search-box-wrap
-    {
 
-        width: 100%;
-        float: none;
-        text-align: center;
-
-    }
     .search .date {
 
         width: 100%;
@@ -284,12 +157,9 @@ button.minimal:active {
         width: 30%;
     }
     .main .result-list {
-        margin: auto;
-        margin-top:180px;
+        margin: auto !important;
     }
-    .search-btn button {
-        margin-top: 45px;
-    }
+
 }
 
 @media only screen and (max-width: 1000px) {
