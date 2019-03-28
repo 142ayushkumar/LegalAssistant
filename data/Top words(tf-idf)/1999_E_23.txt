@@ -1,0 +1,3 @@
+sine
+adjourn
+die
