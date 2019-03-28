@@ -8,6 +8,8 @@ import json
 stop_words = set(stopwords.words('english'))
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
+
+base_dir = "query3/"
 '''
 Use the following dictionaries in the same directory as this code file:
 1) 'Cases_from_caseName.json'- containing map of 'case names' to list of 'case ids',
@@ -47,7 +49,7 @@ def query_3(query):
 
     query = ql
 
-    with open('Case_Abbreviations_Dictionary.json') as f:
+    with open(base_dir + 'Case_Abbreviations_Dictionary.json') as f:
         d=json.load(f)
     '''
     if query has two parties: eg. "A v B"
@@ -75,9 +77,9 @@ def query_3(query):
                     w=d[i[0]]
                 party_2=party_2.replace(word, w)
         number_of_parties = 300
-        with open('Cases_from_caseName.json') as file:
+        with open(base_dir + 'Cases_from_caseName.json') as file:
             file_dict=json.load(file)
-        with open('reduced_dictionary.json') as f:
+        with open(base_dir + 'reduced_dictionary.json') as f:
             data = json.load(f)
         parties_1=[]
         parties_2=[]
@@ -112,24 +114,27 @@ def query_3(query):
         def sortSecond(val):
             return val[1]
         selected_cases.sort(key = sortSecond, reverse=True)
-        print(selected_cases)
-        d={}
-        for file in selected_cases:
-            d[file[0]]=file[1]
+        # print(selected_cases)
+        # d={}
+        # for file in selected_cases:
+            # d[file[0]]=file[1]
+        d = []
+        for x in selected_cases:
+            d.append(x[0])
         final_dict = {}
         final_dict["acts"] = {}
         final_dict["cases"] = d
 
-        with open('query_3.json','w') as out:
+        with open(base_dir + 'query_3.json','w') as out:
             json.dump(final_dict,out,indent=1)
     
     else:
         search_1=[]
         number_of_parties = 300
         party1 = query.split(' ')
-        with open('Cases_from_caseName.json') as file:
+        with open(base_dir + 'Cases_from_caseName.json') as file:
             file_dict=json.load(file)
-        with open('reduced_dictionary.json') as f:
+        with open(base_dir + 'reduced_dictionary.json') as f:
             data = json.load(f)
         parties_1=[]
 
@@ -152,16 +157,17 @@ def query_3(query):
                 if [file_dict[str(i[0])][j],float(i[1])/100] not in selected_cases:
                     selected_cases.append([file_dict[str(i[0])][j],float(i[1])/100])
                     count+=1
-        d={}
-        for file in selected_cases:
-            d[file[0]]=file[1]
+       
+        d = []
+        for x in selected_cases:
+            d.append(x[0])
         final_dict = {}
         final_dict["acts"] = {}
         final_dict["cases"] = d
 
-        with open('query_3.json','w') as out:
+        with open(base_dir + 'query_3.json','w') as out:
             json.dump(final_dict,out,indent=1)
-
+    return final_dict
 if __name__ == '__main__':
 
     q = input("Enter case : ")

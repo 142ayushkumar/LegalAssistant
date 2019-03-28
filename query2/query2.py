@@ -10,7 +10,7 @@ sys.path.insert(0, '../')
 from bing_spell_check_api import *
 
 
-def cal(x, copy_rankings):
+def copy_rankings[x], reverse = True)
 	if x in copy_rankings:#.has_key(x):
 		return -copy_rankings[x]
 	else:
@@ -116,13 +116,14 @@ def cases_and_acts(search_query):
 		copy_rankings[x] = rankings[x]*scaling_ratio
 	# print(copy_rankings)
 
-	sorted_cases = sorted(cases, key = lambda x:cal(x, copy_rankings))
-	cases_score_dict = {}
+	sorted_cases = sorted(cases, key = lambda x:copy_rankings[x], reverse = True)
+	print(sorted_cases)
+	cases_score_dict = []
 	# print(sorted_cases)
 	for case in sorted_cases:
 		
 		if case in copy_rankings:#.has_key(case):
-			cases_score_dict[case] = copy_rankings[case]
+			cases_score_dict.append(copy_rankings[case][0])
 
 	final_dict['cases'] = cases_score_dict
 
