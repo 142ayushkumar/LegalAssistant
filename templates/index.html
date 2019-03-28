@@ -35,20 +35,59 @@
             let judges = [];
             console.log(categories);
             for (let i = 0; i < categories.length; i++) {
+
                 $(".category-select").append("<option>" + categories[i][1] + "</option>");
                 $(".category-select option:last-of-type").attr("val", categories[i][0]);
+
+
             }
             for (let i = 0; i < acts.length; i++) {
                 $(".acts-select").append("<option>" + acts[i][1] + "</option>");
                 $(".acts-select option:last-of-type").attr("val", acts[i][0]);
+
+
             }
             for (let i = 0; i < judges.length; i++) {
                 $(".judge-select").append("<option>" + judges[i][1] + "</option>");
                 $(".judge-select option:last-of-type").attr("val", judges[i][0]);
+
+
             }
+
+            $(".category-select").change(function () {
+                let values = [];
+                $.each($(".category-select option:selected"), function () {
+                    values.push($(this).attr("val"));
+                });
+
+                $(".categories-1 input").val(values.toString());
+            });
+
+
+            $(".act-select").change(function () {
+                let values = [];
+                $.each($(".act-select option:selected"), function () {
+                    values.push($(this).attr("val"));
+                });
+
+                $(".acts-1 input").val(values.toString());
+            });
+
+            $(".judge-select").change(function () {
+                let values = [];
+                $.each($(".judge-select option:selected"), function () {
+                    values.push($(this).attr("val"));
+                });
+
+                $(".judge-1 input").val(values.toString());
+            });
         });
     </script>
-
+    <style>
+        .real-selections {
+            display: none;
+        }
+    </style>
 
 </head>
 
@@ -88,6 +127,30 @@
                 <div class="filter-icon"><img src="../static/img/filter.png" alt="filter">Filter Search</div> <div class="date"><span class="from">from : <input type="date" name="from"></span> <span class="to">to: <input type="date" name="to"></span></div>
             </div>
             <div class="more-filters">
+                <div class="real-selections">
+
+                    <div class="categories-1">
+                        <input type="text">
+                    </div>
+
+
+                    <div class="judge-1">
+
+                        <select>
+                            <input type="text">
+                        </select>
+
+                    </div>
+
+                    <div class="acts-1">
+
+
+                        <select>
+                            <input type="text">
+                        </select>
+
+                    </div>
+                </div>
                 <div class="category">
 
                     <select class="category-select" id="categories-opt" multiple="multiple" name="categories[]">

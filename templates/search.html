@@ -44,6 +44,38 @@
                 $(".judge-select").append("<option>" + judges[i][1] + "</option>");
                 $(".judge-select option:last-of-type").attr("val", judges[i][0]);
             }
+
+            if ($(".date-data .data").text() == "" || $(".judgename-data .data").text() == "" || $(".judgement-data .data").text() == "") {
+                $(".info").hide();
+            }
+
+            $(".category-select").change(function () {
+                let values = [];
+                $.each($(".category-select option:selected"), function () {
+                    values.push($(this).attr("val"));
+                });
+
+                $(".categories-1 input").val(values.toString());
+            });
+
+
+            $(".act-select").change(function () {
+                let values = [];
+                $.each($(".act-select option:selected"), function () {
+                    values.push($(this).attr("val"));
+                });
+
+                $(".acts-1 input").val(values.toString());
+            });
+
+            $(".judge-select").change(function () {
+                let values = [];
+                $.each($(".judge-select option:selected"), function () {
+                    values.push($(this).attr("val"));
+                });
+
+                $(".judge-1 input").val(values.toString());
+            });
         });
     </script>
 
@@ -51,7 +83,30 @@
 </head>
 <body>
 
+<div class="real-selections">
 
+    <div class="categories-1">
+        <input type="text">
+    </div>
+
+
+    <div class="judge-1">
+
+        <select>
+            <input type="text">
+        </select>
+
+    </div>
+
+    <div class="acts-1">
+
+
+        <select>
+            <input type="text">
+        </select>
+
+    </div>
+</div>
 <div class="head-wrap-2">
     <div class="header-2">
         <div class="mini-header-2">
@@ -139,9 +194,11 @@
                 </div>
                 <div class="info">
                     <ul>
-                        <li class="date"><strong>Date</strong> : {{ case['date'] }} </li>
-                        <li class="judgement"><strong>Judgement</strong> : {{ case['verdict']}}</li>
-                        <li class="judge-name"><strong>Judge</strong> : {{ case['judge']}} </li>
+                        <li class="date-data"><strong>Date</strong> : <span class="data"></span></li>
+                        <li class="judgement-data"><strong>Judgement</strong> : <span
+                                class="data">{{ case['verdict']}}</span></li>
+                        <li class="judgename-data"><strong>Judge</strong> : <span class="data">{{ case['judge']}}</span>
+                        </li>
                     </ul>
                 </div>
 
