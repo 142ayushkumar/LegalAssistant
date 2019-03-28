@@ -17,10 +17,10 @@ os.chdir("query3")
 from query3.case_names import query_3
 os.chdir("..")
 
-os.chdir("Filtering")
-# as filter already exists, importing as qfilter
-from Filtering.query_filter import filter_query
-os.chdir("..")
+#os.chdir("Filtering")
+## as filter already exists, importing as qfilter
+#from Filtering.query_filter import filter_query
+#os.chdir("..")
 
 from date import get_date
 

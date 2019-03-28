@@ -1,5 +1,0 @@
-allow
-indlaw
-view
-appeal
-court

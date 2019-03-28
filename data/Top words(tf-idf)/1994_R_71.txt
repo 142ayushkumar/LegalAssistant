@@ -1,8 +1,0 @@
-landlord
-tender
-resort
-tenant
-rent
-deposit
-appellant
-court

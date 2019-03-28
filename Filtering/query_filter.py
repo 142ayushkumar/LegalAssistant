@@ -18,19 +18,19 @@ def query_filter(query):
 	dict_of_values = {}
 
 
+	from_d = query['from_date'].replace('/','')
+	to_d = query['to_date'].replace('/','')
+
 	for it in data:
 
-		# print(it)
 		case_date = data[it]['date']
 		case_date = case_date.replace('/','')
-
-		from_d = query['from_date'].replace('/','')
-		to_d = query['to_date'].replace('/','')
+		# print(it)
 		# print(from_d, to_d, case_date)
-		if from_d <= case_date and to_d >= case_date and data[it]['judges'][0] == query['judge']:
+		if from_d <= case_date and to_d >= case_date and (not query['judge'] or data[it]['judges'][0] == query['judge']):
 			list1 = []
 			list2 = []
-			print('here')
+			# print('here')
 			for cat in query["categories"]:
 				if cat in data[it]["categories"]:
 					list1.append(cat)
@@ -41,7 +41,7 @@ def query_filter(query):
 
 			if len(query['categories']) > 0 and len(list1) == 0:
 				continue
-			if len(query['acts']) > 0 len(list2) == 0:
+			if len(query['acts']) > 0 and len(list2) == 0:
 				continue
 
 			val1 = len(list1)/max(1,len(query["categories"]))
@@ -65,11 +65,11 @@ def query_filter(query):
 		unsorted_dict[it] = dict_of_values[it]["value"]
 
 	sorted_dict = sorted(unsorted_dict.items(), key = operator.itemgetter(1), reverse =True) 
-
+	# print(sorted_dict)
 	sorted_final_dict = {}
-
 	count = 0
 	for it in sorted_dict:
+		print(dict_of_values[it[0]]['value'])
 		if count >= 1000:
 			break
 		sorted_final_dict[it[0]] = dict_of_values[it[0]]
@@ -85,5 +85,5 @@ if __name__ == '__main__':
 	
 	fdh = open('query.json')
 	query = json.load(fdh)
-
-	print(filter(query))
+	# query_filter(query)
+	print(query_filter(query))

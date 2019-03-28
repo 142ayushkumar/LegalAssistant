@@ -1,0 +1,9 @@
+belongs
+hit
+submits
+owner
+petitioner
+claim
+respondent
+counsel
+learn

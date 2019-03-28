@@ -1,0 +1,10 @@
+recognize
+qualify
+admission
+institution
+examination
+deny
+petitioner
+ground
+pass
+respondent

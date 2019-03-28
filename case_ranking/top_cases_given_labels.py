@@ -17,14 +17,20 @@ def give_best_cases(case_dict, label_names):
 	# label_count = dict()
 
 	for labels in label_names:
-		with open(labels + '.txt', 'r') as file:
-			json_data = file.read()
-			label_data = json.loads(json_data)
+		try:
+			with open(labels + '.txt', 'r') as file:
+				json_data = file.read()
+				label_data = json.loads(json_data)
+		except:
+			continue
 		length = len(label_data)
 		# Cases present in label_data
 		for case in label_data:
 			if case in case_dict:
-				case_score[case] = case_score[case] + label_data[case]*length
+				if case not in case_score:
+					case_score[case] = 0
+				else:
+					case_score[case] = case_score[case] + label_data[case]*length
 
 	# Assigning scores by using common citation graph
 	with open('case_ranking.txt', 'r') as file:
@@ -40,11 +46,17 @@ def give_best_cases(case_dict, label_names):
 	# for case in case_score:
 	#     label_count[case] = len(case_dict[case]['categories'])
 
+	# If case in case_score, then it exist surely in case_dict
 	case_score = sorted(case_score.items(), key = operator.itemgetter(1))
-	case_score.sort(key = lambda z: case_dict[z]['value'])
-	case_score.reverse()
+
+	case_score_list = []
+	for case in case_score:
+		case_score_list.append(case[0])
+
+	case_score_list.sort(key = lambda z: case_dict[z]['value'])
+	case_score_list.reverse()
 		
-	return case_score[:100]
+	return case_score_list[:100]
 
 if __name__ == '__main__':
 	n = int(input("Number of Categories"))

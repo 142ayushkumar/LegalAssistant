@@ -1,9 +1,0 @@
-settlement
-press
-arrive
-dispose
-party
-counsel
-view
-learn
-appeal
