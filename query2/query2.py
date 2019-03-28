@@ -1,8 +1,4 @@
-# Code for generating cases and acts relevant to query given in query2
-
-
 import json
-from collections import OrderedDict
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 from nltk import word_tokenize
@@ -25,40 +21,33 @@ def cal(x):
 def get_related_acts(search_query):
 
 	file = open('actlist.txt' , 'r')
-	# file = open('char_to_cases.json', 'r')
-	# char_to_cases_dict = json.load(file)
 
 	abb_file = open('abbreviation_mapping.json', 'r')
 	abb_dict = json.load(abb_file)
-	
 	acts = []
 	
 	tokenizer = RegexpTokenizer(r'\w+')
 	act_tokens = tokenizer.tokenize(search_query)
+	
 
 	numerical_part = []
 	for word in act_tokens:
 		if any(ch.isdigit() for ch in word):
 			numerical_part.append(word)
 
-	# initials = [x[0] for x in search_query.split()]
-	# flag = 1
-	# for i in initials:
-	# 	if i.upper() in char_to_cases_dict:
-	# 		for act in char_to_cases_dict[i.upper()]:
-	# 			acts.append(act)
 
-	# acts = list(set(acts))
 	for act in file:
 		act = act.rstrip('\n')
 
 		acts.append(act)
 	for key in abb_dict:
 		acts.append(key)
-		
+
+	file.close()
+
+
 	rel_acts = process.extract(search_query, acts, limit =50 ,scorer=fuzz.token_set_ratio)
 	copy_rel_acts = []
-	
 	i = 0
 	for act in rel_acts:
 		if act[0] in abb_dict:
@@ -77,14 +66,11 @@ def get_related_cases(rel_acts):
 	act_to_case_dict = json.load(f)
 	cases = []
 	for act in rel_acts:
-		# print(act)
 		try:
 			for x in act_to_case_dict[act[0]]:
 				cases.append(x)
 		except :
 			pass
-
-	# print(set(cases))
 
 	cases_relv = set(cases)
 	
@@ -93,23 +79,24 @@ def get_related_cases(rel_acts):
 
 
 def query2(search_query):
-	search_query = search_query.replace('.', '')
+
+	punctuations = '.,\"\'()'
+	for ch in punctuations:
+		search_query = search_query.replace(ch, '')
 
 	search_query = corrected_text(search_query)
 
 	rel_acts, numerical_part = get_related_acts(search_query)	
 
 	final_dict = {}
-	# print(rel_acts)
 	rel_acts_wo_score = [x[0] for x in rel_acts]
 	final_dict['acts'] = rel_acts_wo_score[:min(10,len(rel_acts_wo_score))]
-	# print(rel_acts)
+	
 	cases = get_related_cases(rel_acts)
-	# print(cases)
+	
 	cases = list(cases)
 	cases = cases[:min(10,len(cases))]
-	# print(cases)
-
+	
 	f = open('case_ranking.json','r')
 	rankings = json.load(f)
 
@@ -120,7 +107,6 @@ def query2(search_query):
 
 	sorted_cases = sorted(cases,key = lambda x:cal(x))
 	cases_score_dict = {}
-
 	for case in sorted_cases:
 		if case in copy_rankings:
 			cases_score_dict[case] = copy_rankings[case]
