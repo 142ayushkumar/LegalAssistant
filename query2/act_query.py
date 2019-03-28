@@ -10,7 +10,7 @@ import sys
 sys.path.insert(0, '../')
 from bing_spell_check_api import *
 stop_words = set(stopwords.words('english'))
-base_dir = 'query2/'
+base_dir = ''
 
 def cal(x, copy_rankings):
 	if x in copy_rankings:#.has_key(x):
@@ -104,9 +104,9 @@ def cases_and_acts(search_query):
 	final_dict['acts'] = rel_acts_wo_score[:min(10,len(rel_acts_wo_score))]
 	# print(rel_acts)
 	cases = get_related_cases(rel_acts)
-	# print(cases)
 	cases = list(cases)
 	cases = cases[:min(10,len(cases))]
+	# print(cases)
 	# print(cases)
 	f = open(base_dir + 'case_ranking.json','r')
 	rankings = json.load(f)
@@ -118,23 +118,18 @@ def cases_and_acts(search_query):
 		copy_rankings[x] = rankings[x]*scaling_ratio
 	# print(copy_rankings)
 
-	sorted_cases = sorted(cases, key = lambda x:cal(x, copy_rankings), reverse = True)
-	print("Here")
-	print(sorted_cases)
-	print("Here")
-	cases_score_dict = []
-	# print(sorted_cases)
-	for case in sorted_cases:
-		
-		if case in copy_rankings:#.has_key(case):
-			cases_score_dict.append(case[0])
+	sorted_cases = sorted(cases, key = lambda x:cal(x, copy_rankings))
+	# print("Here")
+	# for i in range(0, len(sorted_cases)):
+	# 	print(sorted_cases[i], cal(sorted_cases[i], copy_rankings))
+	# print("Here")
 
-	final_dict['cases'] = cases_score_dict
+	final_dict['cases'] = sorted_cases
 
 	return final_dict
 # inp_words = input()
 
-def act_query(inp_words):
+def act_query(inp_words = "State of Maharashtra vs Ayush"):
 
 	inp_words = re.split(' |, |-|\(|\)', inp_words)
 

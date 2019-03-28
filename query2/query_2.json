@@ -1,27 +1,28 @@
 {
- "year": "-1",
- "cases": [
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2"
- ],
  "acts": [
-  "Visva-Bharati (Amendment) Act, 1961",
-  "Visva-Bharati (Amendment) Act, 1971",
-  "Visva-Bharati (Amendment) Act, 1984",
-  "Visva-Bharati Act, 1951",
-  "Spices Board Act, 1986",
-  "Government Savings Banks (Amendment) Act, 1959",
-  "Government Savings Banks Act, 1873",
-  "Government Savings Banks (Amendment) Act, 1959",
-  "Government Savings Banks Act, 1873",
-  "Shridhar University, Bigodna (Jhunjhunu) Act, 2010"
+  "Special Financial Assistance to the State of Maharashtra Bill, 2016",
+  "Maharashtra State-aid to Industries Act, 1960",
+  "Maharashtra State Board of Technical Education (Amendment) Act, 2005",
+  "Maharashtra State Tax on Professions, Trades, Callings and Employments Act, 1975",
+  "Maharashtra Municipal Corporations Temporary Postponement of Elections (of the Mayors and Deputy Mayors Due to Ensuing General Elections to the State Legislative Assembly and Certain Other Elections) Act, 2004",
+  "Maharashtra State Board of Technical Education Act, 1997",
+  "Maharashtra State Reservation (of seats for admission in educational institutions in the State and for appointments or posts in the public services under the State) for Educationally and Socially Backward Category (ESBC) Act, 2014",
+  "Maharashtra State Enterprises (Restructuring and Other Special Provisions) (Amendment) Act, 2006",
+  "Maharashtra State Commission for Safai Karmacharis Act, 1997",
+  "Maharashtra State Tax on Professions, Trades, Callings and Employments and the Maharashtra Value Added Tax (Amendment) Act, 2007"
  ],
- "section": "-1"
+ "cases": [
+  "1989_S_147",
+  "1968_M_12",
+  "1982_M_26",
+  "1983_B_28",
+  "1975_S_1",
+  "1999_B_92",
+  "2014_S_363",
+  "2009_S_528",
+  "1990_S_277",
+  "1989_P_44"
+ ],
+ "section": "-1",
+ "year": "-1"
 }
