@@ -1,7 +1,66 @@
 import json
 import datetime
 import operator
-from top_cases_given_labels import give_best_cases
+# from top_cases_given_labels import give_best_cases
+import networkx as nx
+# base_dir = "/Users/saurav/Desktop/OpenSoft/case_ranking/"
+
+def give_best_cases(case_dict, label_names):
+	'''
+		In this function, give the input as a list of labels
+		Note - the name of labels must match exactly with that in subject_to_case.txt
+	'''
+
+  #   with open('subject_to_case.txt', 'r') as file:
+	 #    json_data = file.read()
+		# category_data = json.loads(json_data)
+
+	case_score = dict()
+	# label_count = dict()
+
+	for labels in label_names:
+		try:
+			with open(labels + '.txt', 'r') as file:
+				json_data = file.read()
+				label_data = json.loads(json_data)
+		except:
+			continue
+		length = len(label_data)
+		# Cases present in label_data
+		for case in label_data:
+			if case in case_dict:
+				if case not in case_score:
+					case_score[case] = 0
+				else:
+					case_score[case] = case_score[case] + label_data[case]*length
+
+	# Assigning scores by using common citation graph
+	with open('case_ranking.txt', 'r') as file:
+		json_data = file.read()
+		common_case_ranking = json.loads(json_data)
+
+	length = len(common_case_ranking)
+	for case in case_score:
+		if case in common_case_ranking:
+			case_score[case] = case_score[case] + common_case_ranking[case]*length
+
+
+	# for case in case_score:
+	#     label_count[case] = len(case_dict[case]['categories'])
+
+	# If case in case_score, then it exist surely in case_dict
+	case_score = sorted(case_score.items(), key = operator.itemgetter(1))
+
+	case_score_list = []
+	for case in case_score:
+		case_score_list.append(case[0])
+
+	case_score_list.sort(key = lambda z: case_dict[z]['value'])
+	case_score_list.reverse()
+		
+	return case_score_list[:100]
+
+
 
 def query_filter(query):
 
@@ -78,15 +137,17 @@ def query_filter(query):
 
 	# print(sorted_final_dict)
 	# jsonFile = json.dumps(dict_of_values)
-
-	return sorted_final_dict
-
-if __name__ == '__main__':
-	fdh = open('query.json')
-	query = json.load(fdh)
-	# query_filter(query)
-	case_dict = query_filter(query)
 	labels = query['categories']
-	print(labels)
-	x = give_best_cases(case_dict, labels)
-	print(x)
+	x = give_best_cases(sorted_final_dict, labels)
+	return x
+
+# if __name__ == '__main__':
+# 	print(2)
+	# fdh = open('query.json')
+	# query = json.load(fdh)
+	# # query_filter(query)
+	# case_dict = query_filter(query)
+	# labels = query['categories']
+	# print(labels)
+	# x = give_best_cases(case_dict, labels)
+	# print(x)

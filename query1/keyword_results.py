@@ -4,7 +4,7 @@ import numpy as np
 import json
 import string
 import re
-DATA_DIR = "../data/"
+
 COSTHRESH = 0.55
 import pickle
 
@@ -69,9 +69,6 @@ def get_keyword(lstkeys):
             actual_word[similar_words[0]] = word
     return actual_word
 
-with open("keywords_to_cases.json") as ktc:
-    case_keywords = json.load(ktc)
-
 def get_similar_cases(lstkeys,lstcase,topn):
     keywords = get_keyword(lstkeys)
 
@@ -83,14 +80,6 @@ def get_similar_cases(lstkeys,lstcase,topn):
                 if word in keywords:
                     case_score[casename].append(keywords[word])
 
-    # for keyword in keywords:
-    #     true_keyword = keywords[keyword]
-    #     if true_keyword in case_keywords:
-    #         for case in case_keywords[true_keyword]:
-    #             if case in case_score:
-    #                 case_score[case].append(keyword)
-    #             else:
-    #                 case_score[case] = [keyword]
     similar_cases = []
     for i,key in enumerate(reversed(sorted(case_score.items(), key=lambda x: len(x[1])))):
         if i == topn:
