@@ -23,16 +23,17 @@ def is_query2(query) :
 
     fd = open('abbreviation_mapping.json')
 
-    abbreviations = json.load(fd)
+    abberviations = json.load(fd)
     
     query_words = re.split(' |, |\. ', query)
 
     if "act" in query_words or "bill" in query_words :
         return 2
-    
-    for words in query_words:
-        if words.upper() in abbreviations and words not in stopwords:
+
+    for key in abberviations:
+        if key.lower() in query_words and key.lower() not in stop_words:
             return 2
+
     return -1
 
 
@@ -72,10 +73,9 @@ def is_query4(query) :
         return -1
         
     
-def find_query(query) :
+def query_identifier(query) :
 
     # query 2
-    return 3
     type_of_query = is_query2(query)
 
     if type_of_query is 2 :
@@ -94,3 +94,10 @@ def find_query(query) :
         return type_of_query
 
     return 1
+
+
+print ("Enter query")
+
+query = input()
+
+print(query_identifier(query))
