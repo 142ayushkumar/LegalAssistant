@@ -3,39 +3,34 @@ import datetime
 import operator
 
 
-def filter_query(list_of_cases, query):
+def query_filter(query):
 
-	fd1 = open('final_dictionary.json')
+	fd1 = open('case_to_info.json')
 	# fd2 = open('query.json')
-	fd3 = open('case_ranking.json')
-	# fd4 = open('list_of_cases.txt')
-	fd5 = open('case_to_acts.json')
 
 	data = json.load(fd1)
 	# query = json.load(fd2)
-	case_ranking = json.load(fd3)
-	# list_of_cases = json.load(fd4)
-	case_to_acts = json.load(fd5)
 
 
 	fd1.close()
 	# fd2.close()
-	fd3.close()
-	fd5.close()
 
 	dict_of_values = {}
 
 
-	for it in list_of_cases:
-		# it = it[:-1]
-		if it not in data:
-			continue
+	for it in data:
+
 		# print(it)
-		if 1:#it.date >= query.from_fate and it.date <= query.to_date:
+		case_date = data[it]['date']
+		case_date = case_date.replace('/','')
+
+		from_d = query['from_date'].replace('/','')
+		to_d = query['to_date'].replace('/','')
+		# print(from_d, to_d, case_date)
+		if from_d <= case_date and to_d >= case_date and data[it]['judges'][0] == query['judge']:
 			list1 = []
 			list2 = []
-			list3 = []
-
+			print('here')
 			for cat in query["categories"]:
 				if cat in data[it]["categories"]:
 					list1.append(cat)
@@ -44,29 +39,28 @@ def filter_query(list_of_cases, query):
 				if act in data[it]["acts"]:
 					list2.append(act)
 
-			for judge in query["judges"]:
-				if judge in data[it]["judges"]:
-					list3.append(judge)
+			if len(query['categories']) > 0 and len(list1) == 0:
+				continue
+			if len(query['acts']) > 0 len(list2) == 0:
+				continue
 
 			val1 = len(list1)/max(1,len(query["categories"]))
 			val2 = len(list2)/max(1,len(query["acts"]))
-			val3 = len(list3)/max(1,len(query["judges"]))
 
 			temp_dict = {}
 			temp_dict["category"] = list1
 			temp_dict["acts"] = list2
-			temp_dict["judges"] = list3
+			temp_dict["judge"] = query['judge']
 			temp_dict["date"] = data[it]["date"]
-			if it in case_to_acts:
-				temp_dict["acts"] = case_to_acts[it]
-			t = 3*val1*val2*val3/max(1,val1*val2 + val2*val3 + val3*val1) + val1 + val2 + val3
-			u = 0
-			if(it in case_ranking):
-				u = 1e3*case_ranking[it]
-			temp_dict["value"] = 2*t*u/max(1, t + u) + t + u
+
+			t = 2*val1*val2/max(1,val1+val2) + val1 + val2
+
+			temp_dict["value"] = t
+			# print(temp_dict)
 			dict_of_values[it] = temp_dict
 
 	unsorted_dict = {}
+
 	for it in dict_of_values:
 		unsorted_dict[it] = dict_of_values[it]["value"]
 
@@ -74,10 +68,22 @@ def filter_query(list_of_cases, query):
 
 	sorted_final_dict = {}
 
+	count = 0
 	for it in sorted_dict:
-		sorted_final_dict[it] = dict_of_values[it[0]]
+		if count >= 1000:
+			break
+		sorted_final_dict[it[0]] = dict_of_values[it[0]]
+
+		count += 1
 
 	# print(sorted_final_dict)
 	# jsonFile = json.dumps(dict_of_values)
-	# fd4.close()
+
 	return sorted_final_dict
+
+if __name__ == '__main__':
+	
+	fdh = open('query.json')
+	query = json.load(fdh)
+
+	print(filter(query))

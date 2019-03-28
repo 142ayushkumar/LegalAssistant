@@ -1,17 +1,20 @@
 {
-      "from_date": "3 July 2013", 
-      "to_date": "3 July 2013", 
-      "judges": "", 
+      "from_date": "2014/09/26", 
+      "to_date": "2014/09/26", 
+      "judge": "adarsh kumar goel j", 
       "acts": [
          "Arbitration Act, 1940", 
          "Arbitration and Conciliation Act, 1996", 
          "Arbitration and Conciliation Act, 1996", 
          "Arbitration and Conciliation Act, 1996", 
-         "Indian Contract Act, 1872"
+         "Indian Contract Act, 1872",
+         "Dowry Prohibition Act, 1961"
       ], 
       "categories": [
          "solicitor", 
          "arbitration & adr", 
-         "contract & commercial"
+         "contract & commercial",
+         "conviction", 
+         "defence version"
       ]
 }
