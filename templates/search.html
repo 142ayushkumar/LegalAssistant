@@ -26,7 +26,26 @@
     <link href="../static/css/style.css" rel="stylesheet">
 
     <script src="../static/js/search.js"></script>
-    
+    <script>
+        $(function () {
+            let categories = [];
+            let acts = [];
+            let judges = [];
+            console.log(categories);
+            for (let i = 0; i < categories.length; i++) {
+                $(".category-select").append("<option>" + categories[i][1] + "</option>");
+                $(".category-select option:last-of-type").attr("val", categories[i][0]);
+            }
+            for (let i = 0; i < acts.length; i++) {
+                $(".acts-select").append("<option>" + acts[i][1] + "</option>");
+                $(".acts-select option:last-of-type").attr("val", acts[i][0]);
+            }
+            for (let i = 0; i < judges.length; i++) {
+                $(".judge-select").append("<option>" + judges[i][1] + "</option>");
+                $(".judge-select option:last-of-type").attr("val", judges[i][0]);
+            }
+        });
+    </script>
 
 
 </head>
@@ -153,3 +172,5 @@
     </ul>
 </div>
 </body>
+
+</html>

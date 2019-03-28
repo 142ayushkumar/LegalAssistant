@@ -28,6 +28,27 @@
 
     <script src="../static/js/main.js"></script>
 
+    <script>
+        $(function () {
+            let categories = [];
+            let acts = [];
+            let judges = [];
+            console.log(categories);
+            for (let i = 0; i < categories.length; i++) {
+                $(".category-select").append("<option>" + categories[i][1] + "</option>");
+                $(".category-select option:last-of-type").attr("val", categories[i][0]);
+            }
+            for (let i = 0; i < acts.length; i++) {
+                $(".acts-select").append("<option>" + acts[i][1] + "</option>");
+                $(".acts-select option:last-of-type").attr("val", acts[i][0]);
+            }
+            for (let i = 0; i < judges.length; i++) {
+                $(".judge-select").append("<option>" + judges[i][1] + "</option>");
+                $(".judge-select option:last-of-type").attr("val", judges[i][0]);
+            }
+        });
+    </script>
+
 
 </head>
 
@@ -69,9 +90,8 @@
             <div class="more-filters">
                 <div class="category">
 
-                    <select class="category-select" multiple="multiple" name="categories[]">
-                        <option value="1">Alpha</option>
-                        <option value="2">Beta</option>
+                    <select class="category-select" id="categories-opt" multiple="multiple" name="categories[]">
+
                     </select>
                     <p>Categories</p>
                 </div>
@@ -88,10 +108,7 @@
 
 
                     <select class="act-select" multiple="multiple" name="acts[]">
-                        <option value="adf">Tamil Nadu Prevention of Dangerous Activities of Bootleggers, Drug-offenders,
-                            Goondas, Immoral Traffic Offenders, Forest-offenders, Sand-Offenders, Slum-grabbers and Video
-                            Pirates Act, 1982
-                        </option>
+
                     </select>
 
                     <p>Acts</p>
