@@ -18,18 +18,18 @@ os.chdir("..")
 
 os.chdir("Filtering")
 # as filter already exists, importing as qfilter
-from Filtering.query_filter import filter as filter_query
+from Filtering.query_filter import filter_query
 os.chdir("..")
 
 from date import get_date
 
-os.chdir("query2")
+# os.chdir("query2")
 from query2.query2 import query2 as query_2
-os.chdir("..")
+# os.chdir("..")
 
-os.chdir("query_identifier")
-from query_identifier.query_identifier import find_query
-os.chdir("..")
+# os.chdir("query_identifier")
+# from query_identifier.query_identifier import find_query
+# os.chdir("..")
 
 
 app = Flask(__name__)
@@ -38,6 +38,18 @@ app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
+
+case_data_file = open("./data/file_to_date_casename_casecode_judge_judgment.json")
+case_data = json.load(case_data_file)
+
+acts_cited_file = open("./data/case_to_acts.json")
+acts_cited = json.load(acts_cited_file)
+
+categories_file = open("./data/case_to_subjects.json")
+categories = json.load(categories_file)
+
+citations_file = open("./data/case_citations_name.txt")
+citations = json.load(citations_file)
 
 def get_result(query, categories = [], acts = [], judges = [], start_date = None, end_date = None):
     '''
@@ -119,35 +131,33 @@ def index():
         session["recent"] = session["recent"][0:5]
     session["recent"] = [store] + session["recent"]
     # get results
-    output = get_result(query=query, category=category, acts=acts, judge=judge, start_date=start_date, end_date=end_date)
+    output = get_result(query=query, categories=category, acts=acts, judge=judge, start_date=start_date, end_date=end_date)
     # pass the list to be displayed to index.html and render index.html
     return render_template('search.html', output=output)
         
 
 @app.route("/cases/<string:filename>", methods = ['GET'])
 def cases(filename):
-    '''
-    date = store[case_id]['date']
-    judge = store[case_id]['judge']
-    verdict = store[case_id]['verdict']
-    case_id = store[case_id]['case_id']
-    casename = store[case_id]['casename']
-    '''
-    date = "1"
-    judge = "1"
-    verdict = "1"
-    case_id = "1"
-    casename = "1"
+    date = case_data[filename][0]
+    casename = case_data[filename][1]
+    case_id = case_data[filename][2]
+    judge = case_data[filename][3]
+    verdict = case_data[filename][4]
     try:
-        file = open("OpenSoft-Data/All_FT/" + filename, 'r')
+        file_name = filename + ".txt"
+        file = open("OpenSoft-Data/All_FT/" + file_name, 'r')
         content = file.readlines()
     except:
         return render_template('error.html')
-    return render_template('case.html', case_id=case_id, judge=judge, content=content, casename=casename, verdict=verdict)
+    return render_template('case.html', case_id=case_id, judge=judge, content=content, casename=casename, verdict=verdict, date=date, acts_cited=acts_cited[filename], categories=categories[filename], citations=citations[filename])
 
 @app.route("/search", methods=['GET'])
 def search():
     return render_template('search.html')
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('error.html'), 404
 
 
 if __name__ == "__main__":
