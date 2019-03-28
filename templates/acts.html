@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Legal Assistant</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Legal Assistant, Legal Query, Cases, Acts, Legal Help" name="keywords"/>
+    <meta content="Open Soft" name="author"/>
+    <link href="../static/css/article_style.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- For fa fa-angle-down -->
+
+    <link href="../static/img/logo.png" rel="shortcut icon" type="image/png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../static/js/article.js"></script>
+</head>
+<style>
+    .sidebar .tags span {
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+
+    }
+
+    .icon img {
+        width: 70px !important;
+        position: relative;
+        top: 5px;
+    }
+
+    html,
+    body {
+        height: 100%;
+        position: relative;
+    }
+
+    .main-container {
+        min-height: 100vh; /* will cover the 100% of viewport */
+        overflow: hidden;
+        display: block;
+        position: relative;
+        padding-bottom: 100px; /* height of your footer */
+    }
+
+</style>
+<body>
+<div class="main-container">
+    <div class="header clearfix">
+
+        <div class="icon">
+            <a href="/" style="text-decoration: none; color: white">
+                <img src="../static/img/nav-logo.png">
+                <span>LegalAssistant.com</span>
+            </a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar">
+        <h4>Similar Acts</h4>
+        <ul class="similar-acts">
+            <li><a href="">Lorem ipsum dolor sit amet.</a></li>
+            <li><a href="">Culpa odio officiis ullam voluptate.</a></li>
+            <li><a href="">Dolorem eius eveniet saepe vel!</a></li>
+        </ul>
+    </div>
+
+    <div class="article">
+
+        <div class="heading">
+            <h1>The AlphaBeta Act 900BC</h1>
+        </div>
+
+
+        <div class="acts-specification">
+            <ul>
+                {% for line in content %}
+                <li class="content"> {{ line }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+
+    </div>
+
+
+    <div class="footer">
+        <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Send Feedback</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+
+</html>

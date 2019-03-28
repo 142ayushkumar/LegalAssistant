@@ -104,7 +104,8 @@ a:not(.header a, .footer a):hover {
         transform: translateY(-25%);
     }
 }
-.sidebar .similar-cases, .sidebar .acts-cited {
+
+.sidebar .similar-cases, .sidebar .similar-acts, .sidebar .acts-cited {
     padding: 10px;
     list-style-type: none;
 }
@@ -134,19 +135,23 @@ a:not(.header a, .footer a):hover {
     border: 1px solid black;
     padding: 3px 6px;
 }
-.case-specification {
+
+.case-specification, .acts-specification {
     padding-top: 20px;
 }
-.case-specification h2 {
+
+.case-specification h2, .acts-specification h2 {
     font-size: 29px;
     padding-left: 10px;
 }
-.article .case-specification ul{
+
+.article .case-specification ul, .article .acts-specification ul {
     list-style-type: decimal;
     padding: 20px;
     padding-top: 0;
 }
-.article .case-specification ul li {
+
+.article .case-specification ul li, .article .acts-specification ul li {
     /*border: 1px solid black;*/
     padding: 10px;
 }
