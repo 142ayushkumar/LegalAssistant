@@ -15,10 +15,22 @@ from fuzzywuzzy import fuzz
 os.chdir("query3")
 from query3.case_names import query_3
 os.chdir("..")
+
 os.chdir("Filtering")
-from Filtering.query_filter import filter
+# as filter already exists, importing as qfilter
+from Filtering.query_filter import filter as filter_query
 os.chdir("..")
+
 from date import get_date
+
+os.chdir("query2")
+from query2.query2 import query2 as query_2
+os.chdir("..")
+
+os.chdir("query_identifier")
+from query_identifier.query_identifier import find_query
+os.chdir("..")
+
 
 app = Flask(__name__)
 
@@ -31,20 +43,25 @@ def get_result(query, categories = [], acts = [], judges = [], start_date = None
     '''
     returns query output as list
     '''
+    query_type = find_query(query)
 
-    '''
-    This code is only for query of type 3. Results are sorted according to
-    matching with given query.
-    '''
-    
-    os.chdir("query3")
-    query_3(query)
-    _filePtr = open('Query_3_results.json')
-    allResults = json.load(_filePtr)
-    os.chdir("..")
+    if query_type == 2:
+        query_3(query)
+        _filePtr = open('query_3.json')
+        allResults = json.load(_filePtr)
+    elif query_type == 3:
+        query2(query)
+        _filePtr = open('query2.json')
+        allResults = json.load(_filePtr)
+    else:
+        print(1, 4)
+        #query other than 2 and 3
+
+    print(allResults["acts"])
+    print(allResults["cases"])
     
     allResultsList = []
-    for case in allResults:
+    for case in allResults["cases"]:
         allResultsList.append(case)
 
     queryToPerform = {}
@@ -54,9 +71,7 @@ def get_result(query, categories = [], acts = [], judges = [], start_date = None
 
     filterResult = {}
 
-    os.chdir("Filtering")
-    filterResult = filter(allResultsList, queryToPerform)
-    os.chdir("..")
+    filterResult = query_filter(allResultsList, queryToPerform)
 
     prefinalResult = []
 

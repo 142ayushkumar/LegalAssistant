@@ -13,10 +13,15 @@ def give_best_cases(label_names):
 		Note - the name of labels must match exactly with that in subject_to_case.txt
 	'''
 	case_score = dict()
+	label_count = dict()
 	for labels in label_names:
 		# print(labels)
 		for cases in category_data[labels]:
 			case_score[cases] = 0
+			if cases not in label_count:
+				label_count[cases] = 1;
+			else:
+				label_count[cases] = label_count[cases] + 1;
 
 	for labels in label_names:
 		with open(labels + '.txt', 'r') as file:
@@ -25,15 +30,10 @@ def give_best_cases(label_names):
 		for case in label_data:
 			case_score[case] = case_score[case] + label_data[case]*len(label_data) 
 
-	case_score = sorted(case_score.items(), key=operator.itemgetter(1))
-	# print(case_score)
-	case_to_score = dict()
-	case_score_len = len(case_score)-1
-	for i in range(min(100,case_score_len)):
-		case_to_score.update({case_score[case_score_len-i][0]:case_score[case_score_len-i][1]})
-
-	# print(case_to_score)
-	return case_to_score
+	case_score = sorted(case_score.items(), key = operator.itemgetter(1))
+	case_score.sort(key = lambda z: label_count[z[0]])
+	case_score.reverse()
+	return case_score[:100]
 
 if __name__ == '__main__':
 	n = int(input("Number of Categories"))
@@ -42,6 +42,6 @@ if __name__ == '__main__':
 		label = input("Give Category")
 		label_names.append(label)
 	# print(label_names)
-	x = dict()
+	x = []
 	x = give_best_cases(label_names)
 	print(x)

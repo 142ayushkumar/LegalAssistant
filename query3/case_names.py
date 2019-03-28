@@ -1,5 +1,5 @@
 '''
-From the query of type 3, extracts the case files
+From the query of type 3, extracts the file_names
 '''
 import re
 from nltk.corpus import stopwords
@@ -9,10 +9,21 @@ stop_words = set(stopwords.words('english'))
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 '''
-Use the dictionaries 'Cases_from_caseName.json', 'Case_Abbreviations_Dictionary.json' and 'reduced_dictionary.json' 
-in the same directory as this code file.
-Function for Query 3    
- - Writes the possible cases (case id) along with the priority in form of a score (max 20) as a dictionary in Query_3_results.json
+Use the following dictionaries in the same directory as this code file:
+1) 'Cases_from_caseName.json'- containing map of 'case names' to list of 'case ids',
+2) 'Case_Abbreviations_Dictionary.json'- containing map of related 'abbreviations' to their 'full_form' eg: "MH": "Maharashtra"
+3) 'reduced_dictionary.json'- containing map of 'First character of case names' to 'case names starting with that character'
+
+Function for Query 3
+ - Input: The case name (Type 3 query) from user
+ - Output: Query_3_results.json containing a dictionary of the form {"case_id" : score, ...}
+ - function: 1) query_3() pre-processes the query
+             2) replaces the detected abbreviations in query by their full forms using 'Case_Abbreviations_Dictionary.json'
+             3) First searches in the 'reduced_dictionary.json' by the first letter of words in processed query
+             4) Then extracts the list of case_id's from 'Cases_from_caseName.json'
+             5) Finally writes results to 'Query_3_results.json'
+Example: Input - "state of MH v sitaram popat vetal and anr."
+         Output - {"2012_S_190": 0.79, "1979_V_13": 0.79, "2001_S_122": 0.835, "2004_S_198": 1.0, "2017_S_465": 0.825, "2010_S_302": 0.8, ...} 
 '''
 def query_3(query):
 
@@ -105,8 +116,12 @@ def query_3(query):
         d={}
         for file in selected_cases:
             d[file[0]]=file[1]
-        with open('Query_3_results.json','w') as out:
-            json.dump(d,out,indent=1)
+        final_dict = {}
+        final_dict["acts"] = {}
+        final_dict["cases"] = d
+
+        with open('query_3.json','w') as out:
+            json.dump(final_dict,out,indent=1)
     
     else:
         search_1=[]
@@ -140,8 +155,12 @@ def query_3(query):
         d={}
         for file in selected_cases:
             d[file[0]]=file[1]
-        with open('Query_3_results.json','w') as out:
-            json.dump(d,out,indent=1)
+        final_dict = {}
+        final_dict["acts"] = {}
+        final_dict["cases"] = d
+
+        with open('query_3.json','w') as out:
+            json.dump(final_dict,out,indent=1)
 
 if __name__ == '__main__':
 
