@@ -122,7 +122,7 @@ def query_3(query):
         for x in selected_cases:
             d.append(x[0])
         final_dict = {}
-        final_dict["acts"] = {}
+        final_dict["acts"] = []
         final_dict["cases"] = d
 
         with open(base_dir + 'query_3.json','w') as out:
@@ -166,7 +166,7 @@ def query_3(query):
         for x in selected_cases:
             d.append(x[0])
         final_dict = {}
-        final_dict["acts"] = {}
+        final_dict["acts"] = []
         final_dict["cases"] = d
 
         with open(base_dir + 'query_3.json','w') as out:
