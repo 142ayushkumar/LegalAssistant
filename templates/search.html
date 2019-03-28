@@ -78,12 +78,9 @@
             });
 
 
-            jQuery(".summary").each(function () {
-                if (jQuery(this).text().length > 100) {
-                    let str = jQuery(this).text().substr(0, 420);
-                    let wordIndex = str.lastIndexOf(" ");
-
-                    jQuery(this).text(str.substr(0, wordIndex) + '..');
+            $(".summary").each(function () {
+                if ($(this).text().length > 500) {
+                    $(this).text($(this).text().substring(0, 500) + "...");
                 }
             });
         });
