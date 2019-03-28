@@ -9,7 +9,7 @@ stop_words = set(stopwords.words('english'))
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 
-base_dir = "query3/"
+base_dir = ""
 '''
 Use the following dictionaries in the same directory as this code file:
 1) 'Cases_from_caseName.json'- containing map of 'case names' to list of 'case ids',
@@ -139,7 +139,8 @@ def query_3(query):
         parties_1=[]
 
         for word in party1:
-            if word not in stop_words:
+            # print(word[0])
+            if word not in stop_words and word[0].isalpha():
                 search_1.append(word[0].upper())
             if word.isupper():
                 w=process.extract(word, d.keys(), limit=1, scorer=fuzz.token_set_ratio)
@@ -147,6 +148,9 @@ def query_3(query):
                     w=d[i[0]]
                 query=query.replace(word, w)
         count=0
+        search_1 = set(search_1)
+        search_1 = list(search_1)
+        print(search_1)
         for k in search_1:
             parties_1 += process.extract(query, data[k], limit = number_of_parties, scorer=fuzz.token_set_ratio)
         selected_cases = []
