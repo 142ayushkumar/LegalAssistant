@@ -96,8 +96,8 @@ def query_identifier(query) :
     return 1
 
 
-print ("Enter query")
+# print ("Enter query")
 
-query = input()
+# query = input()
 
-print(query_identifier(query))
+# print(query_identifier(query))
