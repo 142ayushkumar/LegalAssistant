@@ -76,6 +76,16 @@
 
                 $(".judge-1 input").val(values.toString());
             });
+
+
+            jQuery(".summary").each(function () {
+                if (jQuery(this).text().length > 100) {
+                    let str = jQuery(this).text().substr(0, 420);
+                    let wordIndex = str.lastIndexOf(" ");
+
+                    jQuery(this).text(str.substr(0, wordIndex) + '..');
+                }
+            });
         });
     </script>
 
@@ -203,7 +213,18 @@
                 </div>
 
                 <div class="summary">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nobis quasi voluptatibus? Delectus dolorem odio officia tempora temporibus. Beatae consequatur cupiditate dolore dolorem, expedita incidunt necessitatibus neque officia reprehenderit sit! Ab animi beatae dolorum eos esse et explicabo id iure magni nobis optio pariatur reiciendis rem, repudiandae sequi totam ullam.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur cumque distinctio
+                        doloremque eos explicabo fugit, hic natus nobis pariatur quod rem repellat voluptas? Ad corporis
+                        error est eum eveniet ex facere impedit in laborum magni minus nam natus neque nostrum nulla
+                        porro, quod! Aliquam cupiditate dolor inventore nostrum officiis? Alias aperiam at, aut debitis
+                        deserunt distinctio dolore, excepturi fuga fugiat id laboriosam minima minus molestias numquam
+                        quo reprehenderit saepe similique sint veniam veritatis! Accusamus alias cumque eligendi facere
+                        molestiae omnis, porro quas similique. Alias earum maiores rerum tempora voluptatem! Animi
+                        doloribus esse fugiat iure rem ut vel veritatis voluptatum.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Consectetur nobis quasi voluptatibus? Delectus dolorem odio
+                        officia tempora temporibus. Beatae consequatur cupiditate dolore dolorem, expedita incidunt
+                        necessitatibus neque officia reprehenderit sit! Ab animi beatae dolorum eos esse et explicabo id
+                        iure magni nobis optio pariatur reiciendis rem, repudiandae sequi totam ullam.</p>
                 </div>
 
                 <div class="acts-cited">
