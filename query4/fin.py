@@ -137,9 +137,13 @@ def find_cases(q):
 
     doc_score = case_ranker(q, file_lists)
     final_file_list = []
-    for key, value in sorted(doc_score.items(), key=lambda x: x[1],reverse=True):
+    for key, value in sorted(doc_score.items(), key=lambda x: x[1], reverse=True):
+        filename = key[:-4]
         final_file_list.append(key)
-    return final_file_list
+    final_dict = {}
+    final_dict["acts"] = []
+    final_dict["cases"] = final_file_list
+    return final_dict
 
 
 

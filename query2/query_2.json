@@ -1,26 +1,27 @@
 {
- "acts": [
-  "Indian Ports Act, 1908",
-  "Bureau of Indian Standards Act, 1986",
-  "Bureau of Indian Standards Act, 2016",
-  "Burn Company and Indian Standard Wagon Company (Nationalisation) Act, 1976",
-  "Indian Air Force Volunteer Reserve (Discipline) Act, 1939",
-  "Indian Aircraft (Amendment) Act, 1939",
-  "Indian Aircraft (Amendment) Act, 1960",
-  "Indian Bar Councils Act, 1926",
-  "Indian Bills of Lading Act, 1856",
-  "Indian Boilers (Amendment) Act, 1951"
+ "year": "-1",
+ "cases": [
+  "2",
+  "2",
+  "2",
+  "2",
+  "2",
+  "2",
+  "2",
+  "2",
+  "2"
  ],
- "cases": {
-  "1994_S_529": 0.05167710938466561,
-  "1960_T_167": 0.004127928203980331,
-  "2007_S_270": 0.0025568342904731473,
-  "2007_M_146": 0.002422448489397679,
-  "2008_G_97": 0.0023375736212535646,
-  "2009_S_705": 0.00206699822511372,
-  "2015_B_2": 0.001998074148677107,
-  "2010_G_1": 0.001998074148677107,
-  "2008_B_115": 0.001998074148677107,
-  "2017_V_47": 0
- }
+ "acts": [
+  "Visva-Bharati (Amendment) Act, 1961",
+  "Visva-Bharati (Amendment) Act, 1971",
+  "Visva-Bharati (Amendment) Act, 1984",
+  "Visva-Bharati Act, 1951",
+  "Spices Board Act, 1986",
+  "Government Savings Banks (Amendment) Act, 1959",
+  "Government Savings Banks Act, 1873",
+  "Government Savings Banks (Amendment) Act, 1959",
+  "Government Savings Banks Act, 1873",
+  "Shridhar University, Bigodna (Jhunjhunu) Act, 2010"
+ ],
+ "section": "-1"
 }

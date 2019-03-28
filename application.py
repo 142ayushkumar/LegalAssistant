@@ -57,7 +57,7 @@ citations_file = open("./data/case_citations_name.txt")
 citations = json.load(citations_file)
 
 print("Start")
-load_init()
+#load_init()
 print("end")
 
 def get_cases(offset=0, per_page=10):
@@ -132,20 +132,20 @@ def index():
     # start_date = request.args.get('from')
     # end_date = request.args.get('to')
     query = categories = acts = judges = start_date = end_date = None
-    if 'query' not in request.form:
-        return render_template("index.html")
-    if 'query' in request.form:
-        query = request.form['query']
-    if 'category' in requst.form:
-        categories = request.form['category']
-    if 'acts' in request.form:
-        acts = request.form['acts']
-    if 'judge' in request.form:
-        judges = request.form['judge']
-    if 'from' in request.form:
-        start_date = request.form['from']
-    if 'to' in request.form:
-        end_date = request.form['to']
+    # if 'query' not in request.form:
+    #     return render_template("index.html")
+    # if 'query' in request.form:
+    #     query = request.form['query']
+    # if 'category' in requst.form:
+    #     categories = request.form['category']
+    # if 'acts' in request.form:
+    #     acts = request.form['acts']
+    # if 'judge' in request.form:
+    #     judges = request.form['judge']
+    # if 'from' in request.form:
+    #     start_date = request.form['from']
+    # if 'to' in request.form:
+    #     end_date = request.form['to']
 
 
     #Add this search in recents
@@ -203,12 +203,17 @@ def search():
     start_date = request.args.get('from')
     end_date = request.args.get('to')
     print("query is " + query)
-    cases = query_3(query)
+    cases_and_acts = query_2(query)
+    cases = cases_and_acts["cases"]
+    acts = cases_and_acts["acts"]
+    print(cases)
     all_cases = list()
+    '''
     page, per_page, offset = get_page_args(page_parameter='page',
                                            per_page_parameter='per_page')
+                                           
     total = len(query)
-    pagination_cases = get_cases(offset=offset, per_page=per_page)
+    #pagination_cases = get_cases(offset=offset, per_page=per_page)
     pagination = Pagination(page=page, per_page=per_page, total=total,
                             css_framework='bootstrap4')
     return render_template('search.html',
@@ -218,8 +223,9 @@ def search():
                            pagination=pagination,
                            username=username
                            )
+    '''
     for i,case in enumerate(cases):
-        filename = case[:-4]
+        filename = case
         temp = {}
         temp["filename"] = filename
         temp["data"] = case_data[filename][0]

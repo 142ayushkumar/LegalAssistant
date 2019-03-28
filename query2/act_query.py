@@ -10,6 +10,7 @@ import sys
 sys.path.insert(0, '../')
 from bing_spell_check_api import *
 stop_words = set(stopwords.words('english'))
+base_dir = 'query2/'
 
 def cal(x, copy_rankings):
 	if x in copy_rankings:#.has_key(x):
@@ -20,9 +21,9 @@ def cal(x, copy_rankings):
 
 def get_related_acts(search_query):
 
-	file = open('actlist.txt' , 'r')
+	file = open(base_dir + 'actlist.txt' , 'r')
 
-	abb_file = open('abbreviation_mapping.json', 'r')
+	abb_file = open(base_dir + 'abbreviation_mapping.json', 'r')
 	abb_dict = json.load(abb_file)
 	acts = []
 	
@@ -67,7 +68,7 @@ def get_related_acts(search_query):
 def get_related_cases(rel_acts):
 	
 
-	f = open('act_to_cases.json','r')
+	f = open(base_dir + 'act_to_cases.json','r')
 
 	act_to_case_dict = json.load(f)
 	cases = []
@@ -107,7 +108,7 @@ def cases_and_acts(search_query):
 	cases = list(cases)
 	cases = cases[:min(10,len(cases))]
 	# print(cases)
-	f = open('case_ranking.json','r')
+	f = open(base_dir + 'case_ranking.json','r')
 	rankings = json.load(f)
 	# print(rankings[:10])
 	copy_rankings = {}
@@ -117,13 +118,16 @@ def cases_and_acts(search_query):
 		copy_rankings[x] = rankings[x]*scaling_ratio
 	# print(copy_rankings)
 
-	sorted_cases = sorted(cases, key = lambda x:cal(x, copy_rankings))
-	cases_score_dict = {}
+	sorted_cases = sorted(cases, key = lambda x:cal(x, copy_rankings), reverse = True)
+	print("Here")
+	print(sorted_cases)
+	print("Here")
+	cases_score_dict = []
 	# print(sorted_cases)
 	for case in sorted_cases:
 		
 		if case in copy_rankings:#.has_key(case):
-			cases_score_dict[case] = copy_rankings[case]
+			cases_score_dict.append(case[0])
 
 	final_dict['cases'] = cases_score_dict
 
@@ -180,6 +184,7 @@ def act_query(inp_words):
 	final_dict["section"] = sec_no
 
 	final_dict["year"] = year
-
+	with open(base_dir + 'query_2.json','w') as out:
+            json.dump(final_dict,out,indent=1)
 	return final_dict
 

@@ -72,10 +72,10 @@ def is_query4(query) :
         return -1
         
     
-def query_identifier(query) :
+def find_query(query) :
 
     # query 2
-    return 2
+    return 3
     type_of_query = is_query2(query)
 
     if type_of_query is 2 :
@@ -94,10 +94,3 @@ def query_identifier(query) :
         return type_of_query
 
     return 1
-
-
-# print ("Enter query")
-
-# query = input()
-
-# print(filter_query(query))
