@@ -65,6 +65,9 @@ def is_query4(query) :
             stop_count += 1
         count += 1
 
+    if count == 0:
+        return -1
+        
     stop_count /= count
     
     if stop_count > 0.3:
