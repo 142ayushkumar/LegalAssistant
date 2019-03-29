@@ -31,6 +31,8 @@ def is_query2(query) :
         return 2
 
     for key in abberviations:
+        if key == "":
+            continue
         if key.lower() in query_words and key.lower() not in stop_words:
             return 2
 
