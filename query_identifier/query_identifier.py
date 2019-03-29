@@ -55,6 +55,9 @@ def is_query4(query) :
 
     query_words = re.split(', |\. | ', query)
 
+    if len(query_words) < 8:
+        return -1
+    
     stop_count = 0
     count = 0
 
